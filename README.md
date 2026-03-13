@@ -1,2 +1,2 @@
 # Ziraat-M-hendisli-i-Projeleri
-Akıllı tarımla ilgili projeler
+Akıllı tarımla ilgili projeler yer almaktadır. 
