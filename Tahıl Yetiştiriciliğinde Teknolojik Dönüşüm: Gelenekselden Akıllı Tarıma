@@ -1,0 +1,434 @@
+Tahıl yetiştiriciliği, insanlık tarihinin en köklü tarımsal faaliyetlerinden biri olarak binlerce yıldır uygarlıkların temel geçim kaynağını oluşturmuştur. Ülkemizde tahıl alanlarının %94'ünü buğday, arpa, yulaf ve çavdar gibi serin iklim tahılları oluştururken geri kalan %6'lık bölümü mısır, sorgum, darı ve çeltik gibi sıcak iklim tahılları kapsamaktadır. Bu oranlar, serin iklim tahıllarının Türk tarımındaki vazgeçilmez konumunu açıkça ortaya koymaktadır.
+Geleneksel tarım bilgisi, kuşaktan kuşağa aktarılan bir birikim olarak hâlâ değerini korumaktadır. Ancak küresel iklim değişikliği, artan nüfus baskısı ve sürdürülebilirlik gereksinimleri, tarım sektörünü köklü bir dönüşüme zorlamaktadır. Yapay zekâ, Nesnelerin İnterneti (IoT), mikrodenetleyiciler ve hatta kuantum bilgi işlem gibi ileri teknolojiler artık tarla kenarlarına kadar ulaşmakta; geleneksel çiftçilik pratikleriyle bütünleşerek akıllı tarım sistemlerini doğurmaktadır. 
+Serin İklim Tahıllarının Adaptasyonu ve Ekolojik Önemi
+Bir kültür bitkisinin adaptasyonu, o bitkinin yetiştirildiği bölgenin ekolojik koşullarına uyum sağlaması anlamına gelir. Bu bağlamda serin iklim tahılları, dünya üzerinde en geniş adaptasyon alanına sahip kültür bitkileri arasında öne çıkar. Nitekim tahılların yetişemediği yerlerde başka kültür bitkilerinin de yetişemeyeceği gerçeği, bu grubun tarımsal sınırları belirlemedeki belirleyici rolünü gözler önüne sermektedir.
+Yüksek enlem ve rakım koşullarında hayatta kalabilme kapasitesi bakımından buğday ve arpa başı çekerken bunları çavdar ve yulaf izlemektedir. Serin iklim tahılları esas itibarıyla kışlık olarak ekilmekte; bitkinin soğuklama ihtiyacının karşılanması hem ürün güvenliğini sağlamakta hem de birim alandan elde edilen verimi artırmaktadır.
+Veri analitiği perspektifinden değerlendirildiğinde, bölgelere göre tahıl veriminin farklılaştığı görülmektedir: İç Anadolu'da buğday verimi ön plana çıkarken Karadeniz Bölgesi'nde yulaf, Doğu Anadolu'da ise çavdar daha uyumlu bir adaptasyon sergilemektedir. Enlem, rakım ve iklim değişkenlerinin verimle ilişkisini ortaya koyan regresyon modelleri, bölgesel tarım planlamasına önemli katkılar sunmaktadır.
+Bitki Tanımlama: Morfolojik Verilerden Makine Öğrenmesine
+Tahıllar geleneksel olarak dört temel ölçüte göre tanımlanmaktadır: kök yapısı, çiçeklenme ve başak durumu, gövde-sap-yaprak özellikleri ve tohum karakteristikleri. Tanımlama sürecinde bitkiler, köklere zarar verilmeksizin topraktan sökülerek incelenir; başaklar cımbız ile parçalanarak tohum düzenlemeleri büyüteç altında gözlemlenir.
+Bu morfolojik gözlemler son derece değerli yapısal veriler üretmektedir. Özellikle başaktaki tohum dizilimi tanımlama sürecinde kritik bir ölçüt olarak öne çıkmaktadır: arpada tohumlar başakta tekli, çavdarda ikili, buğdayda ise üçlü düzenlenmiştir. Sap uzunluğu, boğum aralıkları ve yaprak biçimi de türler arasındaki farklılıkları belirlemede kullanılan önemli parametrelerdir.
+Teknoloji bu süreçleri köklü biçimde dönüştürme potansiyeli taşımaktadır. Bilgisayarlı görü (computer vision) ve derin öğrenme algoritmalarıyla donatılmış yapay zekâ sistemleri, drone ya da akıllı telefon kamerasıyla çekilen fotoğrafları analiz ederek bitki türünü otomatik olarak belirleyebilmektedir. Sap uzunluğu, başak yapısı ve tohum sayısı gibi morfolojik verilere dayanan sınıflandırma modelleri, makine öğrenmesi algoritmalarıyla eğitilebilmekte; büyük tarım işletmelerinde manuel tanımlama süreçleri otomasyona kavuşturulabilmektedir.
+Arazi Hazırlığı ve Toprak İşleme: Veriye Dayalı Karar Alma
+Tahıl yetiştiriciliğinde sağlıklı bitki gelişimi ve kaliteli ürün için iyi bir toprak işlemesi zorunludur. Ekilecek bitki türü, uygulanan tarım sistemi, bölgenin ekolojik koşulları ve ekim nöbeti gibi etkenler toprak işleme yaklaşımını doğrudan belirlemektedir. Kuru tarım sistemlerinde normal toprak işleme, malçlı toprak işleme ve sıfır sürüm gibi farklı yöntemler uygulanırken sulu tarım alanlarında ürün kaldırıldıktan hemen sonra toprak derin işlenmektedir.
+Pulluk, dip kazan, çizel, kültüvatör, tırmık ve merdane gibi çeşitli alet ve ekipmanlar bu süreçte kullanılmaktadır. Buğday ve arpa için toprağı alt üst etmeden alttan işleyen aletler tercih edilirken yulaf için toprak nemini koruyan ekipmanlar seçilmektedir.
+IoT sensör teknolojisi, toprak işleme kararlarını veri odaklı bir temele oturtmaktadır. Sürekli ölçüm yapan toprak nem, sıcaklık ve pH sensörleri; toprağın işlenmeye hazır olup olmadığını gerçek zamanlı olarak ortaya koymakta, üretici için manuel kontrolün çok ötesine geçen hassas bir izleme imkânı sunmaktadır. Bu veriler internet aracılığıyla çiftçinin akıllı telefonuna veya bilgisayarına iletildiğinde arazi müdahalelerinin zamanlaması optimize edilebilmektedir.
+Ekim: Hassas Parametrelerden Otomasyona
+Sertifikalı tohumluk kullanımı tane veriminde %40'a varan artış sağlayabilmektedir. Ekim zamanı, derinliği, yöntemi ve tohum miktarı; iklim koşulları, bölge özellikleri, toprak sıcaklığı ve nemine göre titizlikle belirlenmektedir.
+Buğday sonbahar ve kış aylarında ekilmekte; toprak nemi yeterliyse 2-4 cm, yetersizse 5 cm derinliğe 18-24 kg/da tohumluk atılmaktadır. Arpa kışlık ekimlerde 4 cm, yazlık ekimlerde 3-4 cm derinliğe; kuru koşullarda 14-16 kg/da, sulu koşullarda 12-14 kg/da oranında ekilmektedir. Çavdar kışlık olarak yüzlek biçimde 1-2 cm derinliğe ekilirken yulaf ekimi mibzerle veya serpme yöntemiyle gerçekleştirilmektedir.
+Bu parametreler, verim optimizasyonu analizlerinde kullanılabilecek anlamlı değişkenler üretmektedir. Verim ile tohum miktarı, toprak nemi ve ekim derinliği arasındaki ilişkiyi ortaya koyan regresyon modelleri şu şekilde ifade edilebilir: Verim = f(tohum miktarı + toprak nemi + ekim derinliği). Mikrodenetleyici tabanlı ekim sistemleri, toprak sensörü geri beslemesine dayalı olarak ekim derinliğini ve tohum dağılımını otomatik biçimde ayarlayabilmektedir.
+Bakım İşlemleri: Sulama, Gübreleme ve Entegre Mücadele
+Sulama Yönetimi
+Serin iklim tahılları sulama açısından farklı ihtiyaçlar sergilemektedir. Buğday; kardeşlenme, sapa kalkma, başakçık ve çiçek oluşumu, çiçeklenme ve tane dolumu dönemlerinde suya en fazla ihtiyaç duymakta; bu dönemlerde toprağın 60-65 cm derinliğine kadar suyla doyurulması gerekmektedir. Arpa sapa kalkma ve süt olum dönemlerinde sulanırken yulaf, serin iklim tahılları arasında en fazla su tüketen bitki özelliğiyle sapa kalkma döneminde sulanmaktadır. Çavdar ise büyük ölçüde yağışa bağımlı bir bitki olup yalnızca sapa kalkma ve süt olum evrelerinde sulamayı gerektirmektedir.
+IoT tabanlı akıllı sulama sistemleri bu alandaki en çarpıcı uygulamalardan birini temsil etmektedir. Toprak nemi sensörleri belirli bir eşiğin altına düştüğünde, ör. nem %30'un altına indiğinde, sulama motoru otomatik olarak devreye girmekte; nem %40 düzeyine ulaştığında ise sistem kapanmaktadır. Tansiyometre cihazları bitki kök derinliğindeki nem değerlerini hassas biçimde ölçerken mikrodenetleyiciler vanaları ve pompaları otomatik olarak denetlemektedir. Yapay zekâ ise hava sıcaklığını, toprak nem verilerini, yağış tahminlerini ve bitkinin gelişim evresini birlikte analiz ederek optimal sulama zamanını ve miktarını hesaplayabilmektedir.
+Gübreleme Stratejileri
+Serin iklim tahıllarında dengeli gübreleme, genel ilkeler çerçevesinde yürütülmektedir. Buğdayda azotlu gübre üç eşit bölüme ayrılarak uygulanmaktadır: birinci bölüm ekimden önce veya ekimle birlikte, ikinci bölüm kardeşlenme döneminde, üçüncü bölüm ise Mart sonu sapa kalkma öncesinde verilmektedir. Fosforlu ve potasyumlu gübreler ekim öncesinde toprağa karıştırılmaktadır. Arpada azotlu gübrenin yarısı ekimde, kalan yarısı kardeşlenme başlangıcında uygulanırken fosforlu gübre tamamıyla mibzerle bant halinde verilmektedir. Bu çok aşamalı gübre uygulama sistemi, farklı gübre doz ve zamanlamalarının verime etkisini karşılaştıran veri analizi çalışmaları için son derece elverişli bir zemin sunmaktadır. Sensörlerden derlenen toprak analiz sonuçlarını, bitki gelişim takibini ve geçmiş verim verilerini işleyen yapay zekâ sistemleri, en uygun gübre miktarını ve uygulama zamanlamasını hesaplayarak maliyetleri düşürürken verimi artırabilmektedir. Gübre maliyeti ile verim arasındaki dengeyi optimize eden bu yaklaşım, kaynak kullanım verimliliğini önemli ölçüde artırmaktadır.
+Hastalık ve Zararlı Yönetimi
+Her tahıl türü kendine özgü hastalık ve zararlı tehditleriyle karşı karşıyadır. Buğdayda sürme, rastık, pas ve kök-sap çürüklükleri gibi hastalıklar; süne, kımıl ve ekin kurdu gibi zararlılar ciddi verim kayıplarına yol açmaktadır. Arpada rastık, çizgi yaprak lekesi, ağ lekesi ve yaprak yanıklığı ile zabrus ve akarlar temel sorunları oluşturmaktadır. Yulafta kara pas ve sarı cücelik virüsü, çavdarda ise çavdarmahmuzu hastalığı özellikle dikkat gerektiren problemler arasındadır. Bu alanda yapay zekâ destekli yaklaşımlar son derece umut verici sonuçlar ortaya koymaktadır. Yaprak görüntülerini analiz eden derin öğrenme modelleri, hastalığı erken evrede tespit ederek zamanında müdahaleye olanak tanımakta ve ürün kayıplarını en aza indirmektedir. IoT tabanlı izleme kameraları yaprak renk değişimini ve zararlı hareketliliğini sürekli kayıt altına alırken iklim verileriyle entegre hastalık yayılım modelleri, hastalık riskini önceden tahmin ederek koruyucu ilaçlama stratejilerinin planlanmasını mümkün kılmaktadır.
+Hasat: Doğru Zamanlamanın Kritik Önemi
+Hasat kararı, fiziksel, biyokimyasal ve fizyolojik olgunluk göstergelerinin birlikte değerlendirilmesini gerektirmektedir. Buğdayda hasat için en uygun dönem, başak ve danelerin nem oranının %13-15 arasında olduğu ve başakların altın sarısı rengini aldığı evredir. Arpa için ise dane nem oranının %13,5'in altına inmesi kılavuz ölçüt olarak kabul edilmektedir. Serin iklim tahıllarında hasat genel olarak sarı olum ile tam olum arasındaki dönemde gerçekleştirilmekte; ülkemizde bu süreç bölgenin iklim koşullarına bağlı olarak Haziran, Temmuz ve Ağustos aylarına yayılmaktadır. Yapay zekâ sistemleri bu hassas zamanlamayı büyük ölçüde iyileştirebilmektedir. Uydu ve drone görüntüleri ile toprak sensörü verileri birlikte analiz edilerek optimal hasat penceresi belirlenebilmektedir. Makine öğrenmesi modelleri tohum nem ölçümlerini yorumlayarak mevcut iklim koşullarında tahılların ne zaman optimum olgunluğa ulaşacağını öngörebilmektedir. Hasat zamanlamasının verime etkisini ve nem ile depolama kayıpları arasındaki ilişkiyi ortaya koyan veri analizleri, bu kararların bilimsel temele oturtulmasına katkı sağlamaktadır.
+Hasat Sonrası ve Depolama: Ürün Güvenliğinin Teknolojik Boyutu
+Hasat edilen tahılların uygun koşullarda muhafaza edilmesi, kalite ve nicelik kayıplarını önlemek açısından büyük önem taşımaktadır. Bunun için kurutma işlemi en kritik ön koşul olarak öne çıkmaktadır. Depolama sırasında tahıl danelerinin nem oranı titizlikle denetlenmelidir: buğdayda %12-14, çavdar ve arpada %13, yulafta ise %12 düzeyinin altında tutulması gerekmektedir. En ideal depolama sıcaklığı +4°C olarak belirlenmiş olup bir ton buğday için en az 1,5 m³ depolama alanı hesaplanmaktadır.
+IoT sensörleri bu koşulların sürekli izlenmesini sağlamaktadır. Sıcaklık ve nem sensörleri kritik eşiklerin aşılması durumunda otomatik uyarı göndermekte; gaz sensörleri zararlı organizmaların varlığını erken evrede tespit edebilmektedir. Havalandırma sistemleri sıcaklık ve nem değerlerine göre otomatik olarak devreye girebilmekte; depo yönetimi için geliştirilmiş veri analitiği uygulamaları stok yönetimini optimize ederek ürün kayıplarını minimize etmektedir.
+Teknolojik Entegrasyon: IoT, Yapay Zekâ ve Mikrodenetleyicilerin Birleşik Gücü
+Modern tahıl yetiştiriciliğinde teknolojik sistemler birbirinden yalıtılmış araçlar olarak değil, birbiriyle konuşan entegre bir ekosistemin parçaları olarak işlev görmektedir.
+Mikrodenetleyiciler bu sistemin omurgasını oluşturmaktadır. Gerçek zamanlı sensör verilerini işleyerek sulama vanalarını, gübre dağıtım sistemlerini ve depo havalandırmasını otomatik biçimde yönetmekte; eşik tabanlı karar mantığını etkin şekilde uygulamaktadırlar. Örneğin toprak nemi %30'un altına düştüğünde sulama motoru devreye girerken nem %40'a ulaştığında sistem kendiliğinden kapanmaktadır.
+IoT sensörleri ise sisteme sürekli bir veri akışı beslemektedir. Toprak nemi, sıcaklık ve pH'ı sürekli izleyen bu sensörler, verileri buluta göndererek uzaktan izleme ve yönetime olanak tanımaktadır. Kamera tabanlı sistemler ise otomatik bitki sağlığı izlemesini gerçek zamanlı olarak mümkün kılmaktadır.
+Yapay zekâ katmanı ise tüm bu ham verileri eyleme dönüştürülebilir içgörülere çevirmektedir. Verim tahmin modelleri üreticilere hasattan önce beklenen ürün miktarı hakkında güvenilir öngörüler sunmakta; görüntü tanıma sistemleri bitki türünü ve sağlık durumunu otomatik olarak belirlemekte; iklim ve sensör verilerini birleştiren çok değişkenli modeller ise verim optimizasyonu için kapsamlı öneriler üretmektedir. Bu bütünleşik sistem; çiftçilere, tarım politikacılarına ve gıda güvenliği planlamacılarına eşi görülmemiş bir karar destek kapasitesi sağlamaktadır.
+Kuantum Bilgi İşlemin Tarımdaki Potansiyeli
+Kuantum bilgisayarlar, yakın gelecekte tahıl yetiştiriciliğini dönüştürme potansiyeline sahip devrimci bir teknoloji olarak gündemde giderek daha fazla yer bulmaktadır. Klasik bilgisayarların zorlandığı karmaşık çok değişkenli optimizasyon problemlerini hızla çözebilme kapasiteleri, tarımsal uygulamalar için son derece umut verici fırsatlar doğurmaktadır. Bu alandaki öngörülen uygulamalar oldukça kapsamlıdır: Hangi arazide, hangi tahıl türüyle, hangi ekim derinliği ve gübreleme stratejisiyle maksimum verim elde edileceğini hesaplayan optimizasyon modelleri; IoT sensörlerinden, dronlardan ve tarım cihazlarından gelen büyük veri kümelerinin işlenmesinde yapay zekâ algoritmalarını önemli ölçüde hızlandıracak kuantum makine öğrenmesi uygulamaları; ve tahıl genomlarının analizinde genetik optimizasyonu destekleyen hesaplama modelleri bunların başında gelmektedir. Bu son uygulama, kuraklığa ve hastalıklara daha dayanıklı, verimli tahıl çeşitlerinin geliştirilmesine ivme kazandırabilir.
+Sonuç
+Tahıl yetiştiriciliği, bitki tanımlamadan arazi hazırlığına, ekimden bakım işlemlerine, hasattan depolamaya uzanan karmaşık ve çok aşamalı bir süreçtir. Bu süreçte geleneksel tarım bilgisi hâlâ temel bir rehber olmayı sürdürmektedir. Ekim derinliği, sulama zamanlaması ve hasat kriterleri konusundaki köklü bilgi birikimi, binlerce yıllık deneyimin damıtılmış ürünüdür. Ancak IoT sensörleri, yapay zekâ görüntü analizi, mikrodenetleyici tabanlı otomasyon ve kuantum bilgi işlem potansiyeli, bu geleneksel bilgiyi dönüştürme kapasitesine sahiptir. Bu teknolojilerin gerçek değeri, geleneksel bilgiyi geçersiz kılmalarında değil onu güçlendirmelerinde yatmaktadır. Ekim derinlikleri ve nem gereksinimleri gibi köklü ilkeler teknolojik sistemlerin kalbine yerleştirilmekte; bu sayede geleneksel bilgelik doğruluk, hız ve ölçek bakımından daha önce hiç ulaşamadığı boyutlara taşınmaktadır. Sonuç olarak, hem yüzyıllık tarımsal bilgeliği hem de 21. yüzyılın teknolojik birikimini harmanlayan entegre bir tarım anlayışı; artan gıda talebi, kısıtlı kaynaklar ve iklim değişikliğinin birlikte yarattığı küresel baskıyla yüzleşmenin en güçlü ve sürdürülebilir yolunu temsil etmektedir.
+PYTHON KODU
+import random
+import time
+import csv
+import os
+import numpy as np
+import matplotlib.pyplot as plt
+from dataclasses import dataclass
+from typing import List, Tuple
+# ================== BİTKİ (TOHUM) TANIMLARI ==================
+@dataclass
+class Seed:
+    name: str
+    base_temp: float          # Alt sıcaklık eşiği (GDD için)
+    drought_tolerance: float   # 0-1, kuraklığa dayanıklılık
+    disease_resistance: float  # 0-1
+    nitrogen_demand: float     # 0-1 (düşük/yüksek)
+    phosphorus_demand: float
+    potassium_demand: float
+    yield_potential: float     # Maksimum verim (kg/da)
+# Yaygın tahıllar için örnek değerler (gerçekçi yaklaşık değerler)
+wheat = Seed("Buğday", 5.0, 0.7, 0.75, 0.6, 0.5, 0.5, 800)
+barley = Seed("Arpa", 4.0, 0.8, 0.8, 0.5, 0.6, 0.5, 700)
+oats = Seed("Yulaf", 4.5, 0.6, 0.7, 0.5, 0.5, 0.6, 650)
+seeds = [wheat, barley, oats]
+# ================== SENSÖR SİMÜLASYONU ==================
+class Sensors:
+    """Gelişmiş sensör sınıfı – toprak ve çevre parametrelerini günlük simüle eder."""
+    def __init__(self, seed: Seed):
+        self.seed = seed
+        # Toprak durumu (başlangıç değerleri)
+        self.soil_moisture = 60.0          # % tarla kapasitesi
+        self.soil_temp = 18.0               # °C
+        self.soil_ph = 6.5
+        self.soil_N = 70.0                  # Azot indeksi (0-100)
+        self.soil_P = 50.0                  # Fosfor
+        self.soil_K = 60.0                  # Potasyum
+        # Hava durumu
+        self.air_temp = 20.0                 # °C
+        self.air_humidity = 65.0             # %
+        self.solar_radiation = 20.0           # MJ/m²/gün
+        self.wind_speed = 2.5                 # m/s
+        self.rainfall = 0.0                   # mm/gün (günlük simülasyonda set edilir)
+        # Bitki
+        self.plant_maturity = 0.0             # % olgunluk (0-100)
+        self.gdd_cumulative = 0.0              # birikmiş GDD
+        self.disease_risk = False
+        # Gün sayacı (mevsimsel trend için)
+        self.day_of_season = 0
+    def update(self):
+        """Bir gün ilerlet, tüm parametreleri güncelle."""
+        self.day_of_season += 1
+        # 1. HAVA DURUMU (mevsimsel trend + rastgele)
+        # Hava sıcaklığı: ilkbahardan yaza artar, sonbaharda düşer (12 hafta ~ 84 gün)
+        season_progress = self.day_of_season / 84.0  # 0-1 arası
+        base_temp = 15 + 12 * np.sin(season_progress * np.pi)  # sinüs benzeri trend
+        self.air_temp = base_temp + random.uniform(-3, 3)
+        # Güneş radyasyonu: yazın daha yüksek
+        self.solar_radiation = 15 + 10 * np.sin(season_progress * np.pi) + random.uniform(-2, 2)
+   self.solar_radiation = max(5, min(35, self.solar_radiation))
+        # Yağış: rastgele ancak bahar aylarında daha fazla eğilimli
+        rain_prob = 0.2 + 0.2 * np.sin(season_progress * 2 * np.pi)  # yılda iki kez pik
+        if random.random() < rain_prob:
+            self.rainfall = random.uniform(0, 20)
+        else:
+            self.rainfall = 0
+        # Hava nemi: sıcaklık ve yağışla ilişkili
+        self.air_humidity = 60 + 10 * np.sin(season_progress * np.pi) + (self.rainfall * 0.5) + random.uniform(-5, 5)
+        self.air_humidity = max(30, min(100, self.air_humidity))
+        # Rüzgar hızı: rasgele
+        self.wind_speed = 2 + random.uniform(0, 4)
+        # 2. TOPRAK SICAKLIĞI (hava sıcaklığından etkilenir, gecikmeli)
+        self.soil_temp = self.soil_temp * 0.8 + self.air_temp * 0.2 + random.uniform(-0.5, 0.5)
+        # 3. TOPRAK NEMİ (yağış, buharlaşma, sulama etkisi dışarıdan kontrol edilecek)
+        # Burada doğal süreç: yağış eklenir, buharlaşma (sıcaklık, rüzgar, radyasyon) azaltır
+        evap = (0.1 * self.air_temp + 0.05 * self.wind_speed + 0.02 * self.solar_radiation) * (1 - self.plant_maturity/200)
+        evap = max(0, min(5, evap))
+        self.soil_moisture += self.rainfall * 0.3 - evap
+        self.soil_moisture = max(0, min(100, self.soil_moisture))
+        # 4. TOPRAK pH (çok yavaş değişir)
+        self.soil_ph += random.uniform(-0.05, 0.05)
+        self.soil_ph = max(5.0, min(8.0, self.soil_ph))
+        # 5. TOPRAK BESİNLERİ (bitki alımı, gübreleme dışarıdan)
+        # Bitki büyüdükçe besin tüketir
+        uptake = self.plant_maturity / 100.0 * 0.1  # basit model
+        self.soil_N -= uptake * self.seed.nitrogen_demand * random.uniform(0.5, 1.5)
+        self.soil_P -= uptake * self.seed.phosphorus_demand * random.uniform(0.5, 1.5)
+        self.soil_K -= uptake * self.seed.potassium_demand * random.uniform(0.5, 1.5)
+        self.soil_N = max(0, min(100, self.soil_N))
+        self.soil_P = max(0, min(100, self.soil_P))
+        self.soil_K = max(0, min(100, self.soil_K))
+        # 6. BİTKİ BÜYÜMESİ (GDD tabanlı)
+        # GDD = max(0, T_avg - base_temp)
+        T_avg = (self.air_temp + self.soil_temp) / 2
+        gdd_today = max(0, T_avg - self.seed.base_temp)
+        self.gdd_cumulative += gdd_today
+        # Su stresi faktörü: nem düştükçe büyüme yavaşlar
+        water_stress = 1.0
+        if self.soil_moisture < 30:
+            water_stress = self.soil_moisture / 30 * 0.5 + 0.5
+        elif self.soil_moisture < 50:
+            water_stress = 1.0
+        else:
+            water_stress = max(0.5, 1.0 - (self.soil_moisture - 50) / 100)  # fazla su da stres
+        # Besin stresi (N,P,K)
+        nutrient_stress = (self.soil_N/100 + self.soil_P/100 + self.soil_K/100) / 3
+        nutrient_stress = max(0.4, min(1.0, nutrient_stress))
+        # Sıcaklık stresi (çok düşük veya yüksek sıcaklıklar)
+        if T_avg < 10 or T_avg > 32:
+            temp_stress = 0.6
+        else:
+            temp_stress = 1.0
+        # GDD'yi olgunluğa çevir (basit linear, toplam GDD hedefi ~ 1500)
+        max_gdd = 1500
+        potential_maturity = min(100, (self.gdd_cumulative / max_gdd) * 100)
+        # Stresler olgunluğu sınırlar
+        self.plant_maturity = potential_maturity * water_stress * nutrient_stress * temp_stress
+        self.plant_maturity = min(100, self.plant_maturity)
+        # 7. HASTALIK RİSKİ (sıcaklık, nem ve dirence bağlı)
+        # Yüksek nem (>70) ve ılıman sıcaklık (15-25) riski artırır
+        if 15 < self.air_temp < 25 and self.air_humidity > 70:
+            base_risk = 0.8
+        elif self.air_humidity > 60:
+            base_risk = 0.4
+        else:
+            base_risk = 0.1
+        # Bitki direnci ve olgunluk da etkili
+        risk = base_risk * (1 - self.seed.disease_resistance) * (self.plant_maturity / 100)
+        self.disease_risk = random.random() < risk
+        return (self.soil_moisture, self.soil_temp, self.air_temp, self.soil_ph,
+                self.plant_maturity, self.disease_risk, self.soil_N, self.soil_P, self.soil_K,
+                self.air_humidity, self.solar_radiation, self.wind_speed, self.rainfall)
+# ================== KONTROL ÜNİTESİ (MIKRODENETLEYİCİ) ==================
+class FarmController:
+    """Gelişmiş karar destek sistemi."""
+    def __init__(self, seed: Seed):
+        self.seed = seed
+        self.irrigation_on = False
+        self.fertilizer_N = False
+        self.fertilizer_P = False
+        self.fertilizer_K = False
+        self.irrigation_log = []      # (gün, açıldı mı)
+        self.fertilizer_log = []       # (gün, tip)
+    def irrigation_decision(self, soil_moisture, rainfall, et0_approx):
+        """Sulama kararı: nem eşiği altında ve yağış yoksa/azsa aç."""
+        # Bitki tipine göre nem eşiği (buğday için %50, arpa %45 vb.)
+        if self.seed.name == "Buğday":
+            threshold = 45
+        elif self.seed.name == "Arpa":
+            threshold = 40
+        else:
+            threshold = 35
+        # Son 3 günlük yağışa bak (burada sadece anlık rainfall var, gerçekte geçmişe bakılır)
+        if soil_moisture < threshold and rainfall < 5 and not self.irrigation_on:
+            self.irrigation_on = True
+            self.irrigation_log.append((self.current_day, "ON"))
+            return "💧 Sulama BAŞLATILDI"
+        elif soil_moisture >= threshold + 10 and self.irrigation_on:
+            self.irrigation_on = False
+            self.irrigation_log.append((self.current_day, "OFF"))
+            return "🚱 Sulama DURDURULDU"
+        else:
+            return "Sulama durumu değişmedi"
+    def fertilizer_decision(self, soil_N, soil_P, soil_K):
+        """Kritik seviyelere göre gübre önerisi."""
+        actions = []
+        if soil_N < 40 and not self.fertilizer_N:
+            self.fertilizer_N = True
+            self.fertilizer_log.append((self.current_day, "N"))
+            actions.append("🌱 Azotlu gübre EKLENDİ")
+        if soil_P < 30 and not self.fertilizer_P:
+            self.fertilizer_P = True
+            self.fertilizer_log.append((self.current_day, "P"))
+            actions.append("🌱 Fosforlu gübre EKLENDİ")
+        if soil_K < 40 and not self.fertilizer_K:
+            self.fertilizer_K = True
+            self.fertilizer_log.append((self.current_day, "K"))
+            actions.append("🌱 Potasyumlu gübre EKLENDİ")
+        if not actions:
+            return "Gübreleme gerekli değil"
+        return " | ".join(actions)
+    def disease_alert(self, disease_risk):
+        return "⚠️ Hastalık riski VAR!" if disease_risk else "✅ Hastalık riski YOK"
+    def harvest_decision(self, maturity):
+        return "🌾 HASAT ZAMANI!" if maturity > 85 else "⏳ Beklemede"
+# ================== VERİM TAHMİNİ ==================
+def estimate_yield(seed, soil_moisture, soil_N, soil_P, soil_K, disease_risk, maturity):
+    """Hasat anı için verim tahmini (kg/da)."""
+    # Su faktörü (optimum 50-70 arası)
+    if soil_moisture < 30:
+        water_factor = soil_moisture / 30 * 0.6 + 0.2
+    elif soil_moisture <= 70:
+        water_factor = 1.0
+    else:
+        water_factor = 1.0 - (soil_moisture - 70) / 30 * 0.3  # fazla su verimi düşürür
+    # Besin faktörü (N,P,K ortalaması)
+    nutrient_factor = (soil_N/100 + soil_P/100 + soil_K/100) / 3
+    nutrient_factor = max(0.5, nutrient_factor)
+    # Hastalık faktörü
+    disease_factor = seed.disease_resistance if not disease_risk else seed.disease_resistance * 0.6
+    # Olgunluk faktörü (tam olgunlukta 1)
+    maturity_factor = maturity / 100.0
+    yield_ = seed.yield_potential * water_factor * nutrient_factor * disease_factor * maturity_factor
+    return max(0, yield_)
+# ================== GRAFİK ÇİZİMİ ==================
+def plot_season_data(weekly_data, decisions):
+    """
+    weekly_data: liste (her hafta için bir sözlük veya tuple)
+    decisions: karar logları (sulama/gübreleme günleri)
+    """
+    weeks = [d["week"] for d in weekly_data]
+    moisture = [d["moisture"] for d in weekly_data]
+    soil_temp = [d["soil_temp"] for d in weekly_data]
+    air_temp = [d["air_temp"] for d in weekly_data]
+    ph = [d["ph"] for d in weekly_data]
+    N = [d["N"] for d in weekly_data]
+    P = [d["P"] for d in weekly_data]
+    K = [d["K"] for d in weekly_data]
+    maturity = [d["maturity"] for d in weekly_data]
+    yield_est = [d["yield"] for d in weekly_data]
+    disease_risk_weeks = [d["disease"] for d in weekly_data]
+    fig, axs = plt.subplots(3, 2, figsize=(14, 10))
+    fig.suptitle("12 Haftalık Tarım Sezonu Özeti", fontsize=16)
+    # Toprak nemi ve sıcaklık
+    axs[0,0].plot(weeks, moisture, 'b-o', label="Toprak Nemi %")
+    axs[0,0].set_xlabel("Hafta")
+    axs[0,0].set_ylabel("Nem (%)", color='b')
+    axs[0,0].tick_params(axis='y', labelcolor='b')
+    ax2 = axs[0,0].twinx()
+    ax2.plot(weeks, soil_temp, 'r-^', label="Toprak Sıcaklığı °C")
+    ax2.set_ylabel("Sıcaklık (°C)", color='r')
+    ax2.tick_params(axis='y', labelcolor='r')
+    axs[0,0].set_title("Toprak Nemi ve Sıcaklığı")
+    # Hava sıcaklığı
+    axs[0,1].plot(weeks, air_temp, 'g-o')
+    axs[0,1].set_xlabel("Hafta")
+    axs[0,1].set_ylabel("Hava Sıcaklığı (°C)")
+    axs[0,1].set_title("Hava Sıcaklığı")
+    # pH ve besinler
+    axs[1,0].plot(weeks, ph, 'm-o', label="pH")
+    axs[1,0].set_xlabel("Hafta")
+    axs[1,0].set_ylabel("pH")
+    axs[1,0].set_title("Toprak pH")
+    axs[1,0].axhline(y=6.0, color='gray', linestyle='--')
+    axs[1,0].axhline(y=7.0, color='gray', linestyle='--')
+    axs[1,1].plot(weeks, N, 'c-o', label="Azot (N)")
+    axs[1,1].plot(weeks, P, 'y-o', label="Fosfor (P)")
+    axs[1,1].plot(weeks, K, 'k-o', label="Potasyum (K)")
+    axs[1,1].set_xlabel("Hafta")
+    axs[1,1].set_ylabel("Besin Seviyesi (0-100)")
+    axs[1,1].set_title("Toprak Besinleri")
+    axs[1,1].legend()
+    # Bitki olgunluğu ve verim
+    axs[2,0].plot(weeks, maturity, 'b-o', label="Olgunluk %")
+    axs[2,0].set_xlabel("Hafta")
+    axs[2,0].set_ylabel("Olgunluk (%)", color='b')
+    axs[2,0].tick_params(axis='y', labelcolor='b')
+    ax2 = axs[2,0].twinx()
+    ax2.plot(weeks, yield_est, 'r-^', label="Tahmini Verim (kg/da)")
+    ax2.set_ylabel("Verim (kg/da)", color='r')
+    ax2.tick_params(axis='y', labelcolor='r')
+    axs[2,0].set_title("Olgunluk ve Verim Tahmini")
+    # Hastalık riski (haftalık var/yok)
+    disease_colors = ['red' if r else 'green' for r in disease_risk_weeks]
+    axs[2,1].bar(weeks, [1 if r else 0 for r in disease_risk_weeks], color=disease_colors, width=0.6)
+    axs[2,1].set_xlabel("Hafta")
+    axs[2,1].set_ylabel("Hastalık Riski (1=var)")
+    axs[2,1].set_title("Haftalık Hastalık Riski")
+    axs[2,1].set_yticks([0,1])
+    axs[2,1].set_yticklabels(["Yok","Var"])
+    plt.tight_layout(rect=[0, 0, 1, 0.96])
+    plt.show()
+# ================== ANA SİMÜLASYON ==================
+def main():
+    print("Gelişmiş Tarım Simülasyonu")
+    print("Tohum seçin:")
+    for i, s in enumerate(seeds):
+        print(f"{i+1}. {s.name}")
+    choice = int(input("Seçiminiz (1-3): ")) - 1
+    selected_seed = seeds[choice]
+    sensors = Sensors(selected_seed)
+    controller = FarmController(selected_seed)
+    filename = "tarim_sezonu_detayli.csv"
+    weekly_summary = []          # grafik için haftalık özet veriler
+    günlük_veriler = []           # istenirse kaydedilebilir
+    print("\n--- 12 Haftalık Sezon Başlıyor ---\n")
+    for week in range(1, 13):
+        print(f"📅 Hafta {week}")
+        # Haftalık toplamlar/ortalamalar
+        week_moisture = 0
+        week_soil_temp = 0
+        week_air_temp = 0
+        week_ph = 0
+        week_N = 0
+        week_P = 0
+        week_K = 0
+        week_humidity = 0
+        week_solar = 0
+        week_wind = 0
+        week_rain = 0
+        week_disease = False
+        week_maturity_end = 0
+        for day in range(1, 8):
+            # Sensörleri güncelle
+            (s_moist, s_temp, a_temp, s_ph, maturity, disease,
+             s_N, s_P, s_K, air_hum, solar, wind, rain) = sensors.update()
+            # Günlük kararlar için controller'a günü bildir
+            controller.current_day = (week-1)*7 + day
+            # Sulama kararı (toprak nemi ve yağışa göre)
+            irrig_msg = controller.irrigation_decision(s_moist, rain, None)
+            # Gübreleme kararı
+            fert_msg = controller.fertilizer_decision(s_N, s_P, s_K)
+            # Eğer sulama açıksa toprak nemine etki et (manuel ekleme)
+            if controller.irrigation_on:
+                sensors.soil_moisture += 5   # her gün 5 birim su ekle
+                sensors.soil_moisture = min(100, sensors.soil_moisture)
+            # Günlük verileri topla
+            week_moisture += s_moist
+            week_soil_temp += s_temp
+            week_air_temp += a_temp
+            week_ph += s_ph
+            week_N += s_N
+            week_P += s_P
+            week_K += s_K
+            week_humidity += air_hum
+            week_solar += solar
+            week_wind += wind
+            week_rain += rain
+            if disease:
+                week_disease = True
+            week_maturity_end = maturity   # hafta sonundaki olgunluk
+        # Haftalık ortalamalar
+        avg_moisture = week_moisture / 7
+        avg_soil_temp = week_soil_temp / 7
+        avg_air_temp = week_air_temp / 7
+        avg_ph = week_ph / 7
+        avg_N = week_N / 7
+        avg_P = week_P / 7
+        avg_K = week_K / 7
+        avg_humidity = week_humidity / 7
+        avg_solar = week_solar / 7
+        avg_wind = week_wind / 7
+        total_rain = week_rain
+        # Haftalık verim tahmini (hafta sonu durumuna göre)
+        est_yield = estimate_yield(selected_seed, sensors.soil_moisture, sensors.soil_N,
+                                    sensors.soil_P, sensors.soil_K, week_disease, week_maturity_end)
+        # Ekrana haftalık rapor
+        print(f"  Toprak Nem (ort): {avg_moisture:.1f}%")
+        print(f"  Toprak Sıcaklığı: {avg_soil_temp:.1f}°C")
+        print(f"  Hava Sıcaklığı: {avg_air_temp:.1f}°C")
+        print(f"  pH: {avg_ph:.2f}  N:{avg_N:.1f}  P:{avg_P:.1f}  K:{avg_K:.1f}")
+        print(f"  Olgunluk: %{week_maturity_end:.1f}")
+        print(f"  Hastalık Riski: {'VAR' if week_disease else 'YOK'}")
+        print(f"  Tahmini Verim: {est_yield:.1f} kg/da")
+        print("-"*50)
+        # Verileri CSV'ye ekle
+        save_weekly_data(filename, week, avg_moisture, avg_soil_temp, avg_air_temp, avg_ph,
+                         week_maturity_end, week_disease, est_yield, avg_N, avg_P, avg_K,
+                         avg_humidity, avg_solar, avg_wind, total_rain)
+        # Grafik için haftalık özeti sakla
+        weekly_summary.append({
+            "week": week,
+            "moisture": avg_moisture,
+            "soil_temp": avg_soil_temp,
+            "air_temp": avg_air_temp,
+            "ph": avg_ph,
+            "N": avg_N,
+            "P": avg_P,
+            "K": avg_K,
+            "maturity": week_maturity_end,
+            "yield": est_yield,
+            "disease": week_disease
+        })
+        time.sleep(1)  # gerçekçilik için bekleme
+    print("\n--- Sezon Tamamlandı ---")
+    print(f"Detaylı veriler '{filename}' dosyasına kaydedildi.")
+    print("Grafikler çiziliyor...")
+    plot_season_data(weekly_summary, controller.irrigation_log + controller.fertilizer_log)
+def save_weekly_data(filename, week, moisture, soil_temp, air_temp, ph, maturity, disease, est_yield,
+                     N, P, K, humidity, solar, wind, rain):
+    """CSV'ye haftalık verileri yaz (başlık yoksa ekle)."""
+    file_exists = os.path.isfile(filename)
+    with open(filename, "a", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        if not file_exists:
+            writer.writerow(["Hafta","ToprakNem","ToprakSıcaklık","HavaSıcaklık","pH",
+                             "Olgunluk","HastalıkRiski","TahminiVerim","N","P","K",
+                             "HavaNem","Güneş","Rüzgar","Yağış"])
+        writer.writerow([week, round(moisture,1), round(soil_temp,1), round(air_temp,1),
+                         round(ph,2), round(maturity,1), disease, round(est_yield,1),
+                         round(N,1), round(P,1), round(K,1), round(humidity,1),
+                         round(solar,1), round(wind,1), round(rain,1)])
+if __name__ == "__main__":
+    main()
