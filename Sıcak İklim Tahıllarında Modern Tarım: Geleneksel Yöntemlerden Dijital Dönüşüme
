@@ -1,0 +1,219 @@
+Giriş
+Tahıl tarımı, insanlığın yerleşik yaşama geçişiyle birlikte medeniyetin temel taşlarından birini oluşturmuştur. Bugün dünya nüfusunun hızla artması ve beraberinde getirdiği gıda güvencesi sorunu, tahıl üretimini her zamankinden daha kritik bir konuma taşımaktadır. Birleşmiş Milletler Gıda ve Tarım Örgütü (FAO) verilerine göre dünya nüfusunun 2050 yılına kadar 9,7 milyara ulaşması beklenmekte ve mevcut gıda üretiminin bu talebi karşılayabilmesi için %50 oranında artırılması gerekmektedir (FAO, 2023). Bu tablo, özellikle mısır, çeltik ve darı gibi sıcak iklim tahıllarının üretim verimliliğinin artırılmasını zorunlu kılmaktadır.
+Türkiye'de tarım arazilerinin yaklaşık 24 milyon hektar olduğu ve bu alanın yaklaşık %80'inde tahıl üretimi yapıldığı bilinmektedir. Ancak sıcak iklim tahıllarının bu alan içindeki payı serin iklim tahıllarına kıyasla oldukça düşük kalmaktadır. Mısır, tahıl ekim alanlarının yalnızca %5'ini oluştururken üretimde %10'luk bir paya sahiptir; bunu ekim alanı ve üretim bakımından çeltik izlemektedir. Bu dengesizliğin giderilmesi ve mevcut üretim alanlarından daha verimli yararlanılabilmesi için geleneksel tarım bilgisinin yanı sıra modern teknoloji ile dijital araçların tarıma entegre edilmesi büyük önem taşımaktadır.
+Burada; sıcak iklim tahıllarının botanik özelliklerinden başlayarak arazi hazırlığı, ekim, bakım, hasat ve depolama süreçlerine kadar tüm üretim zincirini ele almakta; bununla birlikte veri analitiği, yapay zeka, Nesnelerin İnterneti (IoT), mikrodenetleyici sistemleri, biyoteknoloji ve kuantum hesaplama gibi yeni nesil teknolojilerin tahıl tarımına nasıl entegre edilebildiğini kapsamlı biçimde incelemektedir.
+1. Sıcak İklim Tahıllarının Genel Özellikleri ve Botanik Tanımlanması
+1.1 Temel Özellikler
+Sıcak iklim tahılları, kısa gün bitkisi olmaları ve hem vejetatif hem de generatif dönemlerinde benzer sıcaklık gereksinimlerine sahip bulunmaları ile serin iklim tahıllarından ayrılmaktadır. Bu bitkilerin adaptasyon alanları geniştir; bu sayede tropikal bölgelerden yarı kurak alanlara kadar çok farklı ekolojik koşullarda yetişebilirler. Sıcak iklim tahılları, suyu serin iklim tahıllarına kıyasla daha ekonomik kullanmaları bakımından da önemli bir avantaja sahiptir; bu özellik özellikle su kaynaklarının kısıtlı olduğu bölgelerde büyük bir üstünlük sağlamaktadır. Bu grup içinde dikkat çekici bir ayrışma söz konusudur: Çeltik, bol suya ihtiyaç duyan ve hatta su içinde yetiştirilebilen tek tahıl cinsidir. Darılar ise tam tersi bir özellik göstererek eski çağlardan günümüze kadar verim düzeyinin düşük ve stres faktörlerinin yoğun olduğu, kuraklığa eğilimli coğrafyalarda başarıyla yetiştirilmiştir.
+1.2 Botanik Tanımlama Yöntemleri
+Sıcak iklim tahıllarının doğru şekilde tanımlanması, hem bilimsel araştırmalar hem de pratik tarımsal uygulamalar açısından büyük önem taşır. Bu süreçte kullanılan başlıca yöntemler dörde ayrılmaktadır.
+Kök anatomisi incelemesi: Bitkiler, topraktan bel veya kürek yardımıyla köklerine zarar vermeden sökülerek çıkarılır. Kök etrafındaki toprak, su içinde yavaşça temizlenir ve ardından kök yapısı sistematik biçimde incelenerek tanımlama yapılır.
+Generatif organ incelemesi: Koçan, salkım ve başaklar, sapa zarar vermeden makasla kesilir. Sap kısımları temizlendikten sonra çiçeklenme durumları büyüteç altında incelenir; koçan, salkım ve başaklar cımbızla parçalanarak dane ve tohum varlığı ayrıntılı biçimde değerlendirilir.
+Vejetatif organ incelemesi: Saplar ve yapraklar ayrı ayrı ele alınarak sap uzunlukları, boğum sayısı ve boğum araları ölçülür; yaprak morfolojisi incelenerek türe özgü tanımlayıcı özellikler belirlenir.
+Tohum morfolojisi: Koçan, salkım ve başaklardan toplanan tohumlar gruplandırılarak şekil, renk, boyut, 1000 dane ağırlığı ve fiziksel özellikleri bakımından karşılaştırmalı olarak incelenir. Bu yöntem, özellikle çeşit tespitinde belirleyici bir rol üstlenmektedir.
+2. Arazi Hazırlığı ve Toprak İşleme
+2.1 Arazi Hazırlığının Önemi
+Başarılı bir tahıl üretiminin temelinde doğru ve zamanında yapılan arazi hazırlığı yatmaktadır. İyi uygulanmış bir arazi hazırlığıyla; tarlada yabancı ot kontrolü, gübrenin toprağa daha iyi karışması, toprağın kabarma ve havalanması sağlanmakta, alt katmanlarda biriken besin maddelerinin üst katmanlara taşınması gerçekleşmekte ve toprağa ince yapısının kazandırılmasıyla bitkinin besin maddelerini daha kolay alması mümkün olmaktadır. Nitekim Öztürk ve Akten (2019), kapsamlı arazi hazırlığının tahıl verimini tek başına %15 ile %20 oranında artırabildiğini ortaya koymuştur.
+2.2 Tahıl Türüne Göre Toprak İşleme
+Mısır: Ana veya ilk ürün olarak yetiştirilecekse toprak; sonbaharda pullukla derin sürülür, ilkbaharda kültivatör ve akabinde tırmık veya yaylı tırmıkla işlenir. İkinci ürün olarak planlanıyorsa haziran ayı içinde yapılacak ön bitki hasadından hemen sonra saplar tarladan uzaklaştırılır, tarla sulanır ve toprak tava geldiğinde diskaro ve yaylı tırmıkla işlenir.
+Çeltik: Toprak hem sonbaharda hem de ilkbaharda derin sürümle hazırlanır. İlkbahar işlemesi, su tutacak tavaların oluşturulmasından sonra diskaro ya da kültivatörle hafif biçimde tamamlanır. Çeltik üretimine özgü, 40-70 cm genişliğinde ve 30-50 cm yüksekliğinde tavalar tesviye küreği veya tir pulluğuyla hazırlanır; araziye tesviye ekipmanlarıyla %4'e kadar eğim verilir.
+Darı: Kuru tarım bölgelerinde yüzeysel, nemli bölgelerde ise derin toprak işlemesi tercih edilmektedir. Bu farklılaşma, darının su stresiyle nasıl başa çıktığına dair fizyolojik özelliklerinin doğrudan bir yansımasıdır.
+3. Ekim Teknikleri ve Tohumluk Yönetimi
+3.1 Ekim Zamanı ve Derinliği
+Mısır, sıcak iklim tahıllarının yazlık karakteri gereği ilkbaharda ekilir. Ana ürün olarak yetiştirilecekse nisan ortasından mayıs ayının ilk haftasına kadar olan dönem ideal ekim zamanını oluşturur; ikinci ürün olarak planlanmışsa buğday hasadının hemen ardından ve en geç temmuz başına kadar ekim tamamlanmalıdır. Ekim derinliği, iklim ve toprak koşullarına göre 2 ile 7,5 cm arasında değişmekte; serpme, ocak usulü ve sıraya ekim yöntemlerinden biri tercih edilmektedir.
+Darıda toprak sıcaklığının 10°C'nin üzerine çıkması ve tohum yatağında belirli düzeyde nemin bulunması ekim için temel ön koşullardır. Çeltikte ise fideleme yönteminde; fide yastıklarında yetiştirilen fideler, hava koşullarına bağlı olarak ekimden 20 gün sonra tarlaya aktarılmaktadır.
+3.2 Tohumluk Kalitesi ve İlaçlama
+Çeltik tarımında hastalıksız, yabancı ot tohumu içermeyen ve sertifikalı tohumluk kullanılması zorunluluk olarak öne çıkmaktadır. Ekilecek tohumun ekimden önce ilaçlanması, sıcak iklim tahıllarında yaygın olarak görülen tohum ve fide hastalıklarının baştan önlenmesi açısından kritik bir adımdır. Özer ve Bayram (2021), sertifikalı tohumluk kullanımının, yerel materyale kıyasla verimde ortalama %23 oranında artış sağladığını bildirmiştir.
+4. Bakım İşlemleri
+4.1 Seyreltme, Çapalama ve Boğaz Doldurma
+Mısırda çıkıştan 10-15 gün sonra, yaklaşık 4-5 yapraklı dönemde seyreltme ve çapalama yapılmaktadır. Bitkiler 10-15 cm boylandığında yabancı ot kontrolü amacıyla birinci çapa uygulanır. Mısırın 8-10 yapraklı olduğu, 40-50 cm yüksekliğe ulaştığı dönemde ikinci azot uygulamasıyla eş zamanlı olarak boğaz doldurma işlemi gerçekleştirilir. Sıra arası çapalamaları sıra arası çapa makinesiyle; sıra üzeri çapalamaları ise bıçaklı ve frezeli tip çapalama makinesiyle yürütülmektedir.
+4.2 Sulama Yönetimi
+Bölgenin iklim koşullarına, toprak yapısına ve bitkinin gereksinimlerine göre salma, yağmurlama veya damla sulama sistemlerinden biri seçilmektedir. Mısırda toprak nemi elle ya da tansiyometre yardımıyla izlenmekte; sulama için en kritik dönemler tepe püskülü oluşumu, koçan püskülü dönemi ve süt olum evresi olarak belirlenmiştir. Karık sulama uygulanacaksa karık uzunluğunun, eğim ve toprak yapısına göre 100-150 metreyi aşmaması, bitkinin 60-80 cm'lik etkili kök derinliğinin suyla doyurulması hedeflenmektedir.
+Çeltikte su derinliği bitkinin gelişimine paralel olarak artırılır ve maksimum gelişme döneminde 15 cm civarında sabit tutulur. Hasattan 20-30 gün önce tava suyu kesilerek mevcut su boşaltılır. Bu uygulamanın zamanlaması, hem hasat kolaylığı hem de tane kalitesi üzerinde belirleyici bir etkiye sahiptir.
+4.3 Gübreleme
+Mısırda azot, fosfor ve potasyum içeren gübrelerin tamamı ilkbaharda ilk toprak işlemesinden önce santrifüjlü gübre dağıtma makinesiyle uygulanır ve gübreler kazayağıyla ekim derinliğine karıştırılır. Azotlu gübrenin yarısı ekimle birlikte verilir; diğer yarısı ise bitki 40-50 cm boya ulaştığında, 8-10 yapraklı dönemde sıra arasına uygulanır. Fosforun tamamı ekimle eş zamanlı olarak toprağa verilmektedir.
+Çeltikte amonyum sülfat gübresinin yarısı ekimle birlikte, geri kalan yarısı ekimden 55-60 gün sonra uygulanabilir ya da bu miktar kardeşlenme başlangıcı ve ekimden 50-60 gün sonra olmak üzere üç farklı döneme bölünebilir. Toprağın çinko içeriğinin yetersiz olduğu arazilerde ekim öncesi ya da çıkış sonrası çinko sülfat gübrelemesi yapılmaktadır.
+Hastalık ve Zararlı Yönetimi
+Mısırda fide zararlılarından koçan zararlılarına kadar geniş bir spektrumda zararlı ve hastalık tehdidi bulunmakta; yetişme devresinin ilk ayında kültürel, mekanik ve kimyasal mücadele yöntemleri bir arada uygulanmaktadır. Çeltikte çeltik yanıklığı ve kök boğazı çürüklüğü başlıca hastalıklar arasında yer almakta ve bu iki sorun için uygun fungisit programları yürütülmektedir. Demir ve Çelik (2022), entegre hastalık yönetiminin mısırda ürün kayıplarını %30'un üzerinde azaltabildiğini göstermektedir.
+5. Hasat ve Depolama
+5.1 Hasat Olgunluğunun Belirlenmesi
+Mısır ve darıda hasat olgunluğunun en doğru yolla belirlenmesi, tanedeki nem oranının ölçülmesiyle gerçekleştirilmektedir. Mısır danelerinde nem %25'e düştüğünde hasat için uygun dönem gelmiş sayılır; darıda ise bu eşik %12-13 arasındadır. Çeltikte en uygun hasat zamanı, salkımların %80'inin saman sarısı rengini aldığı ve danelerdeki nemin %22-24 düzeyinde olduğu andır. Bu noktada yapraklar hâlâ yeşilini korumaktadır.
+5.2 Hasat Yöntemleri
+Mısır hasadı el, biçerdöver veya koçan toplayıcı makinelerle gerçekleştirilebilmektedir. Silajlık mısır, süt olumu döneminin sonunda ve yapraklar henüz yeşilken toprak yüzeyinden saplarıyla kesilir, parçalanır ve tekniğe uygun biçimde silolara kaldırılır. Uzun boylu darı çeşitleri elle, kısa boylu çeşitler ise biçerdöverle hasat edilmektedir; dane amaçlı yetiştirilen darılarda hasat, salkımlar iyice kuruduktan sonra yapılır. Çeltikte elle biçme, motorlu kendi yürür makineler ve biçerdöver olmak üzere üç farklı hasat yöntemi uygulanmaktadır.
+5.3 Depolama Koşulları
+Uzun süreli depolanacak mısırın nem düzeyinin %13-15'e indirilmesi gerekmektedir. Kurutma işlemi sergenlerde, yapay kurutucularda ya da doğal güneş altında gerçekleştirilebilir. Depo koşullarında nem %50'nin üzerinde tutulmamalı, sıcaklık ise 0-20°C arasında sabit bırakılmalı ve sürekli havalandırma sağlanmalıdır.
+Darılar, diğer tahıllara kıyasla üstün depolama dayanıklılığına sahiptir; bazı ülkelerde uygun olmayan koşullarda bile sekiz yıla kadar kalitesini koruyabildiği bilinmektedir. Çeltik depolama ambarlarında ise nispi nemin %60'ın altında tutulması ve sıcaklığın düşük seviyelerde muhafaza edilmesi şarttır. Depoda kullanılan termometre ve higrometre cihazlarının en az yılda bir kez kalibre edilip test edilmesi gerektiği de uygulamada göz ardı edilmemesi gereken önemli bir ayrıntıdır.
+6. Veri Analitiği ile Üretim Optimizasyonu
+6.1 Tarımsal Karar Destek Sistemleri
+Tahıl tarımında veriye dayalı karar verme anlayışı giderek yaygınlaşmaktadır. Toprak pH değeri, organik madde miktarı, azot-fosfor-potasyum oranları, toprak nemi ve sıcaklık gibi parametrelerin sistematik analizi; hangi tahılın yetiştirileceğinin belirlenmesinden optimum gübre dozunun hesaplanmasına, toprak işleme derinliğinin planlanmasından en uygun ekim tarihinin tahmin edilmesine kadar kritik kararların bilimsel temele oturtulmasını sağlamaktadır.
+Ekim zamanı tayininde özellikle son 10 yılın nisan-mayıs sıcaklık ortalamaları ile toprak sıcaklığı trendi birlikte değerlendirilerek mısır için ideal ekim penceresi modellenebilmektedir. Bu yaklaşım, yalnızca verim artışı değil, aynı zamanda girdi maliyetlerinin düşürülmesi açısından da son derece önemli bir araç sunmaktadır. Whitfield ve ark. (2020), veri destekli tarım uygulamalarının tahıl üretiminde girdi maliyetlerini %18 oranında azaltırken verimi %12 artırdığını ortaya koymuştur.
+6.2 Sulama ve Gübreleme Optimizasyonu
+Toprak nem sensörü verileri, yağış verileri ve sıcaklık ölçümleri birlikte analiz edilerek gereksiz sulama işlemlerinin önüne geçilebilmekte ve önemli ölçüde su tasarrufu sağlanmaktadır. Gübreleme açısından ise bitki gelişim verileri, toprak besin elementleri ve geçmiş verim sonuçlarının entegre değerlendirmesi; ne kadar azotun, hangi gelişme döneminde uygulanması gerektiğini hassas biçimde ortaya koymaktadır.
+Hasat öncesi veri analizinde ise bitki boyu, koçan sayısı, dane sayısı ve iklim verileri birlikte kullanılarak dekara verim tahmini yapılabilmekte; bu sayede hasat planlaması ve pazarlama kararları çok daha sağlıklı biçimde hazırlanmaktadır.
+7. Yapay Zeka Uygulamaları
+7.1 Üretim Planlaması ve Ekim Zamanı Tahmini
+Yapay zeka sistemleri, toprak analiz verilerini değerlendirerek hangi ürünün yetiştirilmesinin daha uygun olacağını belirleyebilmekte ve buna göre kapsamlı bir gübreleme planı önerebilmektedir. Geçmiş yıllara ait sıcaklık kayıtları, yağış miktarları ve toprak sıcaklığı trendleri bir araya getirilerek makine öğrenmesi algoritmaları mısır, darı veya çeltik için en uygun ekim zamanını yüksek doğrulukla tahmin etmektedir.
+Plantix, Climate Corporation ve Taranis gibi ticari yapay zeka platformları halihazırda çiftçilere ekim zamanlaması, hastalık tespiti ve verim tahmini konularında faaliyete geçmiş durumdadır (Kamilaris ve Prenafeta-Boldú, 2018). Bu platformların sunduğu tahminlerin doğruluğu geleneksel yöntemlere kıyasla %85-92 arasında değişmektedir.
+7.2 Akıllı Sulama
+Akıllı sulama sistemlerinde yapay zeka; toprak nem sensörü ölçümlerini, hava sıcaklığını, kısa vadeli yağış tahminlerini ve bitkinin o anki gelişim durumunu eş zamanlı olarak analiz ederek bitkinin ihtiyacı olan suyu tam dozda uygulamaktadır. Fereres ve Soriano (2007), bu yöntemin geleneksel sulamaya kıyasla %30-50 su tasarrufu sağlayabileceğini bildirmiştir.
+7.3 Görüntü İşleme ile Hastalık Tespiti
+Yapay zeka destekli kameralar ve görüntü işleme sistemleri sayesinde bitki yapraklarındaki leke, sararma ve kuruma gibi hastalık belirtileri, zararlı böcek yoğunlukları ve gelişim anomalileri erken aşamada tespit edilebilmektedir. Lu ve ark. (2017) gerçekleştirdiği çalışmada, derin öğrenme algoritmalarının mısır yaprak hastalıklarını %93 üzerinde doğrulukla tespit edebildiğini göstermiştir.
+8. IoT ve Mikrodenetleyici Sistemleri
+8.1 Tarla İzleme ve Akıllı Sulama
+Tarlaya yerleştirilen IoT sensörleri, toprak nemi, sıcaklık ve pH değeri ile hava nemi gibi parametreleri sürekli ölçerek internet üzerinden çiftçinin mobil cihazına iletmektedir. Toprak nem sensörlerinden gelen veriler doğrultusunda sulama pompası otomatik devreye girip çıkmakta; bu sayede hem su tasarrufu sağlanmakta hem de bitkinin her zaman optimum nem koşullarında kalması güvence altına alınmaktadır.
+8.2 Mikrodenetleyici Tabanlı Otomatik Sistemler
+Arduino ve Raspberry Pi gibi düşük maliyetli mikrodenetleyici platformları, toprak nem sensörlerini, sıcaklık ölçerlerini ve sulama pompalarını entegre eden akıllı tarım sistemlerinin kurulmasına olanak tanımaktadır. Burada paylaşılan Python tabanlı simülasyon kodu, söz konusu sistemlerin işlevselliğini somut olarak örneklendirmektedir: Buharlaşma modeli sıcaklığa bağlı dinamik bir şekilde tanımlanmış, nem eşiği altına düşüldüğünde sulama otomatik başlatılmış ve lineer regresyon yöntemiyle tahmini kuruma süresi hesaplanmıştır.
+Benzer mikrodenetleyici sistemleri, depolama sürecinde de kullanılabilmektedir. Depo sıcaklığı ve nemi sürekli izlenerek belirlenmiş eşik değerlerin dışına çıkıldığında sistem otomatik uyarı üretebilmekte ya da havalandırmayı devreye alabilmektedir.
+Talavera ve ark. (2017), IoT tabanlı tarım sistemlerinin tarla yönetiminde operasyonel maliyetleri %25 oranında düşürdüğünü ortaya koymuştur.
+9. Biyoteknoloji ve İleri Genetik Çalışmalar
+9.1 Hastalık ve Kuraklık Dayanıklılığı
+Modern biyoteknoloji, bitkilerin genetik yapısına müdahale ederek mantar hastalıklarına dirençli çeltik, zararlılara karşı dayanıklı mısır ve kuraklık koşullarına uyum sağlayabilen darı çeşitlerinin üretilmesini mümkün kılmaktadır. Huang ve ark. (2012), gen transferi yöntemleriyle mantar hastalıklarına karşı yüksek dayanıklılık gösteren çeltik hatlarının başarıyla geliştirildiğini raporlamıştır.
+9.2 Besin Değeri ve Verim Artışı
+Genetik çalışmalar, daha fazla dane oluşturan, hızlı gelişen ve yüksek verimli tahıl çeşitlerinin yanı sıra vitamin ve protein içeriği artırılmış ürünlerin de üretilmesini sağlamaktadır. "Altın Pirinç" projesi bu alanda en bilinen örneklerden birini oluşturmaktadır; provitamin A içeriği artırılmış bu çeltik çeşidi, gelişmekte olan ülkelerde A vitamini eksikliğine bağlı sağlık sorunlarını gidermeye yönelik tasarlanmıştır (Ye ve ark., 2000).
+9.3 Doku Kültürü ile Çoğaltma
+Doku kültürü yöntemleri sayesinde hastalıksız, sağlıklı fideler kısa sürede büyük miktarlarda üretilebilmektedir. Bu teknik, hem tohumla aktarılan hastalıkların kontrol altına alınmasında hem de özellikle tarihsel öneme sahip veya nadir genotiplerin korunmasında son derece değerli bir araç işlevi görmektedir.
+10. Kuantum Bilgisayarların Tarımdaki Geleceği
+Kuantum bilgisayarlar günümüzde tarımda henüz yaygın uygulama alanı bulamamış olsa da gelecekte devrimsel bir potansiyel sunmaktadır. Bu teknoloji başlıca dört alanda katkı sağlayabilir:
+Büyük veri analizi: İklim verileri, toprak özellikleri, bitki gelişim takibi ve uydu görüntülerinden oluşan devasa veri kümelerinin sınıflandırılması ve yorumlanması, klasik bilgisayarlara göre katbekat daha hızlı gerçekleştirilebilecektir.
+İklim modelleme: Karmaşık atmosfer denklemlerinin çok daha kısa sürede çözülmesi, yağış, sıcaklık ve kuraklık tahminlerinin doğruluğunu önemli ölçüde artıracaktır.
+Genetik araştırmalar: Bitki genomlarının moleküler düzeyde hızlı analizi, yeni ve daha yüksek performanslı tahıl çeşitlerinin geliştirilme sürecini ciddi biçimde kısaltacaktır.
+Tarımsal optimizasyon: Sulama planlaması, gübre dağıtımı ve ekim alanı yönetimi gibi çok değişkenli optimizasyon problemleri kuantum algoritmaları sayesinde çok daha etkin biçimde çözüme kavuşturulabilecektir (Bauer ve ark., 2020).
+Python Simülasyonu
+İmport random
+import time
+import matplotlib.pyplot as plt
+from matplotlib.animation import FuncAnimation
+from datetime import datetime
+import csv
+import os
+import numpy as np
+# ================== KONFİGÜRASYON ==================
+CSV_FILE = "sensor_log.csv"
+HISTORY_SIZE = 20        
+ # Grafikte gösterilecek son veri sayısı
+REGRESSION_POINTS = 5      # Tahmin için kullanılacak nokta sayısı
+MOISTURE_MIN = 0
+MOISTURE_MAX = 100
+TEMP_MIN = 15
+TEMP_MAX = 40
+DRY_THRESHOLD = 40         # Sulama eşiği
+# ================== GLOBAL DEĞİŞKENLER ==================
+soil_moisture = 60.0
+temperature = 25.0
+pump = False
+moisture_history = []
+temp_history = []
+# Zaman sayacı (frame bazlı, her frame ~3 saniye)
+frame_count = 0
+# ================== YARDIMCI FONKSİYONLAR ==================
+def init_csv():
+    """CSV dosyasını oluşturur (yoksa) ve başlık yazar."""
+    if not os.path.isfile(CSV_FILE):
+        with open(CSV_FILE, mode='w', newline='') as file:
+            writer = csv.writer(file)
+            writer.writerow(["timestamp", "soil_moisture", "temperature", "pump"])
+def log_to_csv(moisture, temp, pump_status):
+    """Tek bir satırı CSV'ye ekler."""
+    with open(CSV_FILE, mode='a', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow([datetime.now().isoformat(), f"{moisture:.2f}", f"{temp:.2f}", int(pump_status)])
+def estimate_time_to_threshold():
+    """
+    Son REGRESSION_POINTS veri noktasına lineer regresyon uygulayarak
+    toprak neminin DRY_THRESHOLD değerine ulaşması için geçecek frame sayısını tahmin eder.
+    Eğer nem artıyorsa veya yeterli veri yoksa None döner.
+    """
+    if len(moisture_history) < REGRESSION_POINTS:
+        return None
+    # Son REGRESSION_POINTS kadar veriyi al (x: frame indeksi, y: nem)
+    y = np.array(moisture_history[-REGRESSION_POINTS:])
+    x = np.arange(len(y))
+    # Lineer regresyon: y = mx + b
+    m, b = np.polyfit(x, y, 1)
+    if m >= 0:   # Nem artıyor veya sabit → tahmin anlamsız
+        return None
+    # Mevcut nem = son ölçüm
+    current_moisture = moisture_history[-1]
+    # Hedef neme ulaşmak için gereken x (frame) farkı: threshold = m*x + b  -> x = (threshold - b)/m
+    # Ancak x, son noktaya göre değil, başlangıca göre. Mevcut frame sayısını kullanmak daha kolay:
+    # Şu anki nemden itibaren kaç frame sonra eşiğe ulaşırız?
+    # current_moisture + m * delta = threshold  → delta = (threshold - current_moisture) / m
+    delta_frames = (DRY_THRESHOLD - current_moisture) / m   # m negatif olduğu için delta pozitif
+    return max(0, delta_frames)   # Negatif olmamalı ama kontrol
+# ================== SULAMA KARAR FONKSİYONU ==================
+def check_soil(soil_value):
+    global pump
+    if soil_value < DRY_THRESHOLD:
+        pump = True
+        return "💧 Sulama AKTİF (toprak kuru)"
+    else:
+        pump = False
+        return "🌱 Sulama KAPALI (toprak nemli)"
+# ================== VERİ GÜNCELLEME ==================
+def update(frame):
+    global soil_moisture, temperature, pump, frame_count
+    frame_count += 1
+    # --- Sıcaklık değişimi (küçük rastgele adımlar) ---
+    temperature += random.uniform(-0.5, 0.5)
+    temperature = max(TEMP_MIN, min(TEMP_MAX, temperature))
+    # --- Toprak nemi değişimi (doğal süreç) ---
+    if pump:
+        # Sulama varsa nem artar (yağmurlama)
+        soil_moisture += random.uniform(3.0, 7.0)   # 3-7 birim artış
+    else:
+        # Buharlaşma: sıcaklık arttıkça daha hızlı düşüş
+        evaporation = 0.3 + 0.05 * (temperature - 20)   # örnek model
+        evaporation = max(0.1, evaporation)              # en az 0.1
+        soil_moisture -= random.uniform(0.8, 1.2) * evaporation
+    # Sınırları kontrol et
+    soil_moisture = max(MOISTURE_MIN, min(MOISTURE_MAX, soil_moisture))
+    # --- Geçmişe ekle ---
+    moisture_history.append(soil_moisture)
+    temp_history.append(temperature)
+    if len(moisture_history) > HISTORY_SIZE:
+        moisture_history.pop(0)
+        temp_history.pop(0)
+    # --- CSV'ye kaydet ---
+    log_to_csv(soil_moisture, temperature, pump)
+    # --- Grafikleri güncelle ---
+    ax1.clear()
+    ax2.clear()
+    ax1.plot(moisture_history, color='blue', marker='o', linestyle='-')
+    ax1.set_title("Toprak Nemi (%)")
+    ax1.set_ylim(0, 100)
+    ax1.axhline(y=DRY_THRESHOLD, color='r', linestyle='--', alpha=0.7, label='Sulama eşiği')
+    ax1.legend()
+    ax2.plot(temp_history, color='red', marker='s', linestyle='-')
+    ax2.set_title("Hava Sıcaklığı (°C)")
+    ax2.set_ylim(TEMP_MIN-5, TEMP_MAX+5)
+    # --- Durum mesajı ve tahmin ---
+    status = check_soil(soil_moisture)
+    delta_frames = estimate_time_to_threshold()
+    if delta_frames is not None:
+        # Her frame ~3 saniye, süreyi saniye cinsinden hesapla
+        seconds = delta_frames * 3
+        if seconds < 60:
+            time_str = f"~{seconds:.0f} saniye"
+        elif seconds < 3600:
+            time_str = f"~{seconds/60:.1f} dakika"
+        else:
+            time_str = f"~{seconds/3600:.1f} saat"
+        status += f" | Tahmini kuruma: {time_str}"
+    else:
+        status += " | (yeterli veri yok veya nem artıyor)"
+    fig.suptitle(status, fontsize=12, color='green' if pump else 'brown')
+# ================== ANA PROGRAM ==================
+if __name__ == "__main__":
+    # CSV başlığını oluştur
+    init_csv()
+    # Grafik figürü
+    fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(8, 6))
+    # Animasyon (interval=3000 ms = 3 saniye)
+    ani = FuncAnimation(fig, update, interval=3000)
+    plt.tight_layout()
+    plt.show()
+    print("Program sonlandı. Veriler", CSV_FILE, "dosyasına kaydedildi.")
+Sonuç
+Sıcak iklim tahıllarının üretimi; geleneksel tarım bilgisinin yanı sıra modern teknolojilerin sistematik entegrasyonunu gerektiren karmaşık ve çok boyutlu bir süreçtir. Arazi hazırlığından hasat ve depolamaya uzanan üretim zincirinin her halkasında bilimsel esaslara dayanan doğru uygulamalar, verim ve kaliteyi belirleyen temel etkenler olmaya devam etmektedir.
+Veri analitiği, yapay zeka, IoT sistemleri, mikrodenetleyiciler, biyoteknoloji ve yakın gelecekte kuantum bilgisayarlar; tarımsal üretimde verimliliği artırma, kaynakları verimli kullanma ve çevresel etkileri azaltma konularında son derece umut verici araçlar sunmaktadır. Türkiye'de sıcak iklim tahıllarının ekim alanlarındaki görece düşük pay düşünüldüğünde, bu teknolojilerin mevcut alanlarda uygulanması salt verim artışının çok ötesinde bir anlam taşımaktadır.
+Nitekim gıda güvencesi açısından ele alındığında, geleneksel tarım pratiği ile dijital dönüşümün akılcı bir senteziyle Türkiye'nin sıcak iklim tahılı üretiminde mevcut kapasitesinin çok üzerine çıkabilmesi için gerekli koşulların büyük ölçüde var olduğu anlaşılmaktadır. Bu potansiyelin hayata geçirilmesi; politika yapıcılar, araştırmacılar, tarım teknolojisi şirketleri ve çiftçiler arasında sürdürülebilir ve bütüncül bir işbirliğini zorunlu kılmaktadır.
