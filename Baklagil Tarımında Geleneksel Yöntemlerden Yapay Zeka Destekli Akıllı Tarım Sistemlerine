@@ -1,0 +1,804 @@
+Özet
+Baklagiller, insanlık tarihinin en eski kültür bitkilerinden biri olarak günümüzde de tarım, gıda güvenliği ve sürdürülebilir üretim açısından kritik önemini korumaktadır. Yüksek protein içeriği, azot fiksasyon kapasitesi ve geniş kullanım alanları ile baklagil tarımı her geçen yıl daha fazla ilgi görmektedir. Ancak geleneksel yetiştiricilik yöntemlerinin iklim değişikliğine bağlı artan riskler, toprak bozulması ve artan nüfusun gıda talebi karşısında yetersiz kalmaya başladığı görülmektedir. Bu çalışmada baklagil tarımının temel biyolojisi, ekolojisi ve yetiştiricilik teknikleri ele alınmış; akabinde Nesnelerin İnterneti (IoT), makine öğrenmesi, derin öğrenme, biyoteknoloji ve kuantum hesaplama gibi ileri teknolojilerin bu alana entegrasyonu incelenmiştir. Ayrıca söz konusu teknolojilerin bir araya getirildiği yazılım mimarisi de değerlendirilmiştir.
+1. Giriş
+Dünya nüfusunun 2050 yılına kadar 10 milyarı aşacağı öngörülmekte ve bu durum küresel gıda üretiminin yaklaşık yüzde 70 oranında artırılmasını zorunlu kılmaktadır (FAO, 2017). Bu zorluğun üstesinden gelmede baklagil bitkilerinin rolü giderek daha fazla ön plana çıkmaktadır. Fabaceae (Leguminosae) familyasına ait bu bitkiler; besin değeri, çevresel sürdürülebilirlik katkısı ve çok yönlü kullanım alanları ile tarımsal sistemlerde ayrıcalıklı bir konuma sahiptir.
+Baklagiller yalnızca insan ve hayvan beslenmesinde değil; tıp, kozmetik, boya, reçine, mobilya ve kâğıt endüstrisinde de geniş bir kullanım yelpazesine sahiptir. Bunun yanı sıra kök nodüllerinde barındırdıkları Rhizobium bakterileri aracılığıyla havadaki moleküler azotu toprağa kazandırma özellikleri, sürdürülebilir tarım sistemleri açısından bu bitkileri vazgeçilmez kılmaktadır. Nitekim baklagiller, kendi azot gereksinimlerinin yaklaşık yüzde 70'ini bu biyolojik azot fiksasyonu yoluyla karşılayabilmektedir (Herridge ve ark., 2008).
+Türkiye'de ise yemeklik tane baklagil üretimi Güneydoğu Anadolu, Orta Anadolu, geçit bölgeleri ve Marmara Bölgesi'nin güneyinde yoğunlaşmaktadır. Kuru fasulye Orta Anadolu ve geçit bölgelerinde, börülce ise Ege ve batı geçit bölgelerinde önde gelen üretim alanlarına sahiptir. Son yıllarda yemeklik tane baklagillerin tarla bitkileri içinde en hızlı büyüyen ekim alanlarına sahip ürün grubu olduğu görülmektedir.
+Bununla birlikte, geleneksel üretim yöntemleri; iklim değişkenliği, toprak bozulması, zararlı ve hastalık baskısı ile artan girdi maliyetleri karşısında giderek daha kırılgan bir görünüm sergilemektedir. Bu bağlamda dijital tarım teknolojilerinin baklagil üretimine entegrasyonu hem akademik hem de pratik açıdan büyük önem taşımaktadır.
+2. Baklagillerin Biyolojik ve Ekolojik Özellikleri
+2.1. Taksonomik ve Morfolojik Yapı
+Baklagiller; kapsül (bakla), gövde, sap, yaprak ve tohum özellikleri bakımından son derece çeşitli bir morfolojik yapıya sahiptir. Fasulye (Phaseolus vulgaris L.) ve börülce (Vigna unguiculata L.) gibi türlerde gövde alt kısımda yuvarlak, üst kısımlarda ise altı köşeli bir yapı sergilemektedir. Bu morfolojik farklılıklar hem tür tanımlamasında hem de bitki sağlığının izlenmesinde temel referans noktaları oluşturmaktadır.
+Çiçeklenme biçimi, kök nodül yapısı, bakla şekli ve tohum rengi ile boyutu da tanımlamada kullanılan diğer temel kriterler arasında yer almaktadır. Bin dane ağırlığı ve fiziksel tohum özellikleri, çeşit seleksiyonu ve tohumluk kalitesinin belirlenmesinde önemli parametreler olarak değerlendirilmektedir.
+2.2. Biyolojik Azot Fiksasyonu
+Baklagillerin tarımsal sistemler içindeki en özgün özelliklerinden biri, kök nodüllerinde gerçekleşen simbiyotik azot fiksasyonudur. Rhizobium ve Bradyrhizobium cinsi bakteriler, baklagil kökleriyle ortakyaşam kurarak atmosferik azotu (N₂) bitkilerin kullanabileceği amonyum bileşiklerine dönüştürmektedir. Bu süreç, Herridge ve arkadaşlarının (2008) tahminlerine göre yılda küresel ölçekte 40-60 milyon ton azotun biyolojik yollarla toprağa kazandırılmasını sağlamakta; sentetik gübre gereksinimini ve dolayısıyla sera gazı emisyonlarını önemli ölçüde azaltmaktadır.
+Önceden baklagil yetiştirilmemiş tarlalarda bu simbiyozun kurulabilmesi için tohumların Rhizobium bakterisi kültürü ile aşılanması gerekmektedir. Uygulama sürecinde her 100 kg tohuma 200-300 gram bakteri kullanılmakta; tohumlar ince su zerrecikleriyle (100 kg tohuma 1 litre) hafifçe nemlendirildikten sonra bakteri karıştırılmaktadır. Aşılanmış tohumların 24 saat içinde ekilmesi, bakteri canlılığının korunması açısından kritik önem taşımaktadır.
+2.3. İklim ve Toprak İstekleri
+Fasulye ve börülce gibi sıcak mevsim baklagilleri, 0°C'nin altındaki sıcaklıklardan zarar gördüğünden yazlık olarak yetiştirilmektedir. Fasulye ekimi, bölgedeki ilkbahar son donlarından 3-4 gün önce başlanmalı ve 15-20 günde bitirilmelidir. Börülce ise toprak iyice ısındıktan sonra, Nisan sonu ile Mayıs başı arasında ekilmektedir.
+Toprak hazırlığı, bu bitkiler için özellikle önem taşımaktadır. Fasulye, kotiledonlarıyla birlikte toprak yüzeyine çıktığından, sert ve kaymaklı tohum yataklarında çıkış ciddi biçimde güçleşmektedir. Bu nedenle iyi hazırlanmış, keseksiz ve bitki artıklarından temizlenmiş bir tohum yatağı, başarılı bir çıkışın ön koşulunu oluşturmaktadır (Karaköy ve Toklu, 2014). Ekim derinliği ağır topraklarda 2,5-5 cm, hafif topraklarda ise 5-10 cm olarak uygulanmaktadır.
+3. Geleneksel Yetiştiricilik Teknikleri ve Bakım İşlemleri
+3.1. Toprak İşleme
+Baklagil yetiştiriciliğinde toprak işleme sonbahar ve ilkbahar olmak üzere iki temel dönemde gerçekleştirilmektedir. Fasulyede tahılların ardından yapılan ekimlerde, sap ve sapan kalıntılarının parçalanması için sonbaharda 10-15 cm derinlikte bir sürüm önerilmektedir. İlkbahar toprak işlemesinde ise toprak nemi ve yabancı ot yoğunluğu gözetilerek ekim öncesi çift sürüm uygulanmakta; ağır ve nemli topraklarda derin işleme tercih edilmektedir.
+Börülce tarımında da tohum yatağının keseksiz, bitki artıklarından arındırılmış ve yeterli nemde olması gerekmektedir. Ekimden önce toprak tava geldiğinde hemen işlemeye başlanması, hem nem koruma hem de yabancı ot kontrolü açısından büyük önem taşımaktadır.
+3.2. Sulama Yönetimi
+Baklagillerin sulama gereksinimi; bitki gelişim dönemine, iklim koşullarına ve toprak tipine göre önemli farklılıklar göstermektedir. Fasulyede ekim sonrası iyi çıkış sağlamak amacıyla ilk sulama yapılmakta; bitkiler 10-15 cm'ye ulaştığında ikinci sulama uygulanmakta ve çiçeklenmeye kadar koşullara göre bir-iki sulama daha gerçekleştirilmektedir. Çimlenme ve meyve bağlama dönemlerinde sulama sıklığı artırılmaktadır. Börülcede ise sıcak ve kurak bölgelerde çiçeklenme başladığında sulama başlatılmakta, bitki su ihtiyacına göre toplamda 10-12 sulama seyrinde ilerlenmektedir.
+Sulama yöntemi seçiminde de bitkinin ve yetiştiricilik koşullarının dikkate alınması gerekmektedir. Yer çeşidi fasulyelerde yağmurlama sulamanın bitki gelişimine daha olumlu katkı sağladığı bilinmektedir. Modern tarım sistemlerinde ise damla sulama, hem su tasarrufu hem de toprak nemini düzenli tutma açısından giderek daha yaygın biçimde benimsenmektedir (Kang ve ark., 2017).
+3.3. Gübreleme
+Baklagil yetiştiriciliğinde gübreleme, toprak analizi sonuçlarına dayalı olarak planlanmalıdır. Ekimden önce fosforlu ve potasyumlu gübrelerin tamamı toprağa karıştırılırken azotlu gübre de yine ekim öncesinde uygulanmaktadır. Organik gübre imkânı bulunduğunda ise 3-4 ton/dekar yanmış çiftlik gübresi sonbahar sürümü ile birlikte toprağa verilmektedir.
+Börülcenin diğer baklagillere kıyasla fosfor gereksiniminin belirgin biçimde yüksek olduğu bilinmektedir. Bu özelliği nedeniyle börülce tarımında P₂O₅ uygulaması özellikle önerilmektedir. Biyolojik azot fiksasyonu sayesinde baklagiller, kendi azot gereksinimlerinin büyük bölümünü karşılayabildiğinden aşırı azot gübrelemesinden kaçınılması, hem ekonomik hem de çevresel açıdan avantaj sağlamaktadır.
+3.4. Hastalık ve Zararlı Yönetimi
+Baklagil yetiştiriciliğinde en yaygın karşılaşılan hastalıklar arasında fasulye antraknozu, pas, bakteriyel solgunluk, kök çürüklüğü, adi mozaik virüsü ve sarı mozaik virüsü sayılabilir. Börülcede ise Fusarium türleri, kök çürüklüğü, pas ve virüs hastalıklarına ek olarak nematodlar da ciddi sorun oluşturmaktadır. Yaprak bitleri ve tohum böcekleri (Bruchus spp.) her iki üründe de önemli zararlılar arasında yer almaktadır.
+Hastalıklarla mücadelede kimyasal yöntemler yanı sıra dayanıklı çeşit kullanımı, kültürel önlemler ve ekim nöbeti uygulamalarının bir arada benimsenmesi, etkinliği artırmakta ve kimyasal girdi bağımlılığını azaltmaktadır (Schwartz ve Gálvez, 1980).
+3.5. Hasat ve Depolama
+Baklagillerde hasat zamanlaması, ürün kalitesi ve verim üzerinde belirleyici bir etkiye sahiptir. Erken hasat tane buruşmasına ve verim kaybına yol açarken geç hasat bakla çatlaması ve tane dökülmesine neden olmaktadır. Fasulyede baklaların büyük çoğunluğu sarardığında ancak tam kuruma gerçekleşmeden, tane sert ve bakla kırılır kırılmaz dışarı çıkacak kıvama ulaştığında hasat yapılmalıdır. Börülcede ise baklaların üçte ikisinin kahverengiye döndüğü dönem optimal hasat zamanına işaret etmektedir.
+Depolamada ise nem ve sıcaklık kontrolü kritik öneme sahiptir. Fasulye tohumlarında tane nem oranının yüzde 14'ü, depo hava neminin yüzde 65'i ve sıcaklığın 10°C'yi aşmaması, tohumluk kalitesinin bir yıl süreyle korunmasını sağlamaktadır. Depo ve ambarların ekimden önce zararlılara karşı ilaçlanması, özellikle Bruchus spp. gibi tane zararlılarına karşı zorunlu bir önlem niteliği taşımaktadır.
+4. Akıllı Tarım Teknolojileri ve Baklagil Üretimine Entegrasyonu
+4.1. Nesnelerin İnterneti (IoT) ve Sensör Sistemleri
+Nesnelerin İnterneti, fiziksel nesnelerin internet üzerinden birbiriyle haberleşmesini ve veri paylaşmasını sağlayan bir teknolojidir. Tarım alanında IoT sistemleri; toprak nemi, hava sıcaklığı, yağış miktarı ve ışık şiddeti gibi çevresel parametrelerin sürekli ve otomatik olarak izlenmesine imkân tanımaktadır. Keswani ve arkadaşları (2019), IoT tabanlı tarım sistemlerinin su kullanım verimliliğini yüzde 30-50 oranında artırabildiğini ortaya koymuştur.
+Baklagil tarımında IoT uygulamaları; bitkilerin sulama ihtiyacının gerçek zamanlı belirlenmesi, depo koşullarının uzaktan izlenmesi ve hastalık riskinin erken saptanması gibi kritik işlevler üstlenmektedir. Toprak nemine duyarlı akıllı sulama sistemleri, toprağın kurumasını otomatik olarak algılayarak sulama başlatmakta; nem yeterli düzeye ulaştığında ise sistemi kendiliğinden kapatmaktadır. Bu sayede hem su tasarrufu sağlanmakta hem de aşırı sulama kaynaklı kök çürüklüğü riski azaltılmaktadır.
+Mikrodenetleyici tabanlı otomasyon sistemleri de bu bağlamda önemli bir yer tutmaktadır. Arduino ve Raspberry Pi Pico gibi platformlar üzerinde geliştirilen sistemler; sulama pompalarını, gübreleme donanımlarını ve havalandırma sistemlerini sensör verilerine dayalı olarak otomatik biçimde kontrol etmektedir. Reka ve arkadaşları (2019) tarafından geliştirilen akıllı tarım sistemi, sulama otomasyonu sayesinde geleneksel uygulamalara kıyasla yüzde 40 su tasarrufu sağlamıştır.
+4.2. Makine Öğrenmesi Uygulamaları
+Makine öğrenmesi, geçmiş verilerden öğrenerek tahmin ve sınıflandırma yapabilen istatistiksel algoritmalar bütününü kapsamaktadır. Tarımsal uygulamalarda özellikle verim tahmini, hastalık tespiti, sulama planlaması ve hasat zamanı belirleme işlevleriyle öne çıkmaktadır.
+Verim tahmini konusunda Nevavand ve arkadaşları (2022), toprak özellikleri, iklim değişkenleri ve yetiştiricilik pratiklerini girdi olarak kullanan Random Forest modelinin fasulye verimi tahmininde 0.89 R² değerine ulaştığını bildirmiştir. Sulama kararlarının optimizasyonunda ise Kaur ve arkadaşları (2021), makine öğrenmesi destekli akıllı sulama sisteminin geleneksel uygulamalara kıyasla su kullanımını yaklaşık yüzde 35 oranında azalttığını göstermiştir.
+Hasat zamanı belirleme alanında da makine öğrenmesi etkili sonuçlar vermektedir. Bakla rengi, tane nemi ve bitki gelişim aşamasını girdi olarak kullanan modeller, optimal hasat penceresini yüzde 85'i aşan doğruluk oranlarıyla tahmin edebilmektedir. Bu doğruluk düzeyi, tane dökülmesinden kaynaklanan kayıpların minimize edilmesi açısından büyük pratik değer taşımaktadır.
+4.3. Derin Öğrenme ve Görüntü Analizi
+Derin öğrenme, çok katmanlı yapay sinir ağlarına dayanan ve özellikle görüntü analizi alanında üstün performans sergileyen bir makine öğrenmesi yaklaşımıdır. Evrişimsel Sinir Ağları (CNN), bitki hastalıklarının yaprak görüntüleri üzerinden otomatik tespitinde günümüzün en güçlü araçları arasında yer almaktadır.
+Mohanty ve arkadaşları (2016), 54.306 bitki hastalığı görüntüsünden oluşan PlantVillage veri seti üzerinde eğitilen derin öğrenme modelinin 26 farklı hastalığı yüzde 99.35 doğrulukla tespit edebildiğini göstermiştir. Baklagil hastalıkları özelinde Ramcharan ve arkadaşları (2017), CNN tabanlı modelin manyok hastalıklarını sahada yüzde 93 doğrulukla sınıflandırabildiğini bildirmiş olup bu metodoloji fasulye ve börülce hastalıklarının tespitine de doğrudan uygulanabilir niteliktedir.
+Drone ve uydu görüntüleriyle entegre derin öğrenme sistemleri, tarlalarda yabancı ot yoğunluğunu, bitki gelişim düzensizliklerini ve zararlı böcek populasyon hareketlerini izleyerek erken müdahale imkânı tanımaktadır. Bu yaklaşım, hassas tarım (precision agriculture) uygulamalarının temel bileşenlerinden birini oluşturmaktadır.
+4.4. Biyoteknoloji Uygulamaları
+Biyoteknoloji, baklagil tarımında birbirini tamamlayan çeşitli boyutlarda uygulama alanı bulmaktadır. Tohum aşılama teknolojileri açısından değerlendirildiğinde, Rhizobium inokulantlarının etkinliğini artırmaya yönelik biyoteknolojik çalışmalar; spesifik konakçı-rhizobium etkileşimlerini optimize eden suşların geliştirilmesini kapsamaktadır. Deaker ve arkadaşları (2004) tarafından derlenen bulgular, etkili inokulasyon uygulamalarının baklagil verimini yüzde 10-25 oranında artırabildiğini ortaya koymaktadır.
+Bitki ıslahı ve genetik teknolojiler alanında ise çoklu hastalıklara dayanıklı çeşitlerin geliştirilmesine yönelik çalışmalar hız kazanmıştır. Antraknozu ve mozaik virüsünü tolere edebilen fasulye çeşitlerinin ıslahı ile kuraklık stresi koşullarında verimini koruyabilen genotiplerin geliştirilmesi bu çalışmaların odak noktalarını oluşturmaktadır (Singh ve ark., 1991). Bunlara ek olarak bitki doku kültürü yöntemleri, hastalıksız tohumluk materyalinin hızla çoğaltılmasında ve tohum bankalarının güvence altına alınmasında kritik bir işlev üstlenmektedir.
+4.5. Kuantum Hesaplama
+Kuantum hesaplama, baklagil tarımında pratik anlamda sahaya henüz inmemiş olsa da araştırma ve planlama boyutunda gelecek vadeden bir teknoloji olarak değerlendirilmektedir. Kuantum bilgisayarların üstün paralel hesaplama kapasitesi, çok değişkenli tarımsal optimizasyon problemleri için geleneksel bilgisayarların çok ötesinde çözüm imkânları sunmaktadır.
+Nükleer manyetik rezonans ve kuantum simülasyon teknikleri, nitrojenaz enziminin azot fiksasyon mekanizmasını atomik düzeyde modelleme kapasitesiyle, biyolojik azot fiksasyonunun daha iyi anlaşılmasına ve bu sürecin verimliliğinin artırılmasına önemli katkı sağlayabilir (Reiher ve ark., 2017). Öte yandan kuantum destekli makine öğrenmesi algoritmalarının tarımsal büyük veri analizinde çok daha hızlı ve güçlü tahmin modelleri oluşturabileceği öngörülmektedir.
+5. Entegre Akıllı Tarım Sistemi Mimarisi
+Baklagil tarımında teknolojinin bütünleşik bir biçimde kullanılabilmesi için katmanlı bir yazılım ve donanım mimarisine ihtiyaç duyulmaktadır. Bu mimarinin veri toplama katmanını IoT sensörleri ve hava istasyonları, işleme katmanını edge computing cihazları ve mikrodenetleyiciler, analiz katmanını ise makine öğrenmesi ve derin öğrenme modelleri oluşturmaktadır. Bu üç katmanın üzerine karar destek sistemi ve kullanıcı arayüzü yerleştirilmektedir.
+Veritabanı yönetimi açısından bakıldığında, tarla bilgileri, ekim kayıtları, sensör verileri, bakım geçmişi ve hasat sonuçlarının ilişkisel bir veritabanında tutulması; zaman içindeki verim trendlerinin analiz edilmesini ve üretim kararlarının kanıta dayalı biçimde alınmasını mümkün kılmaktadır. Ekonomik analiz modülü ise fiyat tahmini, maliyet hesaplama ve kâr analizini bir arada değerlendirerek üreticilere karar süreçlerinde somut bir kılavuz sunmaktadır.
+Uyarı ve bildirim sistemleri de entegre mimarinin vazgeçilmez bileşenleri arasında yer almaktadır. Sensör eşiklerine dayalı gerçek zamanlı uyarılar; aşırı sıcaklık ve don tehlikesi, kritik sulama ihtiyacı, hastalık riski ve depo koşullarındaki bozulmalar gibi acil müdahale gerektiren durumları hızla tespit ederek ilgili kişilere iletmektedir.
+# -*- coding: utf-8 -*-
+================================================================================
+        BAKLAGİL AKILLI TARIM SİSTEMİ(v2.4)
+================================================================================
+İçerdiği Teknolojiler:
+  • IoT Sensör Simülasyonu
+  • Çoklu Tarla ve Ürün Desteği
+  • SQLite Veritabanı (detect_types kaldırıldı)
+  • Makine Öğrenmesi (Random Forest) ile Verim, Sulama, Hasat Tahmini
+  • Derin Öğrenme Simülasyonu ile Hastalık Tespiti
+  • Biyoteknoloji Modülü (Rhizobium aşılama, dayanıklı çeşit)
+  • Ekonomik Analiz (fiyat tahmini, maliyet, kar)
+  • Uyarı Sistemi (SMS/e-posta sim.)
+  • Komut Arayüzü ve Otomatik Simülasyon
+Kullanım: 
+    python baklagil_akilli_tarim.py
+================================================================================
+import os
+import sys
+import json
+import sqlite3
+import threading
+import time
+import random
+from datetime import datetime, timedelta
+from collections import defaultdict
+import numpy as np
+import pandas as pd
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import train_test_split
+import joblib
+# ---------------------------- SABİTLER ----------------------------
+DB_FILE = "baklagil_akilli.db"
+MODEL_DIR = "modeller"
+RAPOR_DIR = "raporlar"
+LOG_FILE = "sistem.log"
+SMS_SIMULASYON = True
+RHIZOBIUM_DOZ = 0.3      # 100 kg tohuma 300 g
+SU_DOZ = 1.0             # 100 kg tohuma 1 L su
+DEPOLAMA_NEM_ESIK = 14.0
+DEPO_SICAKLIK_MAX = 10.0
+DEPO_NEM_MAX = 65.0
+AZOT_FIKSASYON_ORAN = 0.7
+# ---------------------------- VERİTABANI ----------------------------
+class Veritabani:
+    """SQLite veritabanı işlemleri"""
+    def __init__(self, db_path=DB_FILE):
+        self.db_path = db_path
+        self._init_tablolar()    
+    def _baglan(self):
+        """SQLite bağlantısı oluşturur."""
+        return sqlite3.connect(self.db_path)    
+    def _init_tablolar(self):
+        with self._baglan() as conn:
+            cursor = conn.cursor()
+            cursor.execute('''
+                CREATE TABLE IF NOT EXISTS tarlalar (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    isim TEXT UNIQUE NOT NULL,
+                    konum TEXT,
+                    alan REAL,
+                    toprak_tip TEXT,
+                    olusturma_tarihi TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                )
+            ''')
+            cursor.execute('''
+                CREATE TABLE IF NOT EXISTS ekimler (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    tarla_id INTEGER,
+                    urun TEXT NOT NULL,
+                    cesit TEXT,
+                    ekim_tarihi DATE,
+                    tohum_miktar REAL,
+                    bakteri_asilama BOOLEAN,
+                    tahmini_verim REAL,
+                    FOREIGN KEY(tarla_id) REFERENCES tarlalar(id)
+                )
+            ''')
+            cursor.execute('''
+                CREATE TABLE IF NOT EXISTS sensor_verileri (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    tarla_id INTEGER,
+                    zaman TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    toprak_nemi REAL,
+                    hava_sicaklik REAL,
+                    hava_nem REAL,
+                    yagis_miktar REAL,
+                    isik_siddeti REAL,
+                    FOREIGN KEY(tarla_id) REFERENCES tarlalar(id)
+        )
+            ''')
+            cursor.execute('''
+                CREATE TABLE IF NOT EXISTS bakimlar (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    ekim_id INTEGER,
+                    tarih DATE,
+                    islem_tip TEXT,
+                    detay TEXT,
+                    FOREIGN KEY(ekim_id) REFERENCES ekimler(id)
+                )
+            ''')
+            cursor.execute('''
+                CREATE TABLE IF NOT EXISTS hasatlar (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    ekim_id INTEGER,
+                    hasat_tarihi DATE,
+                    verim REAL,
+                    urun_nemi REAL,
+                    notlar TEXT,
+                    FOREIGN KEY(ekim_id) REFERENCES ekimler(id)
+                )
+            ''')
+            cursor.execute('''
+                CREATE TABLE IF NOT EXISTS hastaliklar (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    ekim_id INTEGER,
+                    tarih DATE,
+                    hastalik_adi TEXT,
+                    siddet REAL,
+                    onlem TEXT,
+                    FOREIGN KEY(ekim_id) REFERENCES ekimler(id)
+                )
+            ''')
+            conn.commit()    
+    def tarla_ekle(self, isim, konum, alan, toprak_tip):
+        with self._baglan() as conn:
+            cursor = conn.cursor()
+            cursor.execute('''
+                INSERT INTO tarlalar (isim, konum, alan, toprak_tip)
+                VALUES (?, ?, ?, ?)
+            ''', (isim, konum, alan, toprak_tip))
+            return cursor.lastrowid    
+    def tarla_listele(self):
+        with self._baglan() as conn:
+            return pd.read_sql_query("SELECT * FROM tarlalar", conn)    
+    def ekim_kaydet(self, tarla_id, urun, cesit, ekim_tarihi, tohum_miktar, bakteri_asilama, tahmini_verim):
+        with self._baglan() as conn:
+            cursor = conn.cursor()
+            cursor.execute('''
+                INSERT INTO ekimler (tarla_id, urun, cesit, ekim_tarihi, tohum_miktar, bakteri_asilama, tahmini_verim)
+                VALUES (?, ?, ?, ?, ?, ?, ?)
+            ''', (tarla_id, urun, cesit, ekim_tarihi, tohum_miktar, bakteri_asilama, tahmini_verim))
+            return cursor.lastrowid    
+    def sensor_kaydet(self, tarla_id, olcum):
+        with self._baglan() as conn:
+            cursor = conn.cursor()
+            cursor.execute('''
+                INSERT INTO sensor_verileri (tarla_id, zaman, toprak_nemi, hava_sicaklik, hava_nem, yagis_miktar, isik_siddeti)
+                VALUES (?, ?, ?, ?, ?, ?, ?)
+            ''', (tarla_id, olcum['zaman'], olcum['toprak_nemi'], olcum['hava_sicaklik'],
+                  olcum['hava_nem'], olcum['yagis_miktar'], olcum['isik_siddeti']))    
+    def bakim_ekle(self, ekim_id, tarih, islem_tip, detay):
+        with self._baglan() as conn:
+            cursor = conn.cursor()
+            cursor.execute('''
+                INSERT INTO bakimlar (ekim_id, tarih, islem_tip, detay)
+                VALUES (?, ?, ?, ?)
+            ''', (ekim_id, tarih, islem_tip, detay))    
+    def hasat_kaydet(self, ekim_id, hasat_tarihi, verim, urun_nemi, notlar=""):
+        with self._baglan() as conn:
+            cursor = conn.cursor()
+            cursor.execute('''
+                INSERT INTO hasatlar (ekim_id, hasat_tarihi, verim, urun_nemi, notlar)
+                VALUES (?, ?, ?, ?, ?)
+            ''', (ekim_id, hasat_tarihi, verim, urun_nemi, notlar))    
+    def hastalik_kaydet(self, ekim_id, tarih, hastalik_adi, siddet, onlem):
+        with self._baglan() as conn:
+            cursor = conn.cursor()
+            cursor.execute('''
+                INSERT INTO hastaliklar (ekim_id, tarih, hastalik_adi, siddet, onlem)
+                VALUES (?, ?, ?, ?, ?)
+            ''', (ekim_id, tarih, hastalik_adi, siddet, onlem))
+# ---------------------------- SENSÖR SİMÜLATÖRÜ ----------------------------
+class SensorSimulator(threading.Thread):
+    def __init__(self, tarla_id, tarla_adi, update_interval=10):
+        super().__init__()
+        self.tarla_id = tarla_id
+        self.tarla_adi = tarla_adi
+        self.interval = update_interval
+        self.durum = True
+        self.veri = None
+        self.db = Veritabani()    
+    def run(self):
+        while self.durum:
+            veri = {
+                'zaman': datetime.now(),
+                'tarla_id': self.tarla_id,
+                'toprak_nemi': round(random.uniform(20, 70), 1),
+                'hava_sicaklik': round(random.uniform(5, 35), 1),
+                'hava_nem': round(random.uniform(30, 90), 1),
+                'yagis_miktar': round(random.uniform(0, 10) if random.random()<0.3 else 0, 1),
+                'isik_siddeti': round(random.uniform(0, 1200), 1)
+            }
+            self.veri = veri
+            self.db.sensor_kaydet(self.tarla_id, veri)
+            time.sleep(self.interval)    
+    def dur(self):
+        self.durum = False
+# ---------------------------- MAKİNE ÖĞRENMESİ ----------------------------
+class MLModeller:
+    def __init__(self):
+        self.modeller = {}
+        self._model_klasoru_hazirla()
+        self._modelleri_yukle()  
+    def _model_klasoru_hazirla(self):
+        os.makedirs(MODEL_DIR, exist_ok=True)    
+    def _modelleri_yukle(self):
+        model_list = [
+            ('verim_tahmin', 'rf_verim.pkl'),
+            ('sulama_tahmin', 'rf_sulama.pkl'),
+            ('hasat_zamani', 'rf_hasat.pkl'),
+            ('fiyat_tahmin', 'lr_fiyat.pkl')
+        ]
+        for model_adi, dosya in model_list:
+            path = os.path.join(MODEL_DIR, dosya)
+            if os.path.exists(path):
+                self.modeller[model_adi] = joblib.load(path)
+            else:
+                self.modeller[model_adi] = None    
+    def _uret_verim_verisi(self, n=2000):
+        X, y = [], []
+        for _ in range(n):
+            nem = np.random.uniform(30, 70)
+            sicaklik = np.random.uniform(15, 30)
+            yagis = np.random.uniform(100, 600)
+            gun = np.random.randint(70, 120)
+            fosfor = np.random.uniform(5, 25)
+            potasyum = np.random.uniform(10, 40)
+            urun_kod = random.choice([0,1])
+            verim = (0.3*nem + 2*sicaklik + 0.1*yagis - 0.5*gun + 4*fosfor + 2*potasyum + 
+                     50*urun_kod + np.random.normal(0, 20))
+            verim = np.clip(verim, 80, 400)
+            X.append([nem, sicaklik, yagis, gun, fosfor, potasyum, urun_kod])
+            y.append(verim)
+        return np.array(X), np.array(y)    
+    def _egit_verim_tahmin(self):
+        X, y = self._uret_verim_verisi()
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+        model = RandomForestRegressor(n_estimators=150, max_depth=10, random_state=42)
+        model.fit(X_train, y_train)
+        score = model.score(X_test, y_test)
+        self.modeller['verim_tahmin'] = model
+        joblib.dump(model, os.path.join(MODEL_DIR, 'rf_verim.pkl'))
+        print(f"✅ Verim tahmin modeli eğitildi (R² = {score:.3f})")    
+    def verim_tahmini(self, ozellikler):
+        if self.modeller.get('verim_tahmin') is None:
+            self._egit_verim_tahmin()
+        model = self.modeller['verim_tahmin']
+        return model.predict([ozellikler])[0]    
+    def _uret_sulama_verisi(self, n=2000):
+        X, y = [], []
+        for _ in range(n):
+            nem = np.random.uniform(10, 80)
+            sicaklik = np.random.uniform(10, 40)
+            hava_nem = np.random.uniform(20, 90)
+            gun = np.random.randint(1, 100)
+            yagis = np.random.uniform(0, 30)
+            ihtiyac = max(0, min(100, 70 - nem + 0.6*sicaklik - 0.3*hava_nem - yagis + np.random.normal(0, 7)))
+            X.append([nem, sicaklik, hava_nem, gun, yagis])
+            y.append(ihtiyac)
+        return np.array(X), np.array(y)    
+    def _egit_sulama_tahmin(self):
+        X, y = self._uret_sulama_verisi()
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+        model = RandomForestRegressor(n_estimators=100, random_state=42)
+        model.fit(X_train, y_train)
+        self.modeller['sulama_tahmin'] = model
+        joblib.dump(model, os.path.join(MODEL_DIR, 'rf_sulama.pkl'))    
+    def sulama_ihtiyaci(self, ozellikler):
+        if self.modeller.get('sulama_tahmin') is None:
+            self._egit_sulama_tahmin()
+        model = self.modeller['sulama_tahmin']
+        return model.predict([ozellikler])[0]    
+    def _uret_hasat_verisi(self, n=2000):
+        X, y = [], []
+        for _ in range(n):
+            gun = np.random.randint(60, 130)
+            bakla_rengi = np.random.uniform(0, 1)
+            tane_nem = np.random.uniform(10, 30)
+            sicaklik = np.random.uniform(15, 35)
+            urun_kod = random.choice([0,1])
+            optimum = 90 + 10*urun_kod + np.random.normal(0, 5)
+            fark = gun - optimum
+            X.append([gun, bakla_rengi, tane_nem, sicaklik, urun_kod])
+            y.append(fark)
+        return np.array(X), np.array(y)    
+    def _egit_hasat_zamani(self):
+        X, y = self._uret_hasat_verisi()
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+        model = RandomForestRegressor(n_estimators=100, random_state=42)
+        model.fit(X_train, y_train)
+        self.modeller['hasat_zamani'] = model
+        joblib.dump(model, os.path.join(MODEL_DIR, 'rf_hasat.pkl'))    
+    def hasat_uygunluk(self, ozellikler):
+        if self.modeller.get('hasat_zamani') is None:
+            self._egit_hasat_zamani()
+        model = self.modeller['hasat_zamani']
+        fark = model.predict([ozellikler])[0]
+        uygunluk = max(0, 100 - abs(fark)*2)
+        return uygunluk
+# ---------------------------- HASTALIK TESPİT ----------------------------
+class HastalikTespit:
+    def __init__(self):
+        self.hastaliklar = {
+            'fasulye': ['antraknoz', 'pas', 'mozaik_virus', 'kok_curuklugu', 'saglikli'],
+            'börülce': ['fusaryum', 'pas', 'virus', 'nematod', 'saglikli'],
+            'nohut': ['yaniklik', 'antraknoz', 'saglikli'],
+            'mercimek': ['pas', 'kurşuni_kuf', 'saglikli']
+        }    
+    def analiz(self, urun, yaprak_gorsel_params=None):
+        if yaprak_gorsel_params is None:
+            yaprak_gorsel_params = {
+                'leke_orani': random.uniform(0, 0.5),
+                'renk_sapmasi': random.uniform(0, 0.7),
+                'kuruma_orani': random.uniform(0, 0.4)
+            }
+        leke = yaprak_gorsel_params['leke_orani']
+        renk = yaprak_gorsel_params['renk_sapmasi']
+        kuruma = yaprak_gorsel_params['kuruma_orani']        
+        if leke > 0.3 and renk > 0.4:
+            hastalik = 'antraknoz' if urun in ['fasulye','nohut'] else 'fusaryum'
+            siddet = min(1, leke+renk)
+        elif kuruma > 0.2 and renk > 0.3:
+            hastalik = 'pas'
+            siddet = min(1, kuruma+renk)
+        elif renk > 0.5:
+            hastalik = 'mozaik_virus' if urun=='fasulye' else 'virus'
+            siddet = renk
+        else:
+            hastalik = 'saglikli'
+            siddet = 0        
+        onlem = self._onlem_tavsiye(hastalik, urun)
+        return {
+            'hastalik': hastalik,
+            'siddet': round(siddet, 2),
+    'onlem': onlem,
+            'guven': round(random.uniform(0.7, 0.95), 2)
+        }    
+    def _onlem_tavsiye(self, hastalik, urun):
+        onlemler = {
+            'antraknoz': "Bakırlı fungisit uygulaması, dayanıklı çeşit kullanımı",
+            'pas': "Sülfürlü ilaçlama, bitki artıklarını temizle",
+            'mozaik_virus': "Yaprak biti mücadelesi, virüse tolerant çeşit",
+            'kok_curuklugu': "Toprak drenajı, fungisit uygulaması",
+            'fusaryum': "Toprak solarizasyonu, dayanıklı çeşit",
+            'nematod': "Nematod ilacı, ekim nöbeti",
+            'saglikli': "Herhangi bir önlem gerekmez"
+        }
+        return onlemler.get(hastalik, "Kültürel önlem alın")
+# ---------------------------- BİYOTEKNOLOJİ ----------------------------
+class Biyoteknoloji:
+    @staticmethod
+    def rhizobium_asilama(tohum_miktar_kg):
+        bakteri = (tohum_miktar_kg / 100) * RHIZOBIUM_DOZ
+        su = (tohum_miktar_kg / 100) * SU_DOZ
+        return {
+            'bakteri_kg': round(bakteri, 3),
+            'su_litre': round(su, 2),
+            'yontem': "Tohumlar nemlendirilir, bakteri ile karıştırılır, gölgede kurutulur ve 24 saat içinde ekilir."
+        }    
+    @staticmethod
+    def dayanikli_cesit_oner(urun, hastalik_gecmisi):
+        cesitler = {
+            'fasulye': {
+                'antraknoz': 'Akman-98, Göynük-98',
+                'pas': 'Özdemir, Karacaşehir',
+                'mozaik_virus': 'Yakutiye, Zülbiye'
+            },
+            'börülce': {
+                'fusaryum': 'Sırık börülce, Karagöz',
+                'nematod': 'Yerli kılçıksız'
+            }
+        }
+        if urun in cesitler and hastalik_gecmisi in cesitler[urun]:
+            return cesitler[urun][hastalik_gecmisi]
+        else:
+            return "Standart çeşit (örneğin: Dermason fasulye, Sırık börülce)"
+# ---------------------------- EKONOMİK ANALİZ ----------------------------
+class EkonomiAnaliz:
+    def __init__(self):
+        self.model = LinearRegression()
+        self.ortalama_uretim = 300
+        self.ortalama_talep = 1.2
+        self._egit_fiyat_modeli()    
+    def _egit_fiyat_modeli(self):
+        np.random.seed(42)
+        X, y = [], []
+        for _ in range(100):
+            yil = np.random.randint(2015, 2025)
+            uretim = np.random.uniform(100, 500)
+            talep = np.random.uniform(0.8, 1.5)
+            urun_kod = random.choice([0,1])
+            fiyat = 5 + 0.3*(yil-2015) - 0.02*uretim + 10*talep + 3*urun_kod + np.random.normal(0,2)
+            X.append([yil, uretim, talep, urun_kod])
+            y.append(fiyat)
+        X = np.array(X)
+        y = np.array(y)
+        self.model.fit(X, y)    
+    def fiyat_tahmini(self, yil, urun):
+        urun_kod = 0 if urun == 'fasulye' else 1
+        return max(5, self.model.predict([[yil, self.ortalama_uretim, self.ortalama_talep, urun_kod]])[0])    
+    def maliyet_hesapla(self, tohum, gubre, ilac, iscilik, sulama, diger):
+        return tohum + gubre + ilac + iscilik + sulama + diger    
+    def kar_analizi(self, verim_kg_dekar, fiyat_tl_kg, maliyet_tl_dekar, alan_dekar):
+        gelir = verim_kg_dekar * fiyat_tl_kg * alan_dekar
+        maliyet_toplam = maliyet_tl_dekar * alan_dekar
+        kar = gelir - maliyet_toplam
+        return {
+            'gelir': round(gelir, 2),
+            'maliyet': round(maliyet_toplam, 2),
+            'kar': round(kar, 2),
+            'kar_orani': round((kar/maliyet_toplam)*100, 2) if maliyet_toplam>0 else 0
+        }
+# ---------------------------- UYARI SİSTEMİ ----------------------------
+class UyariSistemi:
+    def __init__(self):
+        self.uyarilar = []    
+    def degerlendir(self, sensor_veri, urun, gun):
+        uyari_mesajlari = []
+        if sensor_veri['hava_sicaklik'] > 35:
+            uyari_mesajlari.append("🔥 Aşırı sıcak! Sulama zamanını artırın.")
+        if sensor_veri['hava_sicaklik'] < 5:
+            uyari_mesajlari.append("❄️ Don tehlikesi! Koruyucu önlem alın.")
+        if sensor_veri['toprak_nemi'] < 25:
+            uyari_mesajlari.append("💧 Toprak çok kuru, acil sulama gerekli.")
+        if sensor_veri['toprak_nemi'] > 70:
+            uyari_mesajlari.append("💦 Toprak çok ıslak, drenajı kontrol edin.")
+        if sensor_veri['yagis_miktar'] > 20:
+            uyari_mesajlari.append("🌧️ Şiddetli yağış, su baskını riski.")        
+        if uyari_mesajlari:
+            uyari = {
+                'zaman': datetime.now(),
+                'tarla_id': sensor_veri.get('tarla_id', 0),
+                'mesajlar': uyari_mesajlari,
+                'seviye': 'yüksek' if len(uyari_mesajlari)>1 else 'orta'
+            }
+            self.uyarilar.append(uyari)
+            self._bildirim_gonder(uyari)
+        return uyari_mesajlari    
+    def _bildirim_gonder(self, uyari):
+        if SMS_SIMULASYON:
+            print(f"\n🚨 UYARI [Tarla {uyari['tarla_id']}]:")
+            for msg in uyari['mesajlar']:
+                print(f"   - {msg}")
+            with open(LOG_FILE, 'a', encoding='utf-8') as f:
+                f.write(f"{uyari['zaman']} - Tarla {uyari['tarla_id']}: {uyari['mesajlar']}\n")
+# ---------------------------- ANA SİSTEM ----------------------------
+class AkilliTarimSistemi:
+    def __init__(self, tarla_adi="Ana Tarla", konum="Varsayılan Bölge", alan=100, toprak_tip="tınlı"):
+        self.db = Veritabani()
+        self.ml = MLModeller()
+        self.hastalik = HastalikTespit()
+        self.biyo = Biyoteknoloji()
+        self.ekonomi = EkonomiAnaliz()
+        self.uyari = UyariSistemi()
+        self.sensor_thread = None        
+        tarla_df = self.db.tarla_listele()
+        tarla = tarla_df[tarla_df['isim'] == tarla_adi]
+        if tarla.empty:
+            self.tarla_id = self.db.tarla_ekle(tarla_adi, konum, alan, toprak_tip)
+            print(f"✅ Yeni tarla oluşturuldu: {tarla_adi} (ID: {self.tarla_id})")
+        else:
+            self.tarla_id = tarla.iloc[0]['id']
+            print(f"🔍 Mevcut tarla bulundu: {tarla_adi} (ID: {self.tarla_id})")        
+        self.ekim_id = None
+        self.urun = None
+        self.ekim_tarihi = None
+        self.gun_sayaci = 0
+        self.aktif_sezon = None    
+    def baslat_sensor(self, interval=10):
+        if self.sensor_thread and self.sensor_thread.is_alive():
+            print("Sensör zaten çalışıyor.")
+            return
+        self.sensor_thread = SensorSimulator(self.tarla_id, self.db.tarla_listele()[self.db.tarla_listele()['id']==self.tarla_id].iloc[0]['isim'], interval)
+        self.sensor_thread.daemon = True
+        self.sensor_thread.start()
+        print(f"📡 Sensör simülasyonu başlatıldı (interval: {interval} saniye)")    
+    def durdur_sensor(self):
+        if self.sensor_thread:
+            self.sensor_thread.dur()
+            self.sensor_thread.join(timeout=2)
+            print("📡 Sensör durduruldu.")    
+    def planlama_ve_ekim(self, urun="fasulye", cesit="standart"):
+        self.urun = urun
+        print("\n" + "="*60)
+        print("🌱 ARAZİ HAZIRLIK VE EKİM PLANLAMASI")
+        print("="*60)        
+        toprak_param = {
+            'ph': random.uniform(6.0, 7.8),
+            'organik_madde': random.uniform(1.5, 4.2),
+            'fosfor': random.uniform(5, 20),
+            'potasyum': random.uniform(10, 40),
+            'azot': random.uniform(3, 10)
+        }
+        print(f"🧪 Toprak analizi sonuçları: pH={toprak_param['ph']:.2f}, Organik madde=%{toprak_param['organik_madde']:.1f}, Fosfor={toprak_param['fosfor']:.1f}, Potasyum={toprak_param['potasyum']:.1f}")        
+        onceki_urun = random.choice(['bugday', 'misir', 'nadas'])
+        if onceki_urun not in ['fasulye', 'börülce', 'nohut', 'mercimek']:
+            print("🦠 Rhizobium aşılaması önerilir.")
+            asilama = True
+            asilama_detay = self.biyo.rhizobium_asilama(tohum_miktar_kg=15)
+            print(f"   → {asilama_detay}")
+        else:
+            asilama = False
+            print("✅ Rhizobium aşılaması gerekmez (önceki ekim baklagil).")        
+        bugun = datetime.now()
+        ekim_tarihi = bugun + timedelta(days=random.randint(5, 20))
+        self.ekim_tarihi = ekim_tarihi
+        self.gun_sayaci = 0        
+        ortalama_nem = 50
+        ortalama_sicak = 22
+        toplam_yagis = 400
+        gun = 90
+        fosfor = toprak_param['fosfor']
+        potasyum = toprak_param['potasyum']
+        urun_kod = 0 if urun=='fasulye' else 1
+        tahmin_verim = self.ml.verim_tahmini([ortalama_nem, ortalama_sicak, toplam_yagis, gun, fosfor, potasyum, urun_kod])
+        print(f"📈 Tahmini verim: {tahmin_verim:.1f} kg/dekar")        
+        tohum_miktar = random.uniform(10, 18)
+        self.ekim_id = self.db.ekim_kaydet(self.tarla_id, urun, cesit, ekim_tarihi.date(), tohum_miktar, asilama, tahmin_verim)
+        print(f"📅 Ekim kaydedildi (ID: {self.ekim_id}), Tarih: {ekim_tarihi.date()}, Tohum: {tohum_miktar:.1f} kg/dekar")        
+        self.aktif_sezon = {
+            'ekim_id': self.ekim_id,
+            'urun': urun,
+            'baslangic': ekim_tarihi,
+            'gun': 0
+        }
+        return self.ekim_id    
+    def gunluk_bakim(self, gun):
+        if not self.aktif_sezon:
+            print("Aktif ekim sezonu yok.")
+            return
+        self.gun_sayaci = gun
+        sensor_veri = self.sensor_thread.veri if self.sensor_thread else self._varsayilan_sensor()
+        if sensor_veri is None:
+            sensor_veri = self._varsayilan_sensor()        
+        uyarilar = self.uyari.degerlendir(sensor_veri, self.urun, gun)        
+        sulama_ihtiyac = self.ml.sulama_ihtiyaci([
+            sensor_veri['toprak_nemi'], 
+            sensor_veri['hava_sicaklik'], 
+            sensor_veri['hava_nem'], 
+            gun,
+            sensor_veri['yagis_miktar']
+        ])
+        sulama_gerek = sulama_ihtiyac > 50 or sensor_veri['toprak_nemi'] < 30
+        if sulama_gerek:
+            self.db.bakim_ekle(self.ekim_id, datetime.now().date(), 'sulama', f"İhtiyaç: {sulama_ihtiyac:.1f}, nem: {sensor_veri['toprak_nemi']:.1f}")
+            print(f"💧 Sulama yapıldı (ihtiyaç: {sulama_ihtiyac:.1f})")        
+        if gun in [20, 40, 60]:
+            self.db.bakim_ekle(self.ekim_id, datetime.now().date(), 'gubreleme', 'Azot: 2kg, Fosfor: 3kg, Potasyum: 2kg')
+            print(f"🧪 Gübreleme yapıldı (gün {gun})")        
+        if gun % 15 == 0:
+            self.db.bakim_ekle(self.ekim_id, datetime.now().date(), 'capa', 'Yabancı ot temizliği')
+            print(f"🌿 Çapalama yapıldı (gün {gun})")        
+        if gun % 10 == 0 and random.random() > 0.7:
+            hasta = self.hastalik.analiz(self.urun)
+            if hasta['hastalik'] != 'saglikli':
+                self.db.hastalik_kaydet(self.ekim_id, datetime.now().date(), hasta['hastalik'], hasta['siddet'], hasta['onlem'])
+                print(f"🦠 Hastalık tespiti: {hasta['hastalik']} (şiddet: {hasta['siddet']}) - Önlem: {hasta['onlem']}")
+                self.uyari.uyarilar.append({'zaman':datetime.now(), 'tarla_id':self.tarla_id, 'mesajlar':[f"Hastalık: {hasta['hastalik']}"], 'seviye':'orta'})    
+    def _varsayilan_sensor(self):
+        return {
+            'toprak_nemi': 45.0,
+            'hava_sicaklik': 22.0,
+            'hava_nem': 60.0,
+            'yagis_miktar': 0.0,
+            'isik_siddeti': 800.0,
+            'tarla_id': self.tarla_id
+        }    
+    def hasat_degerlendir(self):
+        if not self.aktif_sezon:
+            return
+        gun = self.gun_sayaci
+        bakla_rengi = min(1.0, gun / 100)
+        tane_nem = max(10, 25 - gun * 0.1)
+        sicaklik = 25
+        urun_kod = 0 if self.urun=='fasulye' else 1
+        uygunluk = self.ml.hasat_uygunluk([gun, bakla_rengi, tane_nem, sicaklik, urun_kod])
+        print(f"\n🌾 Hasat uygunluk skoru: {uygunluk:.1f} (gün {gun})")
+        if uygunluk > 80:
+            print("✅ Hasat zamanı geldi!")
+            verim_tahmin = self.ml.verim_tahmini([45, 22, 400, gun, 15, 25, urun_kod])
+            self.db.hasat_kaydet(self.ekim_id, datetime.now().date(), verim_tahmin, tane_nem, "Hasat yapıldı.")
+            print(f"📦 Hasat edildi: {verim_tahmin:.1f} kg/dekar, tane nemi %{tane_nem:.1f}")            
+            if tane_nem > DEPOLAMA_NEM_ESIK:
+                print(f"⚠️ Ürün nemi yüksek (%{tane_nem:.1f}), kurutma yapın!")
+            else:
+                print(f"✅ Ürün nemi uygun (%{tane_nem:.1f}), depolayabilirsiniz.")            
+            fiyat = self.ekonomi.fiyat_tahmini(datetime.now().year, self.urun)
+            maliyet_dekar = 500
+            kar = self.ekonomi.kar_analizi(verim_tahmin, fiyat, maliyet_dekar, alan_dekar=10)
+            print(f"💰 Ekonomik analiz (10 dekar için): Gelir: {kar['gelir']} TL, Maliyet: {kar['maliyet']} TL, Kar: {kar['kar']} TL")            
+            self.aktif_sezon = None
+            return True
+        else:
+            print("⏳ Hasat için erken, beklemede.")
+            return False    
+    def rapor_olustur(self, dosya_adi="son_durum.json"):
+        """JSON raporu oluşturur, NumPy ve datetime tiplerini standart tiplere çevirir."""
+        os.makedirs(RAPOR_DIR, exist_ok=True)        
+        # Sensör verisi hazırlığı (datetime ve numpy tipleri dönüştürülür)
+        son_sensor = None
+        if self.sensor_thread and self.sensor_thread.veri:
+            son_sensor = {}
+            for k, v in self.sensor_thread.veri.items():
+                if isinstance(v, datetime):
+                    son_sensor[k] = v.strftime("%Y-%m-%d %H:%M:%S")
+                elif hasattr(v, "item"):  # NumPy scalar (int64, float64, etc.)
+                    son_sensor[k] = v.item()
+                elif isinstance(v, (np.integer, np.floating, np.bool_)):
+                    son_sensor[k] = v.item()
+                else:
+                    son_sensor[k] = v        
+        rapor = {
+            'tarla_id': int(self.tarla_id),
+            'urun': self.urun,
+            'ekim_tarihi': str(self.ekim_tarihi) if self.ekim_tarihi else None,
+            'gun': int(self.gun_sayaci),
+            'aktif_sezon': self.aktif_sezon is not None,
+            'son_sensor': son_sensor,
+            'uyari_sayisi': len(self.uyari.uyarilar),
+            'zaman': datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        }        
+        with open(os.path.join(RAPOR_DIR, dosya_adi), 'w', encoding='utf-8') as f:
+            json.dump(rapor, f, ensure_ascii=False, indent=2)
+        print(f"📄 Rapor başarıyla kaydedildi: {dosya_adi}")   
+    def komut_arayuz(self):
+        print("\n" + "="*60)
+        print("🤖 BAKLAGİL AKILLI TARIM SİSTEMİ - KOMUT ARAYÜZÜ")
+        print("="*60)
+        print("Kullanılabilir komutlar:")
+        print("  planla <urun>        - Yeni ekim planla (örn: planla fasulye)")
+        print("  baslat               - Sensörleri başlat")
+        print("  durdur                - Sensörleri durdur")
+        print("  gunluk <gun>         - Belirtilen gün için bakım yap")
+        print("  hasat                 - Hasat değerlendirmesi yap")
+        print("  rapor                 - Rapor oluştur")
+        print("  uyarilar              - Son uyarıları göster")
+        print("  cikis                 - Çıkış")
+        print("-" * 40)
+        while True:
+            komut = input(">>> ").strip().lower()
+            if komut.startswith("planla"):
+                try:
+                    _, urun = komut.split()
+                    self.planlama_ve_ekim(urun=urun)
+                except:
+                    print("Kullanım: planla <fasulye|börülce|nohut|mercimek>")
+            elif komut == "baslat":
+                self.baslat_sensor()
+            elif komut == "durdur":
+                self.durdur_sensor()
+            elif komut.startswith("gunluk"):
+                try:
+                    gun = int(komut.split()[1])
+                    self.gunluk_bakim(gun)
+                except:
+                    print("Kullanım: gunluk <gun_sayisi>")
+            elif komut == "hasat":
+                self.hasat_degerlendir()
+            elif komut == "rapor":
+                self.rapor_olustur()
+            elif komut == "uyarilar":
+                for u in self.uyari.uyarilar[-5:]:
+                    print(f"{u['zaman']} - {u['mesajlar']}")
+            elif komut == "cikis":
+                self.durdur_sensor()
+                print("Sistem kapatılıyor.")
+                break
+            else:
+                print("Geçersiz komut.")
+# ---------------------------- OTOMATİK SİMÜLASYON ----------------------------
+def otomatik_simulasyon():
+    print("="*70)
+    print("🌱 OTOMATİK BAKLAGİL YETİŞTİRME SİMÜLASYONU BAŞLATILIYOR...")
+    print("="*70)    
+    sistem = AkilliTarimSistemi(tarla_adi="Deneme Tarlası", konum="İç Anadolu", alan=50, toprak_tip="tınlı")
+    sistem.baslat_sensor(interval=5)
+    sistem.planlama_ve_ekim(urun="fasulye", cesit="Akman-98")    
+    for gun in range(1, 91, 5):
+        print(f"\n--- GÜN {gun} ---")
+        sistem.gunluk_bakim(gun)
+        time.sleep(2)
+        if gun % 20 == 0:
+            sistem.hasat_degerlendir()    
+    sistem.hasat_degerlendir()
+    sistem.rapor_olustur("simulasyon_rapor.json")
+    sistem.durdur_sensor()
+    print("\n🏁 Simülasyon tamamlandı. Veritabanı ve raporlar oluşturuldu.")
+
+# ---------------------------- ANA ----------------------------
+if __name__ == "__main__":
+    os.makedirs(MODEL_DIR, exist_ok=True)
+    os.makedirs(RAPOR_DIR, exist_ok=True)    
+    print("""
+    ╔════════════════════════════════════════════════════════════╗
+    ║     BAKLAGİL AKILLI TARIM SİSTEMİ      ║
+    ║              (IoT, YZ, Biyoteknoloji, Ekonomi)            ║
+    ╚════════════════════════════════════════════════════════════╝
+    """)
+    print("1. Otomatik simülasyon çalıştır")
+    print("2. Komut arayüzüne gir")
+    secim = input("Seçiminiz (1/2): ").strip()    
+    if secim == "1":
+        otomatik_simulasyon()
+    elif secim == "2":
+        sistem = AkilliTarimSistemi()
+        sistem.komut_arayuz()
+    else:
+        print("Geçersiz seçim. Varsayılan olarak simülasyon başlatılıyor.")
+        otomatik_simulasyon()
+6. Tarımsal Sürdürülebilirlik ve Çevresel Değerlendirme
+Akıllı tarım teknolojilerinin baklagil üretimine entegrasyonu; su ve gübre gibi doğal kaynakların daha verimli kullanılmasını sağlamakta, pestisit bağımlılığını azaltmakta ve genel olarak çevresel sürdürülebilirliğe katkıda bulunmaktadır. Baklagillerin zaten düşük olan sentetik azot gübre gereksinimi, biyoteknoloji ve IoT destekli hassas gübrelemede akıllı sistemlerle daha da minimize edilebilmektedir.
+Yirmi birinci yüzyılda küresel bir tehdit olarak giderek daha fazla hissedilen iklim değişikliği de baklagil tarımında risk faktörü olarak öne çıkmaktadır. Erken uyarı sistemleri ve adaptif sulama yönetimi sayesinde kuraklık ve ani sıcaklık artışları gibi iklimsel stres koşullarına karşı daha dirençli bir üretim sistemi oluşturmak mümkün hale gelmektedir. Nitekim Lobell ve Burke (2010), iklim değişkenliğine duyarlı tarımsal sistemlerin bazı bölgelerde baklagil verimini yüzde 20-30 oranında azaltma potansiyeli taşıdığına dikkat çekmiştir.
+ 7. Sonuç ve Öneriler
+Baklagil tarımı; geleneksel yetiştiricilik yöntemlerinin köklü deneyimiyle yeni nesil teknolojilerin güçlü olanaklarını bir arada taşıma potansiyeline sahip, dinamik bir tarımsal alan olarak öne çıkmaktadır. Rhizobium aşılamasından hasat zamanı optimizasyonuna kadar uzanan tüm üretim süreçleri; IoT, makine öğrenmesi, derin öğrenme ve biyoteknoloji uygulamalarından somut biçimde yararlanabilecek niteliktedir.
+Bu dönüşümün başarıyla hayata geçirilebilmesi için Türkiye'de baklagil yetiştiriciliğine özgü veri setlerinin oluşturulması ve Rhizobium suşu optimizasyonu ile bölgesel toprak özelliklerinin model eğitimlerine dahil edilmesi büyük önem taşımaktadır. Öte yandan teknolojik çözümlerin geniş üretici kitlesine erişebilir ve uygulanabilir olması; maliyet ve kullanıcı dostu arayüz tasarımları açısından özel bir çaba gerektirmektedir. Tüm bu gelişmelerin, geleneksel tarımsal bilginin geniş deneyimiyle bütünleştirilmesi ise sürdürülebilir baklagil tarımının geleceğini şekillendirecek belirleyici etken olacaktır.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Kaynakça
+- Deaker, R., Roughley, R. J., & Kennedy, I. R. (2004). Legume seed inoculation technology — a review. Soil Biology and Biochemistry, 36(8), 1275–1288.
+- FAO. (2017). The future of food and agriculture: Trends and challenges. Food and Agriculture Organization of the United Nations, Rome.
+- Herridge, D. F., Peoples, M. B., & Boddey, R. M. (2008). Global inputs of biological nitrogen fixation in agricultural systems. Plant and Soil, 311(1–2), 1–18.
+- Kang, Y., Khan, S., & Ma, X. (2017). Climate change impacts on crop yield, crop water productivity and food security. Progress in Natural Science, 19(12), 1665–1674.
+- Karaköy, T., & Toklu, F. (2014). Türkiye'de baklagil tarımı ve ıslahı. Tarım Bilimleri Araştırma Dergisi, 7(1), 1–8.
+- Kaur, P., Shi, J., Mishra, A., & et al. (2021). Smart irrigation system using machine learning and IoT. Computers and Electronics in Agriculture, 187, 106–119.
+- Lobell, D. B., & Burke, M. B. (2010). On the use of statistical models to predict crop yield responses to climate change. Agricultural and Forest Meteorology, 150(11), 1443–1452.
+- Mohanty, S. P., Hughes, D. P., & Salathé, M. (2016). Using deep learning for image-based plant disease detection. Frontiers in Plant Science, 7, 1419.
+- Nevavand, H., Sharifzadeh, F., Galeshi, S., & et al. (2022). Machine learning-based yield prediction for common bean. Field Crops Research, 285, 108–132.
+- Ramcharan, A., Baranowski, K., McCloskey, P., Ahmed, B., Legg, J., & Hughes, D. P. (2017). Deep learning for image-based cassava disease detection. Frontiers in Plant Science, 8, 1852.
+- Reiher, M., Wiebe, N., Svore, K. M., Wecker, D., & Troyer, M. (2017). Elucidating reaction mechanisms on quantum computers. Proceedings of the National Academy of Sciences, 114(29), 7555–7560.
+- Reka, S. S., Arun, S. L., Prakash, A. J., & et al. (2019). Real-time monitoring attributes and automation implementation with smart sensors and IoT environment. Measurement, 136, 127–137.
+- Schwartz, H. F., & Gálvez, G. E. (Eds.). (1980). Bean production problems: Disease, insect, soil and climatic constraints of Phaseolus vulgaris. CIAT, Colombia.
+- Singh, S. P., Gepts, P., & Debouck, D. G. (1991). Races of common bean (Phaseolus vulgaris, Fabaceae). Economic Botany, 45(3), 379–396.
