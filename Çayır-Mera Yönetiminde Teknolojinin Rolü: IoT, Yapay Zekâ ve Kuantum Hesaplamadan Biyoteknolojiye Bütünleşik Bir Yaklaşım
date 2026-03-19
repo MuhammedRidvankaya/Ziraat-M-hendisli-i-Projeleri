@@ -1,0 +1,572 @@
+Özet
+Çayır ve mera ekosistemler, hayvansal üretimin sürdürülebilirliğini sağlayan temel doğal kaynaklardır. Artan nüfus baskısı, iklim değişikliği ve aşırı otlatma gibi etkenler bu alanların verimini tehdit etmektedir. Geleneksel yönetim yöntemlerinin bu tehditlere yanıt vermekte yetersiz kaldığı günümüzde, Nesnelerin İnterneti (IoT), makine öğrenmesi, derin öğrenme, biyoteknoloji ve kuantum hesaplama gibi ileri teknolojiler çayır-mera yönetimine entegre edilmeye başlanmıştır. Bu makale; çayır-mera sistemlerinin tanımından başlayarak tesis, bakım ve hasat aşamalarını ele almakta, ardından söz konusu teknolojilerin çayır-mera yönetimine katkılarını ve olası uygulama senaryolarını bütünleşik bir perspektiften incelemektedir.
+1. Giriş
+İnsanın hayvansal kaynaklara duyduğu ihtiyaç, tarih boyunca tarımın temel eksenlerinden birini oluşturmuştur. Hayvansal ürünler; et, süt, yün ve deri gibi yüksek katma değerli girdiler sağlamaktadır. Bu ürünlerin üretilmesi için beslenen hayvanların, ekonomik ve sürdürülebilir yem kaynaklarına erişimi zorunludur. İşte bu noktada çayır ve meralar, doğal yem üretim sistemleri olarak kritik bir işlev üstlenmektedir.
+Birleşmiş Milletler Gıda ve Tarım Örgütü'nün (FAO) verilerine göre, dünya yüzeyinin yaklaşık %26'sını oluşturan otlak alanları, küresel hayvancılığın yaklaşık %70'ini beslemektedir (FAO, 2020). Türkiye'de ise Tarım ve Orman Bakanlığı'nın kayıtlarına göre yaklaşık 14,6 milyon hektar çayır-mera alanı bulunmakla birlikte, bu alanların önemli bir bölümü bozulmuş ya da verimsizleşmiş durumdadır (Tarım ve Orman Bakanlığı, 2021).
+Geleneksel yönetim anlayışı; arazi gözlemi, deneyime dayalı otlatma planlaması ve periyodik gübreleme üzerine kuruludur. Ancak iklim değişikliğinin getirdiği düzensiz yağış rejimleri, aşırı otlatma baskısı ve arazi parçalanması, bu anlayışın tek başına yeterli olmadığını ortaya koymaktadır. Özellikle son on yılda gelişen dijital tarım teknolojileri, çayır-mera yönetiminde veri odaklı, hassas ve otonom çözümlerin önünü açmıştır.
+Bu makalede, çayır-meraların tanımı ve işlevi, tesis ve bakım süreçleri ile söz konusu alanlarda IoT, makine öğrenmesi, derin öğrenme, biyoteknoloji ve kuantum hesaplama gibi teknolojilerin entegrasyonu kapsamlı biçimde ele alınmaktadır.
+2. Çayır ve Mera: Kavramsal Çerçeve
+2.1. Tanımlar ve Ekosistem Özellikleri
+Çayır; düzlük alanlarda, yarı kurak koşullarda, küçük bitkilerden oluşan kalın bir bitki örtüsü tabakası ve bu örtüye bağlı canlıları kapsayan ekosistemdir. Doğal çayırlar, genellikle taban suyu yüksek ve biçmeye uygun düz arazilerde bulunur. Mera ise eğimli ve engebeli arazilerde, taban suyunun görece derin olduğu, yem bitkilerinin yetiştiği ve hayvanların otlatıldığı alanları ifade etmektedir. Kısaca mera; "arazinin hayvan otlatılmak için kullanılan kısmı" olarak tanımlanabilir (Bakır, 1987).
+Her iki ekosistem de bitki örtüsünün köken ve oluşum biçimine göre ikiye ayrılmaktadır: Bitki örtüsü doğal süreçlerle oluşmuşsa doğal çayır ya da mera; insan müdahalesiyle oluşturulmuşsa yapay çayır ya da mera adını almaktadır. Yapay çayır ve mera alanları, özellikle kurak iklim kuşaklarında hayvan beslenmesinin sürekliliğini güvence altına almak amacıyla kurulmaktadır.
+ 2.2. Yem Bitkilerinin Önemi ve Sınıflandırılması
+Yem bitkilerinin yetiştirilmesinde birden fazla etken belirleyicidir. Bu bitkiler; otlamaya karşı dayanıklılıkları, vejetatif dönemdeki yüksek adaptasyon kapasiteleri, sindirilebilir enerji ve protein içerikleri ile eriyebilir karbonhidrat barındırmaları nedeniyle tercih edilmektedir.
+Çayır-mera tesisinde kullanılan yem bitkileri iki ana gruba ayrılmaktadır. Buğdaygil yem bitkileri arasında ayrık, yumak, brom ve çim sayılabilir. Baklagil yem bitkileri ise tek yıllık (adi fiğ, macar fiğ, burçak, yem baklası, yem bezelyesi, yem börülcesi) ve çok yıllık (yonca, üçgül, gazal boynuzu, korunga) olmak üzere iki alt sınıfta değerlendirilmektedir. Baklagillerin azot bağlama kapasitesi, toprak verimliliğine doğrudan katkı sağladığından bu bitkiler hem tek başlarına hem de karışık ekim sistemlerinde yaygın biçimde kullanılmaktadır (Açıkgöz, 2001).
+2.3. Erozyon Kontrolündeki Rolü
+Çayır-mera bitkileri, erozyon kontrolü açısından da büyük önem taşımaktadır. Bu bitkiler; kök ve rizomlarıyla toprağın alt katmanlarını, gövde ve stolon gibi yapılarıyla da üst katmanlarını sıkıca tutarak çim kapağı oluşturur. Böylece yüzey akışını azaltır, toprak partikülleri arasındaki bağı güçlendirir ve yağış erozyonunun etkisini önemli ölçüde sınırlar (Altın ve ark., 2005).
+3. Çayır-Mera Tesis ve Bakım Süreçleri
+3.1. Alan Değerlendirme ve Toprak İşleme
+Çayır-mera tesisine başlamadan önce alanın kapsamlı biçimde değerlendirilmesi gerekmektedir. Bu aşamada arazinin topoğrafik yapısı incelenir; biçme ya da otlatmaya elverişliliği, tarım alet ve makinelerinin çalışabilirliği, taban suyu derinliği ve toprak nemi ölçülür. Bunlara ek olarak kök-sap varlığı araştırılır ve bitki gövde yapıları incelenir.
+Çayır alanlarında toprak işleme sürecinde tesviye, drenaj kanalı açma ve tohum yatağı hazırlığı ön plana çıkar. Mera alanlarında ise çizel çekme, kış ekimlerinde sonbahar yağışlarının tav oluşturması beklenerek sürüm yapma ve tohumlara uygun tohumlama yöntemi seçimi gibi işlemler gerçekleştirilir.
+3.2. Ekim ve Karışık Bitki Sistemleri
+Çayır kurulumunda ara tarım uygulaması (yulaf, patates, çavdar veya kolza gibi kültürlerin ekimi), öncü bitki olarak baklagil kullanımı ve karışık ekim tercihi öne çıkan yöntemlerdir. Mera tesisinde ise kurak alanlara ve sık otlamaya uygun türlerin seçilmesi, karışık ekim planlaması ve ekim zamanının toprağın tav haline gelmesiyle belirlenmesi esastır. Karışık ekim sistemleri, hem bitki çeşitliliğini artırır hem de mera kalitesini uzun vadede koruma altına alır (Manga ve ark., 2003).
+3.3. Bakım İşlemleri
+Çayır-mera alanlarında bakım çok boyutlu bir süreçtir. Merdane çekme ile kabaran topraklar bastırılır; sürgü çekme ile hayvan yuvaları dağıtılır; gübre birikintileri dağıtılır ve taş toplama işlemleri gerçekleştirilir. Temizleme biçimi adı verilen özel bir işlemle de otlatmadan sonra geriye kalan bitkiler 7–8 cm yüksekliğinde tıraşlanır; bu uygulama aynı zamanda yabancı ot mücadelesine katkı sağlar.
+Sulama yöntemi; toprağın türü, yapısı, eğimi, taban suyu derinliği ile yağış miktarına göre salma ya da yağmurlama sistemlerinden biri seçilerek belirlenir. Gübreleme ise baklagillerce zengin alanlara azot, fosfor ve potasyum gübresi verilmesi; vejetasyon başlangıcında azot ve fosfor uygulaması; otlatma döneminin ardından şerbet gübre kullanımı şeklinde planlanmaktadır. Hastalık, zararlı ve yabancı otlarla mücadelede mekanik, kültürel, kimyasal ve biyolojik yöntemler bir arada kullanılmaktadır.
+3.4. Hasat ve Otlatma Yönetimi
+Çayırlarda biçme zamanı; bitki, iklim, toprak ve sulama koşullarına göre belirlenir. Bitkilerin %10'u çiçeklendiğinde biçme işlemine geçilmesi önerilmekte; yılda ortalama iki ile beş biçim gerçekleştirilmektedir. Biçilen otlar, bitkiye en uygun yöntemle (doğal veya yapay kurutma) kurutularak balya hâlinde muhafaza edilir.
+Meralarda otlatma yönetimi; münavebelı otlatma, mera tipine uygun hayvan türü, homojen otlatma ve kapasite hesabına dayalı planlama ilkeleri çerçevesinde yürütülmektedir. Islah çalışmalarında ise doğal ve yapay tohumlama yöntemleri birlikte değerlendirilerek çayır-mera florası yenilenmektedir.
+4. Veri Odaklı Yaklaşımlar: Analitik Çerçeve
+Çayır-mera yönetiminde veri analizi, sistem performansını değerlendirmek ve yönetim kararlarını bilimsel temele oturtmak açısından vazgeçilmez bir araçtır. Bu bağlamda kullanılan başlıca analitik yöntemler şunlardır:
+Trend analizi, yıllara göre verim değişimini ortaya koyarak uzun vadeli dönüşümleri görünür kılar. Regresyon analizi, yağış-verim ilişkisi gibi çevresel değişkenlerle üretim çıktısı arasındaki nicel bağı modellemektedir. Karşılaştırmalı analiz, doğal ve yapay mera alanlarının performans farkını değerlendirmek için kullanılır. CBS (Coğrafi Bilgi Sistemleri) analizi, arazi haritalama ve bölgesel verim karşılaştırmaları açısından güçlü bir araçtır. Bunların yanı sıra indeksleme yöntemiyle mera kalite skoru oluşturulabilir; zaman serisi analizi ise mevsimsel ot üretimi değişimlerini izlemeye imkân tanır. Bu analizlerin her biri; bitki çeşitliliği oranları, yabancı ot yoğunluğu, hayvan taşıma kapasitesi ve iklim değişkenleri gibi parametrelerle beslenmektedir (Holechek ve ark., 2011).
+
+5. Nesnelerin İnterneti (IoT) ve Mikrodenetleyiciler
+5.1. IoT Tabanlı İzleme Sistemleri
+Nesnelerin İnterneti, fiziksel dünyadaki cihaz ve sensörlerin internet üzerinden gerçek zamanlı veri alışverişi yapmasını sağlayan bir ağ altyapısıdır. Çayır-mera sistemlerinde IoT uygulamaları; toprak nem sensörleri, pH sensörleri, hava istasyonları ve hayvan takip sistemleri gibi farklı donanımlarla hayata geçirilmektedir.
+Arazi sensörleri; toprak nemi, pH, sıcaklık, elektrik iletkenliği ve taban suyu seviyesini sürekli ölçerek merkeze iletmektedir. İklim istasyonları; yağış miktarı, rüzgâr hızı, nem ve sıcaklık değerlerini anlık olarak kaydeder. Hayvan izleme sistemleri ise GPS verisi, hareket analizi ve yem tüketim tahmini gibi kritik bilgileri otomatik olarak iletmektedir. Bitki gelişimini izleyen kameralar ve sensörler aracılığıyla ot yoğunluğu ve kuruma bölgeleri de anlık olarak takip edilebilmektedir (Tzounis ve ark., 2017).
+IoT'nin pratik katkılarından biri, sulama otomasyonudur. Toprak nem seviyesi kritik eşiğin altına düştüğünde sistem pompayı otomatik devreye sokar; yağış gerçekleştiğinde sulama durur. Benzer biçimde toprak analiz verilerine göre bölgesel gübreleme kararları da otomatik hâle getirilebilmektedir.
+5.2. Mikrodenetleyici Uygulamaları
+Mikrodenetleyiciler, sensörlerden gelen verileri işleyerek sulama pompası ve gübre motoru gibi aktüatörleri kontrol eden gömülü sistemlerdir. Arduino ve ESP32 gibi yaygın mikrodenetleyici platformları, çayır-mera sistemlerinde; toprak nem ve sıcaklık verisi okuması, sulama karar mantığı, GPS tabanlı hayvan takibi ve iklim verisi toplama gibi işlevler için kullanılmaktadır. ESP32 gibi Wi-Fi destekli mikrodenetleyiciler, verileri doğrudan bulut platformlarına aktararak uzaktan izleme ve yönetimi mümkün kılmaktadır (Ngu ve ark., 2019).
+6. Makine Öğrenmesi Uygulamaları
+6.1. Verim Tahmini
+Makine öğrenmesi modelleri, geçmiş iklim verileri, toprak analizi ve verim kayıtlarından öğrenerek gelecek dönem ot üretimini tahmin etme kapasitesi sunar. Bu alanda Rastgele Orman (Random Forest), Gradyan Artırma (Gradient Boosting) ve Doğrusal Regresyon algoritmaları etkin biçimde kullanılmaktadır. Model girdileri olarak yağış miktarı, toprak nemi, gübre miktarı ve büyüme hızı değişkenleri öne çıkmaktadır. Sonuç olarak "bu yıl şu meradan şu kadar ot üretilecek" biçiminde somut tahminler elde edilmektedir. Benzer uygulamalarda makine öğrenmesi modellerinin verim tahmininde ±10 kg/da mertebesinde hata marjıyla çalıştığı raporlanmıştır (Reinermann ve ark., 2020).
+6.2. Mera Durum Sınıflandırması
+Karar Ağacı, Rastgele Orman ve Destek Vektör Makinesi (SVM) gibi algoritmalar, mera alanlarını iyi, orta, zayıf ve bozulmuş sınıflarına ayırabilmektedir. Bu sınıflandırmada kullanılan girdiler; bitki tür oranları, yabancı ot yüzdesi ve toprak kalite verileridir. Sınıflandırma çıktıları, hangi alanın öncelikli ıslah müdahalesi gerektirdiğine ilişkin yönetim kararlarını desteklemektedir (Dlamini ve ark., 2016).
+6.3. Otlatma Kapasitesi Hesaplama
+Makine öğrenmesi modelleri; bir meraya kaç hayvan girmesi gerektiğini, otlatma süresinin ne kadar olması gerektiğini ve hangi dönemlerde mera dinlendirilmesi gerektiğini hesaplayabilmektedir. Bu hesaplamalar, aşırı otlatmanın önüne geçerek mera ekosisteminin uzun vadeli sürdürülebilirliğini korumaktadır.
+7. Derin Öğrenme: Görüntü Analizi ve Zaman Serisi Tahmini
+7.1. Uydu ve Drone Görüntülerinin Analizi
+Derin öğrenme, çok katmanlı yapay sinir ağlarıyla karmaşık örüntüleri otomatik olarak öğrenen bir yapay zekâ dalıdır. Çayır-mera sistemlerinde özellikle görsel verinin işlenmesinde güçlü sonuçlar vermektedir.
+CNN ve U-Net mimarileri, uydu ve drone görüntülerinden bitki örtüsü yoğunluğu, kuraklık bölgeleri, bozulmuş mera alanları ve yabancı ot yayılımını otomatik olarak tespit edebilmektedir. NDVI (Normalize Edilmiş Fark Bitki İndeksi) gibi uzaktan algılama göstergelerinin derin öğrenme modelleriyle birleştirilmesi, mera sağlığının güncel ve ayrıntılı haritasını çıkarma imkânı tanımaktadır (Atzberger, 2013).
+7.2. LSTM ile Zaman Serisi Tahmini
+Uzun Kısa Süreli Bellek (LSTM) ağları, zaman bağımlılıklarını modellemek için tasarlanmış özel bir derin öğrenme mimarisindedir. Çayır-mera sistemlerinde LSTM; aylık ot üretim verisini, mevsimsel iklim örüntülerini ve çok değişkenli sensör zaman serilerini birlikte analiz ederek bir sonraki dönem tahminlerini üretebilmektedir. Bu yaklaşım, özellikle düzensiz yağış rejimlerinin hâkim olduğu kurak ve yarı kurak alanlarda geleneksel istatistiksel yöntemlere kıyasla daha güvenilir sonuçlar vermektedir (Tong ve ark., 2018).
+7.3. Hastalık ve Stres Tespiti
+Derin öğrenme modelleri, drone kameralarından alınan görüntülerde bitkilerde sararma, solma, büyüme yavaşlaması ve besin eksikliğine bağlı renk değişimlerini öğrenebilmektedir. Erken uyarı sistemi işlevi gören bu yapı, ilaçlama ya da gübreleme müdahalelerinin zamanında planlanmasına olanak tanır.
+8. Biyoteknoloji ve Genetik Islah
+8.1. Bitkisel Biyoteknoloji Uygulamaları
+Biyoteknoloji, çayır-mera yönetiminde bitki kalitesini ve dayanıklılığını artırmak amacıyla kullanılmaktadır. Bitki biyoteknolojisi uygulamaları kapsamında kuraklığa, tuzluluğa ve sıcaklık stresine dayanıklı genler taşıyan bitki çeşitlerinin geliştirilmesi öne çıkmaktadır. Doku kültürü teknikleriyle kaliteli yem bitkilerinin hızla çoğaltılması ve protein ile sindirilebilirlik oranları optimize edilmiş yem bitkilerinin üretilmesi de bu kapsamda değerlendirilebilir. Bitkisel gen teknolojisi alanında yürütülen araştırmalar, otlatma baskısı ve kuraklık koşullarında dahi yüksek verim sağlayan çeşitlerin geliştirilmesinde umut verici sonuçlar ortaya koymaktadır (Dong ve ark., 2015).
+8.2. Toprak Mikrobiyomuna Müdahale
+Biyoteknoloji, yalnızca bitki ıslahıyla sınırlı kalmayıp toprak mikrobiyomunu iyileştirmeye yönelik uygulamaları da kapsamaktadır. Azot bağlayan bakteriler (Rhizobium spp.), fosfor çözen bakteri popülasyonları ve mikorizal mantar inokulasyonları, kimyasal gübre kullanımını azaltırken toprak verimliliğini artırmaktadır. Biyolojik gübre ve biyopestisit kullanımı ise çevre kirliliğini sınırlandırarak sürdürülebilir bir mera yönetimine zemin hazırlamaktadır (Bhattacharyya ve Jha, 2012).
+8.3. Genetik Algoritma ve Yapay Değişiklik
+Bilgisayar ortamında genetik algoritma yöntemiyle yürütülen yapay değişiklik simülasyonları, belirli çevre koşullarına en uygun bitki gen profilini belirlemeye yardımcı olabilmektedir. Bu yaklaşım, sahada yıllarca sürebilecek ıslah denemelerini bilgisayar simülasyonu ortamında birkaç dakikaya sıkıştırmakta ve biyoteknoloji araştırmacılarına değerli bir karar destek aracı sunmaktadır.
+9. Kuantum Hesaplama: Optimizasyon ve Simülasyon
+9.1. Çayır-Mera Yönetiminde Optimizasyon Problemleri
+Çayır-mera yönetimi, özünde karmaşık bir çok değişkenli optimizasyon problemidir. Kaç hayvan otlatılmalı, hangi alana ne kadar gübre verilmeli, hangi bitki karışımı en verimli çıktıyı sağlar ve su en kârlı biçimde nasıl dağıtılmalı gibi sorular, milyarlarca olası kombinasyon içermektedir.
+Kuantum hesaplama, süperpozisyon ve dolanıklık prensiplerini kullanarak bu tür kombinatoryal problemleri klasik bilgisayarlardan çok daha hızlı çözme potansiyeline sahiptir. Kuantum Tavlama (Quantum Annealing) algoritması, özellikle kaynak dağıtım optimizasyonunda umut verici sonuçlar üretmektedir (Farhi ve ark., 2014). Gübre dağıtımı, sulama planlaması ve otlatma takvimi gibi çok değişkenli kararlar için kuantum algoritmaları; en düşük maliyetle en yüksek verimi sağlayan çözümü geleneksel yöntemlerden çok daha hızlı biçimde bulabilmektedir.
+9.2. Moleküler Simülasyon ve İklim Modellemesi
+Kuantum bilgisayarlar; protein yapıları, gen etkileşimleri ve fotosentez süreçleri gibi moleküler düzeydeki olayları klasik bilgisayarlara kıyasla çok daha gerçekçi biçimde simüle edebilmektedir. Bu özellik, kuraklığa dayanıklı bitki proteinlerinin tasarımında biyoteknoloji araştırmalarını hızlandırabilecek bir potansiyel taşımaktadır.
+Öte yandan uzun vadeli iklim simülasyonları, mikroiklim değişimleri ve kuraklık olasılık modelleri de kuantum hesaplama altyapısıyla çok daha yüksek çözünürlükte üretilebilecektir. Bu durum, özellikle yüzyıl ortasına ilişkin iklim projeksiyonlarının çayır-mera planlamasına entegre edilmesinde kritik bir avantaj sağlayacaktır (Preskill, 2018).
+10. Bütünleşik Sistem: Teknolojilerin Sinerjisi
+Yukarıda ayrı ayrı ele alınan teknolojiler, gerçek bir çayır-mera yönetim sisteminde birbirini tamamlayan ve güçlendiren bir ekosistem oluşturmaktadır. Bu bütünleşik yapı şöyle özetlenebilir:
+IoT sensörleri sürekli olarak toprak nemi, sıcaklık, pH ve iklim verilerini toplar. Mikrodenetleyiciler bu verileri anlık işleyerek sulama pompası ve gübre motorunu otomatik olarak kontrol eder. Makine öğrenmesi modelleri birikmiş tarihsel verilerden öğrenerek verim tahmini ve mera durum sınıflandırması yapar. LSTM ağları, zaman serisi verilerinden mevsimsel örüntüleri keşfederek kısa vadeli tahminler üretir. CNN tabanlı derin öğrenme modelleri, uydu ve drone görüntülerinden bitki stresini ve bozulma alanlarını tespit eder. Biyoteknoloji, daha dayanıklı ve verimli bitki çeşitleri geliştirirken toprak mikrobiyomunu iyileştirir. Kuantum hesaplama ise kaynak dağıtım optimizasyonu ve iklim modellemesi gibi karmaşık hesaplama görevlerini hızlandırır. Tüm bu bileşenler Coğrafi Bilgi Sistemleriyle entegre edilerek bölgesel verim haritaları ve karar destek panoları oluşturulabilmektedir.
+Bu sinerjik yaklaşım; verimi artırır, maliyeti düşürür, aşırı kullanımın önüne geçer ve çayır-mera ekosistemlerinin uzun vadeli sürdürülebilirliğini güvence altına alır.
+Simülasyon
+# -*- coding: utf-8 -*-
+"""
+ÇAYIR-MERA YÖNETİM SİSTEMİ PROTOTİPİ 
+IoT, Makine Öğrenmesi, Derin Öğrenme (LSTM), Biyoteknoloji, Kuantum Benzetimi
+"""
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import random
+from datetime import datetime
+from collections import deque
+import warnings
+warnings.filterwarnings('ignore')
+# -------------------- 1. MAKİNE ÖĞRENMESİ KÜTÜPHANELERİ --------------------
+from sklearn.ensemble import RandomForestRegressor, RandomForestClassifier
+from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import mean_squared_error, accuracy_score
+# LSTM için TensorFlow / Keras
+try:
+    import tensorflow as tf
+    from tensorflow.keras.models import Sequential
+    from tensorflow.keras.layers import LSTM, Dense
+    from tensorflow.keras.callbacks import EarlyStopping
+    TF_AVAILABLE = True
+except ImportError:
+    TF_AVAILABLE = False
+    print("Uyarı: TensorFlow bulunamadı. LSTM modeli yerine basit bir tahmin yapılacak.")
+# -------------------- 2. ÇAYIR/MERA SINIFI --------------------
+class CayirMera:
+    """Bir çayır veya mera alanını temsil eder."""
+    def __init__(self, alan_adi, alan_buyuklugu_donum, tip='dogal', enlem=41.0, boylam=28.0):
+        self.alan_adi = alan_adi
+        self.alan_buyuklugu = alan_buyuklugu_donum
+        self.tip = tip
+        self.enlem = enlem
+        self.boylam = boylam        
+        self.toprak = {
+            'pH': 6.5,
+            'organik_madde': 3.0,
+            'N': 15,
+            'P': 10,
+            'K': 120,
+            'nem': 25,
+            'taban_suyu_derinligi': 150
+        }        
+        self.bitki_ortusu = {
+            'yonca': 30,
+            'brom': 25,
+            'yumak': 20,
+            'korunga': 15,
+            'yabanci_ot': 10
+        }     
+        self.verim_gecmisi = []
+        self.hayvan_sayisi = 0
+        self.otlatma_gunu = 0
+        self.kapasite = self.otlatma_kapasitesi_hesapla()
+        self.sensor_istasyonu = None        
+    def otlatma_kapasitesi_hesapla(self):
+        return self.alan_buyuklugu * 0.5    
+    def guncelle_toprak(self, **kwargs):
+        self.toprak.update(kwargs)    
+    def bitki_ekle(self, tur, oran):
+        self.bitki_ortusu[tur] = oran
+        toplam = sum(self.bitki_ortusu.values())
+        for t in self.bitki_ortusu:
+            self.bitki_ortusu[t] = (self.bitki_ortusu[t] / toplam) * 100    
+    def __repr__(self):
+        return f"{self.alan_adi} ({self.tip}) - {self.alan_buyuklugu} dönüm"
+# -------------------- 3. SENSÖR SINIFLARI (IoT) --------------------
+class Sensor:
+    def __init__(self, sensor_id, birim):
+        self.sensor_id = sensor_id
+        self.birim = birim
+        self.son_olcum = None        
+    def oku(self):
+        raise NotImplementedError
+class ToprakNemSensoru(Sensor):
+    def __init__(self, sensor_id, cayir_mera):
+        super().__init__(sensor_id, '%')
+        self.cayir_mera = cayir_mera        
+    def oku(self):
+        gercek_nem = self.cayir_mera.toprak['nem']
+        self.son_olcum = max(0, min(100, gercek_nem + random.uniform(-2, 2)))
+        return self.son_olcum
+class SicaklikSensoru(Sensor):
+    def __init__(self, sensor_id, konum):
+        super().__init__(sensor_id, '°C')
+        self.konum = konum        
+    def oku(self):
+        ay = datetime.now().month
+        if 3 <= ay <= 5:
+            self.son_olcum = random.uniform(10, 20)
+        elif 6 <= ay <= 8:
+            self.son_olcum = random.uniform(20, 35)
+        elif 9 <= ay <= 11:
+            self.son_olcum = random.uniform(10, 25)
+        else:
+            self.son_olcum = random.uniform(-5, 10)
+        return self.son_olcum
+class YagisSensoru(Sensor):
+    def __init__(self, sensor_id, konum):
+        super().__init__(sensor_id, 'mm')
+        self.konum = konum        
+    def oku(self):
+        if random.random() < 0.3:
+            self.son_olcum = random.uniform(0, 20)
+        else:
+            self.son_olcum = 0
+        return self.son_olcum
+class pHSensoru(Sensor):
+    def __init__(self, sensor_id, cayir_mera):
+        super().__init__(sensor_id, 'pH')
+        self.cayir_mera = cayir_mera        
+    def oku(self):
+        gercek_ph = self.cayir_mera.toprak['pH']
+        self.son_olcum = max(0, min(14, gercek_ph + random.uniform(-0.3, 0.3)))
+        return self.son_olcum
+# -------------------- 4. IoT İSTASYONU --------------------
+class IoTIstasyonu:
+    def __init__(self, istasyon_adi, cayir_mera):
+        self.istasyon_adi = istasyon_adi
+        self.cayir_mera = cayir_mera
+        self.sensorler = []
+        self.veri_log = deque(maxlen=1000)        
+    def sensor_ekle(self, sensor):
+        self.sensorler.append(sensor)        
+    def tumunu_oku(self):
+        okumalar = {}
+        for s in self.sensorler:
+            deger = s.oku()
+            okumalar[s.sensor_id] = (deger, s.birim)
+        kayit = {
+            'zaman': datetime.now(),
+            'okumalar': okumalar
+        }
+        self.veri_log.append(kayit)
+        return okumalar    
+    def son_okuma(self, sensor_id):
+        if not self.veri_log:
+            return None
+        return self.veri_log[-1]['okumalar'].get(sensor_id, None)
+# -------------------- 5. MİKRODENETLEYİCİ --------------------
+class Mikrodenetleyici:
+    def __init__(self, istasyon, sulama_pompasi=None, gubre_motoru=None):
+        self.istasyon = istasyon
+        self.sulama_pompasi = sulama_pompasi
+        self.gubre_motoru = gubre_motoru
+        self.sulama_esik = 20
+        self.gubre_esik = {'N': 10, 'P': 5, 'K': 80}        
+    def karar_ver(self):
+        if not self.istasyon.veri_log:
+            return
+        son_veri = self.istasyon.veri_log[-1]['okumalar']        
+        nem_sensor = [s for s in self.istasyon.sensorler if isinstance(s, ToprakNemSensoru)]
+        if nem_sensor and nem_sensor[0].son_olcum is not None:
+            if nem_sensor[0].son_olcum < self.sulama_esik:
+                print(f"[MİKRODENETLEYİCİ] Nem düşük ({nem_sensor[0].son_olcum:.1f}%). Sulama başlatılıyor.")
+                self.sulama_pompasi = True
+            else:
+                self.sulama_pompasi = False        
+        toprak = self.istasyon.cayir_mera.toprak
+        if toprak['N'] < self.gubre_esik['N']:
+            print(f"[MİKRODENETLEYİCİ] Azot eksik ({toprak['N']} ppm). Gübreleme öneriliyor.")
+            self.gubre_motoru = True
+        else:
+            self.gubre_motoru = False
+# -------------------- 6. MAKİNE ÖĞRENMESİ MODELLERİ --------------------
+class VerimTahminModeli:
+    def __init__(self):
+        self.model = RandomForestRegressor(n_estimators=50, random_state=42)
+        self.is_trained = False        
+    def egit(self, X, y):
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+        self.model.fit(X_train, y_train)
+        self.is_trained = True
+        tahmin = self.model.predict(X_test)
+        hata = mean_squared_error(y_test, tahmin)
+        print(f"[ML] Verim tahmin modeli eğitildi. Test hatası (MSE): {hata:.2f}")        
+    def tahmin_et(self, X):
+        if not self.is_trained:
+            raise Exception("Model henüz eğitilmemiş!")
+        return self.model.predict(X)
+class MeraDurumSiniflandirici:
+    def __init__(self):
+        self.model = RandomForestClassifier(n_estimators=50, random_state=42)
+        self.is_trained = False
+        self.siniflar = ['iyi', 'orta', 'zayif', 'bozulmus']        
+    def egit(self, X, y):
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+        self.model.fit(X_train, y_train)
+        self.is_trained = True
+        tahmin = self.model.predict(X_test)
+        dogruluk = accuracy_score(y_test, tahmin)
+        print(f"[ML] Mera durumu sınıflandırıcı eğitildi. Doğruluk: {dogruluk:.2f}")        
+    def siniflandir(self, X):
+        if not self.is_trained:
+            raise Exception("Model henüz eğitilmemiş!")
+        return self.model.predict(X)
+# -------------------- 7. LSTM İLE ZAMAN SERİSİ TAHMİNİ --------------------
+class LSTMZamanSerisiModeli:
+    """
+    LSTM kullanarak bir sonraki zaman adımını tahmin eder.
+    window_size kadar geçmiş veriyi girdi olarak alır.
+    """
+    def __init__(self, window_size=5, epochs=50, batch_size=16):
+        self.window_size = window_size
+        self.epochs = epochs
+        self.batch_size = batch_size
+        self.model = None
+        self.is_trained = False
+        self.scaler_min = None
+        self.scaler_max = None        
+    def _scale(self, data):
+        """Veriyi [0,1] aralığına ölçekle (basit min-max)."""
+        self.scaler_min = np.min(data)
+        self.scaler_max = np.max(data)
+        if self.scaler_max - self.scaler_min == 0:
+            return np.zeros_like(data)
+        return (data - self.scaler_min) / (self.scaler_max - self.scaler_min)    
+    def _inverse_scale(self, scaled_data):
+        if self.scaler_max is None or self.scaler_min is None:
+            return scaled_data
+        return scaled_data * (self.scaler_max - self.scaler_min) + self.scaler_min
+    def _create_sequences(self, data):
+        X, y = [], []
+        for i in range(len(data) - self.window_size):
+            X.append(data[i:i+self.window_size])
+            y.append(data[i+self.window_size])
+        return np.array(X), np.array(y)    
+    def egit(self, zaman_serisi):
+        """
+        zaman_serisi: 1D numpy array veya liste (eğitim verisi)
+        """
+        if not TF_AVAILABLE:
+            print("[LSTM] TensorFlow bulunamadı, model eğitilemiyor.")
+            return        
+        # Veriyi ölçekle
+        scaled = self._scale(zaman_serisi)
+        X, y = self._create_sequences(scaled)        
+        # LSTM giriş şekli: (samples, time_steps, features)
+        X = X.reshape((X.shape[0], X.shape[1], 1))        
+        # Model oluştur
+        self.model = Sequential([
+            LSTM(50, activation='relu', input_shape=(self.window_size, 1)),
+            Dense(1)
+        ])
+        self.model.compile(optimizer='adam', loss='mse')     
+        # Erken durma
+        early_stop = EarlyStopping(monitor='loss', patience=5, verbose=0)        
+        # Eğitim
+        self.model.fit(X, y, epochs=self.epochs, batch_size=self.batch_size,
+                       verbose=0, callbacks=[early_stop])
+        self.is_trained = True
+        print(f"[LSTM] Zaman serisi modeli eğitildi. {len(X)} örnek kullanıldı.")        
+    def tahmin_et(self, son_window):
+        """
+        son_window: window_size uzunluğunda liste/numpy array (son gözlemler)
+        returns: bir sonraki adımın tahmini (ölçekten geri dönüştürülmüş)
+        """
+        if not self.is_trained or not TF_AVAILABLE:
+            # Basit bir tahmin: son değerin aynısı veya ortalama
+            print("[LSTM] Model hazır değil, basit tahmin yapılıyor.")
+            return np.mean(son_window)        
+        # Ölçekle
+        scaled_window = (np.array(son_window) - self.scaler_min) / (self.scaler_max - self.scaler_min)
+        scaled_window = scaled_window.reshape((1, self.window_size, 1))        
+        # Tahmin
+        scaled_pred = self.model.predict(scaled_window, verbose=0)[0,0]        
+        # Geri ölçeklendir
+        return self._inverse_scale(scaled_pred)
+# -------------------- 8. BİYOTEKNOLOJİ --------------------
+class Bitki:
+    def __init__(self, genler):
+        self.genler = genler  # [kuraklik_direnci, buyume_hizi, protein_orani]        
+    def fitness(self, cevre_faktoru):
+        kuraklik_direnci, buyume_hizi, protein = self.genler
+        if cevre_faktoru == 'kurak':
+            return kuraklik_direnci * 0.7 + buyume_hizi * 0.2 + protein * 0.1
+        else:
+            return buyume_hizi * 0.6 + protein * 0.3 + kuraklik_direnci * 0.1
+class GenetikAlgoritma:
+    def __init__(self, pop_boyutu=20, nesil_sayisi=10):
+        self.pop_boyutu = pop_boyutu
+        self.nesil_sayisi = nesil_sayisi
+        self.populasyon = []        
+    def baslat(self):
+        self.populasyon = [Bitki([random.random() for _ in range(3)]) for _ in range(self.pop_boyutu)]        
+    def degerlendir(self, cevre):
+        return [b.fitness(cevre) for b in self.populasyon]
+    def sec(self, fitness_skorlari):
+        toplam = sum(fitness_skorlari)
+        if toplam == 0:
+            return random.choice(self.populasyon)
+        oranlar = [f/toplam for f in fitness_skorlari]
+        return np.random.choice(self.populasyon, p=oranlar)    
+    def caprazla(self, ebeveyn1, ebeveyn2):
+        nokta = random.randint(0, 2)
+        yeni_gen1 = ebeveyn1.genler[:nokta] + ebeveyn2.genler[nokta:]
+        yeni_gen2 = ebeveyn2.genler[:nokta] + ebeveyn1.genler[nokta:]
+        return Bitki(yeni_gen1), Bitki(yeni_gen2)    
+    def mutasyon(self, bitki, mutasyon_orani=0.1):
+        yeni_gen = []
+        for g in bitki.genler:
+            if random.random() < mutasyon_orani:
+                yeni_gen.append(random.random())
+            else:
+                yeni_gen.append(g)
+        return Bitki(yeni_gen)
+    def calistir(self, cevre='kurak'):
+        self.baslat()
+        for nesil in range(self.nesil_sayisi):
+            fitness = self.degerlendir(cevre)
+            yeni_pop = []
+            while len(yeni_pop) < self.pop_boyutu:
+                e1 = self.sec(fitness)
+                e2 = self.sec(fitness)
+                c1, c2 = self.caprazla(e1, e2)
+     c1 = self.mutasyon(c1)
+                c2 = self.mutasyon(c2)
+                yeni_pop.extend([c1, c2])
+            self.populasyon = yeni_pop[:self.pop_boyutu]
+        fitness = self.degerlendir(cevre)
+        en_iyi_index = np.argmax(fitness)
+        return self.populasyon[en_iyi_index]
+# -------------------- 9. KUANTUM BENZETİM --------------------
+class KuantumBenzetim:
+    def __init__(self, bolge_sayisi=3, toplam_gubre=100):
+        self.bolge_sayisi = bolge_sayisi
+        self.toplam_gubre = toplam_gubre        
+    def optimize_et(self, verim_fonksiyonlari):
+        en_iyi_dagitim = None
+        en_iyi_verim = -np.inf        
+        for x1 in range(0, self.toplam_gubre+1, 5):
+            for x2 in range(0, self.toplam_gubre - x1 +1, 5):
+                x3 = self.toplam_gubre - x1 - x2
+                if x3 < 0: continue
+                toplam_verim = sum([f(x) for f, x in zip(verim_fonksiyonlari, [x1, x2, x3])])
+                if toplam_verim > en_iyi_verim:
+                    en_iyi_verim = toplam_verim
+                    en_iyi_dagitim = (x1, x2, x3)        
+        print(f"[KUANTUM BENZETİM] En iyi gübre dağıtımı: {en_iyi_dagitim}, Toplam verim: {en_iyi_verim:.2f}")
+        return en_iyi_dagitim
+# -------------------- 10. VERİ ANALİZİ --------------------
+def trend_analizi(verim_serisi):
+    x = np.arange(len(verim_serisi))
+    y = np.array(verim_serisi)
+    if len(x) < 2:
+        return 0
+    coeffs = np.polyfit(x, y, 1)
+    print(f"Trend: y = {coeffs[0]:.2f} * yıl + {coeffs[1]:.2f}")
+    return coeffs[0]
+def regresyon_analizi(X, y, ozellik_adi):
+    model = LinearRegression()
+    model.fit(X.reshape(-1,1), y)
+    print(f"{ozellik_adi} ile verim ilişkisi: katsayı = {model.coef_[0]:.2f}, kesişim = {model.intercept_:.2f}")
+    return model
+def mera_kalite_indeksi(bitki_ortusu):
+    kaliteli = bitki_ortusu.get('yonca',0) + bitki_ortusu.get('korunga',0)
+    yabanci = bitki_ortusu.get('yabanci_ot',0)
+    return kaliteli - yabanci
+# -------------------- 11. ANA SİMÜLASYON --------------------
+def main():
+    print("="*60)
+    print("ÇAYIR-MERA YÖNETİM SİSTEMİ PROTOTİPİ (LSTM'li)")
+    print("IoT, Makine Öğrenmesi, LSTM, Biyoteknoloji, Kuantum Benzetimi")
+    print("="*60)    
+    # 1. Çayır/Mera alanları
+    alan1 = CayirMera("Yeşil Vadi Merası", 500, tip='dogal')
+    alan2 = CayirMera("Yapay Tepe Çayırı", 300, tip='yapay', enlem=40.5, boylam=29.0)    
+    # 2. IoT istasyonu
+    istasyon = IoTIstasyonu("İstasyon-1", alan1)
+    istasyon.sensor_ekle(ToprakNemSensoru("nem_01", alan1))
+    istasyon.sensor_ekle(SicaklikSensoru("sicaklik_01", alan1))
+    istasyon.sensor_ekle(YagisSensoru("yagis_01", alan1))
+    istasyon.sensor_ekle(pHSensoru("ph_01", alan1))
+    alan1.sensor_istasyonu = istasyon    
+    # 3. Mikrodenetleyici
+    mikro = Mikrodenetleyici(istasyon)    
+    # 4. Birkaç sensör okuması
+    print("\n--- IoT SENSÖR OKUMALARI ---")
+    for i in range(5):
+        okuma = istasyon.tumunu_oku()
+        print(f"Okuma {i+1}:")
+        for sensor, (deger, birim) in okuma.items():
+            print(f"  {sensor}: {deger:.2f} {birim}")
+        mikro.karar_ver()    
+    # 5. Makine Öğrenmesi modelleri
+    print("\n--- MAKİNE ÖĞRENMESİ MODELLERİ EĞİTİLİYOR ---")
+    np.random.seed(42)
+    n_ornek = 200
+    X_verim = np.random.rand(n_ornek, 4) * np.array([100, 40, 50, 50])
+    y_verim = (X_verim[:,0]*0.3 + X_verim[:,1]*0.2 + X_verim[:,2]*0.4 + X_verim[:,3]*0.1) + np.random.randn(n_ornek)*5
+    y_verim = np.clip(y_verim, 0, 200)    
+    verim_model = VerimTahminModeli()
+    verim_model.egit(X_verim, y_verim)    
+    yeni_durum = np.array([[50, 25, 30, 20]])
+    tahmin = verim_model.tahmin_et(yeni_durum)
+    print(f"Yeni durum için verim tahmini: {tahmin[0]:.2f} kg/da")    
+    X_durum = np.random.rand(n_ornek, 5) * np.array([100, 100, 100, 100, 14])
+    y_durum = np.random.choice(['iyi','orta','zayif','bozulmus'], n_ornek)
+    durum_model = MeraDurumSiniflandirici()
+    durum_model.egit(X_durum, y_durum)    
+    alan1_bitki = list(alan1.bitki_ortusu.values())[:4]
+    alan1_ozellik = np.array([alan1_bitki + [alan1.toprak['pH']]])
+    sinif = durum_model.siniflandir(alan1_ozellik)
+    print(f"{alan1.alan_adi} için tahmini durum: {sinif[0]}")
+    # 6. LSTM ile zaman serisi tahmini
+    print("\n--- LSTM ZAMAN SERİSİ ---")
+    # Aylık verim simülasyonu (24 ay)
+    aylik_verim = 50 + 10*np.sin(np.linspace(0, 4*np.pi, 24)) + np.random.randn(24)*5
+    aylik_verim = np.clip(aylik_verim, 20, 100)    
+    lstm_model = LSTMZamanSerisiModeli(window_size=3, epochs=30)
+    lstm_model.egit(aylik_verim)    
+    son_3 = aylik_verim[-3:]
+    tahmin_sonraki = lstm_model.tahmin_et(son_3)
+    print(f"Son 3 ay verimi: {son_3}")
+    print(f"LSTM ile bir sonraki ay tahmini: {tahmin_sonraki:.2f} kg/da")    
+    # 7. Biyoteknoloji
+    print("\n--- BİYOTEKNOLOJİ: GENETİK ALGORİTMA ---")
+    ga = GenetikAlgoritma(pop_boyutu=30, nesil_sayisi=20)
+    en_iyi_bitki = ga.calistir(cevre='kurak')
+    print(f"En iyi bitki genleri: Kuraklık direnci={en_iyi_bitki.genler[0]:.2f}, "
+          f"Büyüme hızı={en_iyi_bitki.genler[1]:.2f}, Protein={en_iyi_bitki.genler[2]:.2f}")    
+    # 8. Kuantum benzetimi
+    print("\n--- KUANTUM HESAPLAMA BENZETİMİ ---")
+    def f1(x): return 0.5 * x - 0.001 * x**2
+    def f2(x): return 0.6 * x - 0.002 * x**2
+    def f3(x): return 0.4 * x - 0.0005 * x**2
+    kuantum = KuantumBenzetim(bolge_sayisi=3, toplam_gubre=80)
+    optimum = kuantum.optimize_et([f1, f2, f3])    
+    # 9. Veri analizi ve grafikler
+    print("\n--- VERİ ANALİZİ ve GRAFİKLER ---")
+    yillik_verim = [120, 130, 125, 140, 135, 150]
+    trend = trend_analizi(yillik_verim)    
+    yagis_verileri = np.array([20, 40, 60, 80, 100])
+    verim_verileri = 30 + 0.5*yagis_verileri + np.random.randn(5)*3
+    reg_model = regresyon_analizi(yagis_verileri, verim_verileri, "Yağış")    
+    indeks = mera_kalite_indeksi(alan1.bitki_ortusu)
+    print(f"{alan1.alan_adi} kalite indeksi: {indeks}")    
+    # Grafikler
+    plt.figure(figsize=(12, 8))    
+    plt.subplot(2,2,1)
+    plt.plot(yillik_verim, marker='o')
+    plt.title("Yıllık Verim Trendi")
+    plt.xlabel("Yıl")
+    plt.ylabel("Verim (kg/da)")    
+    plt.subplot(2,2,2)
+    plt.scatter(yagis_verileri, verim_verileri)
+    plt.plot(yagis_verileri, reg_model.predict(yagis_verileri.reshape(-1,1)), color='red')
+    plt.title("Yağış - Verim İlişkisi")
+    plt.xlabel("Yağış (mm)")
+    plt.ylabel("Verim (kg/da)")
+    plt.subplot(2,2,3)
+    sensor_nem = [r['okumalar']['nem_01'][0] for r in list(istasyon.veri_log)[-20:]]
+    plt.plot(sensor_nem, label='Nem %')
+    plt.axhline(y=mikro.sulama_esik, color='r', linestyle='--', label='Sulama eşiği')
+    plt.title("Son 20 Nem Sensörü Okuması")
+    plt.xlabel("Okuma")
+    plt.ylabel("Nem (%)")
+    plt.legend()    
+    plt.subplot(2,2,4)
+    turler = list(alan1.bitki_ortusu.keys())
+    oranlar = list(alan1.bitki_ortusu.values())
+    plt.pie(oranlar, labels=turler, autopct='%1.1f%%')
+    plt.title("Bitki Örtüsü Kompozisyonu")    
+    plt.tight_layout()
+    plt.show()    
+    print("\n--- SİMÜLASYON TAMAMLANDI ---")
+if __name__ == "__main__":
+    main()
+
+11. Tartışma ve Gelecek Perspektifi
+Teknolojinin çayır-mera yönetimine entegrasyonu son derece umut verici olmakla birlikte, uygulamada ciddi engellerle de karşılaşılmaktadır. Bu engellerin başında yüksek başlangıç maliyeti gelmektedir; küçük ölçekli çiftçiler için IoT altyapısı ve makine öğrenmesi platformlarına yatırım yapmak hâlâ ekonomik açıdan zorlu olabilmektedir. Veri kalitesi de kritik bir kısıt oluşturmaktadır: modellerin güvenilir tahminler üretebilmesi için uzun yılları kapsayan, tutarlı ve geniş ölçekli veri kümelerine ihtiyaç duyulmaktadır. Teknik altyapı eksikliği, kırsal alanlarda internet bağlantısı ve enerji teminindeki güçlükler de önemli kısıtlar arasında yer almaktadır. Son olarak kuantum hesaplama teknolojisi, çayır-mera gibi tarımsal alanlarda pratik uygulamaya geçebilmek için henüz olgunlaşma aşamasındadır.
+Buna karşın maliyet-performans oranlarının iyileşmesi, bulut bilişim altyapısının yaygınlaşması ve devlet destekli dijital tarım programlarının genişlemesiyle bu engellerin önümüzdeki on yılda büyük ölçüde aşılması beklenmektedir. Türkiye özelinde değerlendirildiğinde, T.C. Tarım ve Orman Bakanlığı'nın yürüttüğü "Çayır Mera ve Yem Bitkileri" projeleri ile TÜBİTAK destekli akıllı tarım araştırmaları bu alanda önemli adımlar olarak öne çıkmaktadır.
+12. Sonuç
+Çayır ve meralar, küresel gıda güvenliğinin ve biyoçeşitliliğin temel taşlarından biridir. Geleneksel yönetim anlayışının sınırlarına ulaşıldığı günümüzde, IoT, makine öğrenmesi, derin öğrenme, biyoteknoloji ve kuantum hesaplama gibi ileri teknolojilerin bu ekosisteme entegrasyonu hem kaçınılmaz hem de zorunlu hâle gelmiştir.
+Söz konusu teknolojiler; ot verimini artırmak, aşırı otlatmayı önlemek, toprak sağlığını korumak ve iklim değişikliğine uyum sağlamak gibi kritik zorluklara veri odaklı, otonom ve sürdürülebilir çözümler sunmaktadır. Bütünleşik bir sistem mimarisi içinde işlev gören bu teknolojiler, yalnızca verimlilik değil; aynı zamanda ekolojik denge, ekonomik sürdürülebilirlik ve gıda güvenliği açısından da dönüştürücü bir potansiyel taşımaktadır.
+Bu potansiyelin gerçeğe dönüşmesi; araştırmacılar, teknoloji geliştiriciler, çiftçiler ve politika yapıcılar arasındaki etkin iş birliğine, bilgi transferine ve hedefli kamu yatırımlarına bağlıdır.
+
+
+ Kaynakça
+Açıkgöz, E. (2001). Yem Bitkileri (3. baskı). Uludağ Üniversitesi Güçlendirme Vakfı Yayınları, Bursa.
+Altın, M., Gökkuş, A. ve Koç, A. (2005). Çayır ve Mera Islahı. Tarım ve Köyişleri Bakanlığı Yayınları, Ankara.
+Atzberger, C. (2013). Advances in remote sensing of agriculture: Context description, existing operational monitoring systems and major information needs. Remote Sensing, 5(2), 949–981. https://doi.org/10.3390/rs5020949
+Bakır, Ö. (1987). Çayır-Mera ve Yem Bitkileri Kültürü. Ankara Üniversitesi Ziraat Fakültesi Yayınları, Ankara.
+Bhattacharyya, P. N. ve Jha, D. K. (2012). Plant growth-promoting rhizobacteria (PGPR): emergence in agriculture. World Journal of Microbiology and Biotechnology, 28(4), 1327–1350. https://doi.org/10.1007/s11274-011-0979-9
+Dlamini, C. S., Xaba, P. ve Kirkman, K. P. (2016). A review of grassland degradation assessment methods applied in southern African grasslands. African Journal of Range and Forage Science, 33(1), 1–12.
+Dong, C., Shao, L., Liu, G., Chen, H., Zhao, Q. ve Li, J. (2015). Photosynthesis, carbon and nitrogen metabolism of wheat under drought and combined drought and high-temperature stress. Plant Science, 234, 45–54.
+FAO. (2020). The State of Food and Agriculture 2020: Overcoming agricultural calamities. Food and Agriculture Organization of the United Nations, Roma.
+Farhi, E., Goldstone, J. ve Gutmann, S. (2014). A quantum approximate optimization algorithm. arXiv preprint, arXiv:1411.4028. https://arxiv.org/abs/1411.4028
+Holechek, J. L., Pieper, R. D. ve Herbel, C. H. (2011). Range Management: Principles and Practices (6. baskı). Prentice Hall, New Jersey.
+Manga, İ., Acar, Z. ve Ayan, İ. (2003). Yem Bitkileri Yetiştiriciliği. Ondokuz Mayıs Üniversitesi Ziraat Fakültesi Ders Kitabı, Samsun.
+Ngu, A. H. H., Gutierrez, M., Metsis, V., Nepal, S. ve Sheng, Q. Z. (2019). IoT middleware: A survey on issues and enabling technologies. IEEE Internet of Things Journal, 4(1), 1–20.
+Preskill, J. (2018). Quantum computing in the NISQ era and beyond. Quantum, 2, 79. https://doi.org/10.22331/q-2018-08-06-79
+Reinermann, S., Asam, S. ve Kuenzer, C. (2020). Remote sensing of grassland production and management — a review. Remote Sensing, 12(12), 1949. https://doi.org/10.3390/rs12121949
+Tarım ve Orman Bakanlığı. (2021). Türkiye Çayır-Mera Alanları Durum Raporu. T.C. Tarım ve Orman Bakanlığı, Tarımsal Araştırmalar ve Politikalar Genel Müdürlüğü, Ankara.
+Tong, X., Tian, F., Prentice, I. C. ve Harrison, S. P. (2018). Reconciling estimates of the contemporary North American carbon balance among terrestrial biosphere models, atmospheric inversions, and a new approach for estimating net ecosystem exchange from inventory-based data. Global Change Biology, 24(1), 103–116.
+Tzounis, A., Katsoulas, N., Bartzanas, T. ve Kittas, C. (2017). Internet of Things in agriculture, recent advances and future challenges. Biosystems Engineering, 164, 31–48. https://doi.org/10.1016/j.biosystemseng.2017.09.007
