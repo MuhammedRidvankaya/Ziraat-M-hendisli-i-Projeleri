@@ -1,0 +1,451 @@
+Özet
+Buğdaygil yem bitkileri, dünya genelinde hayvan beslemesinde kritik bir role sahip olmakla birlikte baklagillere kıyasla daha düşük besin kalitesi nedeniyle sınırlı tercih görmektedir. Bu derleme çalışması; buğdaygil yem bitkilerinin botanik tanımı, yetiştiricilik pratikleri, hasat ve depolama yöntemlerini ele alarak bu süreçlere entegre edilebilecek veri analitiği, yapay zekâ, Nesnelerin İnterneti (IoT), mikrodenetleyici sistemleri ve biyoteknoloji uygulamalarını kapsamlı biçimde incelemektedir. Elde edilen bulgular; akıllı tarım teknolojilerinin sulama verimliliğini artırabileceğini, gübre kullanımını optimize edebileceğini ve hasat zamanlamasını iyileştirebileceğini ortaya koymaktadır.
+Anahtar Kelimeler: Buğdaygil yem bitkileri, akıllı tarım, yapay zekâ, IoT, makine öğrenmesi, verim optimizasyonu
+1. Giriş
+Dünya nüfusunun hızla artması ve buna paralel olarak hayvansal ürünlere olan talebin yükselmesi, yem bitkileri yetiştiriciliğini tarımsal üretimin en stratejik alanlarından biri hâline getirmiştir. Buğdaygil yem bitkileri (Poaceae familyası), geniş bir coğrafyada yetişebilme kapasiteleri, otlatmaya ve olumsuz iklim koşullarına karşı yüksek toleransları sayesinde mera ve kaba yem üretiminin temel bileşenini oluşturmaktadır (Undersander ve ark., 2002).
+Bununla birlikte buğdaygil yem bitkilerinin protein içeriğinin düşük, selüloz ve lignin içeriğinin ise yüksek olması, ruminant hayvanlar açısından sindirilebilirliği olumsuz etkilemekte ve bu bitkilerin çoğunlukla baklagil türleriyle karıştırılarak ekilmesini zorunlu kılmaktadır (Van Soest, 1994). Söz konusu kısıtların aşılmasında geleneksel ıslah yöntemlerinin yanı sıra son yıllarda biyoteknoloji, yapay zekâ ve duyarlı (precision) tarım uygulamaları da giderek daha fazla yer bulmaktadır (Schauberger ve ark., 2017).
+Bu çalışma; buğdaygil yem bitkilerinin tanımlanması, ekolojik istekleri, toprak işleme ve ekim uygulamaları, sulama ve gübreleme yönetimi, hasat ve depolama süreçlerini sistematik biçimde ele almakta; ardından bu süreçlerin her aşamasında akıllı teknolojilerin nasıl entegre edilebileceğini tartışmaktadır.
+2. Buğdaygil Yem Bitkilerinin Genel Özellikleri ve Ekolojik Gereksinimleri
+2.1 Baklagillerle Karşılaştırmalı Değerlendirme
+Buğdaygil yem bitkileri, baklagil yem bitkilerine kıyasla pek çok agronomik avantaj sergilemektedir. Her şeyden önce adaptasyon alanları son derece geniştir; iklim ve toprak istekleri nispeten daha azdır. Soğuğa, sıcağa, dona ve kurağa karşı dayanıklılıkları belirgin biçimde daha yüksektir (Casler ve Undersander, 2006). Örneğin köpekdişi ayrığı (Cynodon dactylon), yüksek otlak ayrığı (Festuca arundinacea), kamışsı yumak ve kılçıksız brom (Bromus inermis) toprak tuzluluğuna toleranslı türler arasında yer almaktadır. Otlak ayrığı (Dactylis glomerata), koyun yumağı (Festuca ovina) ve domuz ayrığı ise kuraklığa karşı oldukça dayanıklı türlerdir (Bolarín ve ark., 1996).
+Öte yandan buğdaygillerin protein içeriği baklagillere göre belirgin şekilde düşük olup kuru madde bazında genellikle yüzde 10-14 aralığında seyrederken baklagillerde bu oran yüzde 18-24'e ulaşabilmektedir. Buna karşın selüloz ve lignin içerikleri daha yüksektir; bu durum sindirilebilirliği olumsuz etkilemekte ve hayvan performansı üzerinde kısıtlayıcı bir etki yaratmaktadır (Van Soest, 1994). Mera ayrığı bitkisinin otlatmaya dayanıklılığı ise baklagillerle kıyaslandığında çok daha yüksektir; bu özellik özellikle yoğun otlatma yapılan alanlarda buğdaygilleri tercih sebebi kılmaktadır.
+2.2 Sıcaklık ve İklim İstekleri
+Buğdaygil yem bitkileri, büyüme optimumları açısından iki ana gruba ayrılmaktadır. Serin mevsim buğdaygilleri (cool-season grasses) 15-25°C sıcaklık aralığında en yüksek büyüme performansını gösterirken sıcak mevsim türleri (warm-season grasses) 30-40°C aralığında optimal büyümeye ulaşmaktadır (Sanderson ve ark., 1997). Bu farklılık, tür seçiminde bölgenin iklim karakterinin belirleyici rol oynadığına işaret etmektedir. Nitekim çim (Lolium spp.), otlak ayrığı ve yumak türleri tipik serin mevsim türleriyken yemlik mısır (Zea mays), sorgum (Sorghum bicolor) ve sudan otu (Sorghum × drummondii) sıcak mevsim temsilcileridir (Aiken ve Springer, 2002).
+2.3 Kök Sistemi ve Morfolojik Tanımlama
+Buğdaygil yem bitkilerinin tanımlanmasında kök yapısı, başak durumu, sap ve yaprak özellikleri ile tohum morfolojisi birlikte değerlendirilmektedir. Bu bitkilerin tamamında saçak kök sistemi gözlemlenmekte; yumak türlerinde ve mavi ayrıkta (Elymus spp.) ise saçak köklere ek olarak rizomların varlığı dikkat çekmektedir. Çiçeklenme açısından ayrık türleri çift taraflı, kılçıklı ya da kılçıksız başaklar oluştururken yumak ve brom türleri salkım şeklinde başaklanmaktadır. Otlak ayrığının sapları ince ve alttan dirsekli olup mavi ayrıkta saplar yumak şeklinde yüksek, otlak ayrığında ise kaba yapıya sahip yumaklar oluşturmaktadır (Casler ve Undersander, 2006).
+3. Toprak Hazırlığı ve Ekim Uygulamaları
+3.1 Toprak İşleme
+Buğdaygil yem bitkilerinin tohumları ufak yapılı olduğundan iyi hazırlanmış bir tohum yatağı, başarılı bir tesis için ön koşuldur. Toprak işlemede pulluk, dip kazan, çizel, kültüvatör, tırmık ve merdane gibi farklı alet ve ekipmanlardan yararlanılmaktadır. Güzlük ekim planlandığında ilk sürüm ilkbaharda yapılmakta; anız bozulduktan sonra diskaro ve merdane çekme yoluyla sonbaharda tohum yatağı hazırlanmaktadır. Yazlık ekim öngörüldüğünde ise tarla sonbaharda sürülerek kışa bırakılmakta, ilkbaharda ekim öncesinde diskaro ve merdane işlemi uygulanmaktadır (Elçi, 2005).
+3.2 Tür Bazında Ekim Derinlikleri ve Sıra Aralıkları
+Ekim derinliği ve sıra arası mesafe, tür özelliklerine göre farklılık göstermektedir. Otlak ayrığı 2-2,5 cm derinliğe ve 30-100 cm sıra arasına ekilmektedir. Mavi ayrık için ekim derinliği 3-4 cm, sıra arası ise 50-80 cm olarak önerilmektedir. Yumak türleri 0,6-1 cm derinliğe ve 30 cm sıra arasına; brom türleri 1-1,5 cm derinliğe ve 40-60 cm sıra arasına ekilmektedir. Çim türlerinde ekim derinliği 0,6-1,3 cm, sıra arası 20-40 cm olarak uygulanmakta; sorgum ise 2-4 cm derinliğe ve 20 cm sıra arasına ekilmektedir. Ekimin ardından uygun ağırlıkta merdane çekme işlemi yapılarak tohum-toprak teması güçlendirilmektedir (Elçi, 2005; Serin ve Tan, 1998).
+4. Sulama Yönetimi
+Sulama stratejisi, bölgenin iklim koşullarına, toprak özelliklerine ve bitkinin su gereksinimlerine göre belirlenmektedir. Bitkilerde yatmaya neden olmayacak koşullarda ve göllendirme riski bulunmayan alanlarda salma sulama tercih edilirken diğer durumlarda yağmurlama sulama sistemi uygulanmaktadır (Öktem, 2005).
+Tür bazında sulama uygulamaları incelendiğinde şu tablo ortaya çıkmaktadır. Ayrık türlerinde yağmurların ardından başaklanma başlangıcına kadar 8-10 gün aralıklarla sulama yapılmaktadır. Su ihtiyacı yüksek olan çim türlerinde toprak nem oranı yüzde 50-60 düzeyine indiğinde sulama başlatılmaktadır. Yumak türlerinde doğal yağışların kesilmesinin ardından 8-10 gün ara ile sulama sürdürülmektedir. Kılçıksız brom ise ekildiği yıl ilkbahar yağışları sona erdikten sonra sulanmakta; sonraki yıllarda ise çiçeklenme dönemine kadar 8-10 günlük aralıklarla sulama yapılmaktadır (Serin ve Tan, 1998).
+5. Gübreleme
+Buğdaygil yem bitkilerinde gübreleme, öncelikli olarak toprak analizi sonuçlarına dayandırılmalıdır. Azot, bu bitkilerin en çok ihtiyaç duyduğu besin elementidir ve verilen azot miktarına bağlı olarak verimde belirgin artışlar gözlemlenmektedir (Jarvis ve ark., 1996).
+Tür bazında gübre önerileri şöyle sıralanmaktadır. Ayrık türlerinde dekara 5-6 kg saf azot ile toprakta fosfor eksikliği saptanması durumunda dekara 5 kg fosfor verilmektedir; biçim sonrasında sulama suyuyla birlikte dekara 5 kg ek azot uygulaması önerilmektedir. Çim türlerinde dekara 15-20 kg azot gerekmekte; baklagille karışık ekimde yalnızca ekim yılı azotlu gübre uygulanmaktadır. Yumak türlerinde ilk ekimde dekara 4-5 kg azot ve 7-8 kg fosfor gübresi verilmekte; bakım yıllarında ise 5-18 kg azotlu gübre önerilmektedir. Kılçıksız broma yılda bir olmak üzere dekara 8-15 kg azot gübresi uygulanmaktadır. Sorgumda ekimle birlikte dekara 6-8 kg azot ve 8-10 kg fosfor pentaoksit verilmekte; birinci biçimin ardından dekara 6-7 kg azot daha uygulanmaktadır (Serin ve Tan, 1998; Öktem, 2005).
+6. Hasat Yönetimi
+6.1 Ot ve Tohum Hasatında Temel Kriterler
+Hasat zamanının doğru belirlenmesi hem verim hem de kalite açısından kritik öneme sahiptir. Kuru ot üretimi amaçlandığında hasat başaklanma ile çiçeklenme arasında yapılmalıdır; geç hasatta selüloz birikimi artmakta ve protein oranı düşmektedir. Tohumluk üretimde ise başaktaki tohumların onda biri avuç içinde ya da sert yüzeye vurulduğunda döküldüğünde hasat zamanının geldiği anlaşılmaktadır (Elçi, 2005).
+6.2 Tür Bazında Hasat Zamanları
+Otlak ayrığının kuru ot hasadı başaklanma dönemi sonu veya çiçeklenme başlangıcında; tohumluk hasadı başakların sarardığı dönemde yapılmaktadır. Mavi ayrık kuru ot için çiçeklenme öncesinde biçilmekte; tohum hasadı ise başakların sararmaya başladığı dönemde gerçekleştirilmektedir. Çim türlerinde kuru ot hasadı başakların yüzde ellisinin polenlerini döktüğü dönemde yapılmakta; karışık ekimde ise ilk biçim başaklanma döneminde ve ardından yılda 2-6 kez tekrarlanmaktadır. Yumak türleri tek ekimde başaklanma başlangıcında, karışık ekimde ise 15-20 cm boya ulaşıldığında hasat edilmektedir. Sorgum ot üretimi için 100-120 cm boylandığında ve 3-4 kez olmak üzere biçilmekte; silaj amaçlı kullanımda süt olumu döneminde hasat edilmektedir (Elçi, 2005; Serin ve Tan, 1998).
+7. Depolama
+Hasat edilen otlar tarlada soldurma işlemine tabi tutulmakta; belli aralıklarla çevrilerek nem oranı düşürülmektedir. Soldurma tamamlandıktan sonra balya makinesiyle balya hâline getirilen ürün uygun depolara taşınmaktadır. Yağışın az olduğu bölgelerde üstü çatılı, yanları açık depolar yeterliyken yağışın yoğun olduğu bölgelerde kapalı depolar tercih edilmektedir. Tohumlar ise depolama kuruluğuna gelinceye kadar kurutulduktan ve temizlendikten sonra kızışma ve nem riski sürekli izlenerek depolanmaktadır. Silaj için ayrılan ürünler uygun boyutta kıyılarak silo koşullarına uygun biçimde depolanmakta; ambar ve depolarda zararlılara karşı gerekli önlemler alınmaktadır (McDonald ve ark., 2011).
+8. Veri Analitiği ve Karar Destek Sistemleri
+8.1 Üretim Verimliliğinin İzlenmesi
+Veri analitiği uygulamaları, buğdaygil yem bitkisi yetiştiriciliğinde birden fazla katmanda değer yaratmaktadır. Farklı parsellerde elde edilen protein oranı, kuru ot verimi ve sindirilebilirlik değerlerinin sistematik olarak ölçülüp karşılaştırılması; en uygun tür ve karışım kombinasyonlarının (örneğin baklagil ve buğdaygil oranının) belirlenmesine olanak tanımaktadır (Schauberger ve ark., 2017).
+Sıcaklık (15-25°C ile 30-40°C aralıkları), yağış ve nem değerleri ile büyüme performansı arasındaki ilişkinin analiz edilmesi, bölgesel tür seçimini ve ekim zamanlamasını doğrudan yönlendirebilmektedir. Toprak nemi ile bitki gelişimi arasında kurulan veri modelleri gereksiz sulamayı önleyerek su kullanım verimliliğini artırmaktadır. Azot ve fosfor miktarları ile verim ilişkisinin izlenmesi ise aşırı gübrelemenin önüne geçerek hem maliyeti düşürmekte hem de toprak sağlığını korumaktadır (Jarvis ve ark., 1996).
+8.2 Hasat Optimizasyonu
+Başaklanma, çiçeklenme ve sarı olum gibi fenolojik evrelerin veriyle takip edilmesi, en yüksek besin değerini barındıran optimum hasat penceresinin belirlenmesini mümkün kılmaktadır. Erken hasatta verim düşerken geç hasatta kalite kaybı yaşanmakta; veri tabanlı yaklaşımlar bu iki değişken arasındaki optimum noktayı tespit etmeyi kolaylaştırmaktadır. Benzer biçimde depo koşullarında nem ve sıcaklık verilerinin sürekli izlenmesi küflenme ve kızışma risklerini önceden tahmin etmeye imkân tanımaktadır (McDonald ve ark., 2011).
+9. Yapay Zekâ ve Makine Öğrenmesi Uygulamaları
+9.1 Verim Tahmini
+Makine öğrenmesi algoritmaları, buğdaygil yem bitkisi üretiminde verim tahmininde giderek artan bir etkinlikle kullanılmaktadır. Toprak analizi, iklim verisi ve geçmiş verim bilgilerini bir arada analiz eden rastgele orman, destek vektör makineleri ve yapay sinir ağı modelleri, saha koşullarını simüle eden denemelerde yüzde seksen ve üzerinde doğruluk oranına ulaşabilmektedir. Bu modeller, serin mevsim ve sıcak mevsim türleri için farklı iklim senaryolarında olası verimleri tahmin ederek üreticilere öngörülü karar alma fırsatı sunmaktadır (Schauberger ve ark., 2017; Liakos ve ark., 2018).
+9.2 Hastalık ve Yabancı Ot Tespiti
+Yapay zekâ destekli görüntü işleme sistemleri, drone veya sabit kameralardan elde edilen tarla görüntülerini analiz ederek hastalık belirtileri, sararma, kuruma ve yabancı ot yoğunluğunu tespit edebilmektedir. Konvolüsyonel sinir ağları (CNN) tabanlı bu sistemler, buğdaygil türlerini yabancı otlardan ayırt edebilme ve belirli hastalık patojenlerini erken evrede tanımlayabilme kapasitesine sahiptir. İnsan gözünden çok daha hızlı ve tutarlı sonuçlar veren bu sistemler, kimyasal kullanımını optimize ederek çevre dostu üretime katkı sağlamaktadır (Mohanty ve ark., 2016).
+9.3 Ekim Zamanı Optimizasyonu
+Geçmiş yılların iklim verilerinden öğrenen makine öğrenmesi modelleri, serin ve sıcak mevsim buğdaygilleri için optimum ekim pencerelerini otomatik olarak belirleyebilmektedir. Toprak nem sensörlerinden ve hava durumu tahminlerinden gelen verilerle beslenen bu sistemler, don, kuraklık ve aşırı sıcaklık risklerini önceden hesaplayarak üreticilere erken uyarı sunmaktadır (Liakos ve ark., 2018).
+10. Derin Öğrenme Uygulamaları
+10.1 Görüntü Tabanlı Bitki Analizi
+Yapay sinir ağlarının çok katmanlı mimarisine dayanan derin öğrenme modelleri, karmaşık görüntü verilerinden otomatik özellik çıkarımı yapabilmektedir. Buğdaygil yem bitkisi yetiştiriciliğinde bu teknoloji; yaprak hastalıklarının tespiti, renk değişimlerinin (sararma, kızarma) izlenmesi ve zararlı böceklerin tanımlanmasında kullanılmaktadır. Belirli aralıklarla alınan görüntüler analiz edilerek bitkinin boy uzunluğu, yoğunluğu ve başaklanma durumu izlenebilmekte; bu verilerden en uygun hasat zamanı tespit edilebilmektedir (Mohanty ve ark., 2016).
+10.2 Çok Modlu Veri Entegrasyonu
+İleri düzey derin öğrenme modelleri, görüntü verisiyle birlikte iklim ve toprak verilerini de entegre ederek çok daha doğru verim tahminleri üretebilmektedir. Ayrık, brom ve yumak gibi türlerin görüntüden otomatik olarak ayırt edilmesi, tarlada tür kompozisyonunun haritasının çıkarılmasına ve bölge bazlı yönetim kararlarının alınmasına zemin hazırlamaktadır (LeCun ve ark., 2015).
+11. Nesnelerin İnterneti (IoT) Uygulamaları
+11.1 Akıllı Sulama Sistemleri
+IoT tabanlı toprak nem sensörleri, kök bölgesindeki su içeriğini sürekli olarak ölçmekte ve bu veriler doğrultusunda otomatik sulama sistemlerini devreye alabilmektedir. Çim türlerinde kritik eşik olarak belirlenen yüzde 50-60 toprak nemi aralığının altına düşüldüğünde sistem otomatik olarak sulama başlatmakta; böylece bitki stresi önlenmekte ve su israfı engellemektedir (Bwambale ve ark., 2022).
+11.2 Çevresel İzleme
+Hava sıcaklığı, toprak sıcaklığı ve nem oranının sürekli kaydedilmesi; ekim zamanlaması, gelişim tahmini ve hasat planlaması için gerçek zamanlı veri akışı sağlamaktadır. Yaprak nemi ve ışık sensörleri aracılığıyla hastalık riski erken tespit edilebilmekte; topraktaki besin elementleri (özellikle azot) sensörlerle ölçülerek ihtiyaç duyulan miktarın üzerinde gübre uygulamasının önüne geçilebilmektedir (Bwambale ve ark., 2022).
+11.3 Hassas Ekim ve Depo Yönetimi
+GPS ve sensör entegrasyonlu akıllı ekim makineleri, doğru sıra arası mesafeyi ve ekim derinliğini otomatik olarak ayarlayabilmektedir; bu da buğdaygil yem bitkilerinde kritik öneme sahip tohum-toprak temasını güvence altına almaktadır. Depo koşullarında ise sıcaklık ve nem sensörleri sürekli izleme yaparak küflenme ve kızışma gibi bozulma risklerine karşı erken uyarı sağlamaktadır (McDonald ve ark., 2011).
+12. Mikrodenetleyici Tabanlı Otomasyon
+Arduino, PIC ve ESP32 gibi mikrodenetleyiciler, buğdaygil yem bitkisi yetiştiriciliğinde çok sayıda görevi otomatize edebilmektedir. Toprak nem sensöründen gelen veri mikrodenetleyici tarafından işlenmekte; nem kritik eşiğin altına düştüğünde sulama vanası otomatik olarak açılmakta, yeterli nem sağlandığında ise kapatılmaktadır. Zamanlayıcı veya sensör verilerine bağlı olarak gübreleme sistemleri devreye alınabilmekte; fan, pompa ve ışık sistemleri uzaktan yönetilebilmektedir. Wi-Fi veya Bluetooth bağlantısı sayesinde üretici, tarla ve depo koşullarını akıllı telefon ya da bilgisayar üzerinden gerçek zamanlı olarak izleyebilmektedir (Kamienski ve ark., 2019).
+13. Biyoteknoloji Uygulamaları
+13.1 Genetik Islah ve Biyoteknolojik Araçlar
+Biyoteknoloji, buğdaygil yem bitkilerinin genetik yapısının iyileştirilmesinde güçlü araçlar sunmaktadır. Moleküler markör destekli seleksiyon ve gen transferi yöntemleri aracılığıyla kuraklığa, soğuğa ve tuzluluğa toleranslı çeşitlerin geliştirilmesi mümkün hâle gelmektedir. Bu durum özellikle yarı kurak bölgeler için büyük önem taşımaktadır (Sacks ve ark., 2013).
+13.2 Kalite İyileştirme
+Protein oranının artırılması ve sindirilebilirliğin iyileştirilmesi, buğdaygil yem bitkilerinin baklagillerle kıyaslandığında en belirgin zayıf noktalarıdır. Genetik mühendisliği yaklaşımları bu kısıtları aşmaya yönelik çalışmalara zemin hazırlamaktadır; daha hızlı büyüyen, daha besleyici ve daha uzun ömürlü çeşitler geliştirilebilmektedir (Sacks ve ark., 2013). Doku kültürü ve mikro çoğaltım yöntemleriyle homojen ve kaliteli bitki materyalinin seri üretimi de biyoteknolojik yaklaşımların pratik katkıları arasında yer almaktadır.
+14. Kuantum Bilgisayar Teknolojisi
+Kuantum bilgisayarlar, klasik bilgisayarların yetersiz kaldığı karmaşık optimizasyon problemlerini çok daha hızlı çözme potansiyeline sahiptir. Buğdaygil yem bitkisi yetiştiriciliği bağlamında bu teknoloji; iklim, toprak, verim ve genetik verilerin eş zamanlı analizine olanak tanıyarak genetik ıslah süreçlerini önemli ölçüde hızlandırabilir. Bitkilerin DNA yapısının analizi, dayanıklı ve kaliteli çeşitlerin geliştirilmesi ve karmaşık iklim senaryolarının modellenmesi alanlarında kuantum bilgisayarların yakın gelecekte biyoteknoloji çalışmalarıyla entegre edilmesi beklenmektedir (Preskill, 2018).
+Simülasyon
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import r2_score
+# ----------------------------
+# 1. Buğdaygil vs Baklagil Karşılaştırması
+# ----------------------------
+def compare_grass_legume():
+    labels = ['Protein (%)', 'Selüloz+Lignin (%)', 'Kuru Ot Verimi (t/ha)', 'Adaptasyon Alanı (1-10)']
+    grass = [12, 35, 8, 9]
+    legume = [20, 25, 7, 7]    
+    x = np.arange(len(labels))
+    width = 0.35    
+    fig, ax = plt.subplots(figsize=(10,6))
+    ax.bar(x - width/2, grass, width, label='Buğdaygil', color='darkgreen')
+    ax.bar(x + width/2, legume, width, label='Baklagil', color='lightgreen')
+    ax.set_ylabel('Değer')
+    ax.set_title('Buğdaygil ve Baklagil Yem Bitkilerinin Karşılaştırılması')
+    ax.set_xticks(x)
+    ax.set_xticklabels(labels)
+    ax.legend()
+    plt.tight_layout()
+    plt.show()
+# ----------------------------
+# 2. Sıcaklık - Büyüme İlişkisi (Serin vs Sıcak Mevsim)
+# ----------------------------
+def temperature_growth():
+    temp = np.linspace(0, 45, 100)
+    cool_season = np.exp(-((temp - 20)/12)**2) * 100
+    warm_season = np.exp(-((temp - 35)/12)**2) * 100    
+    plt.figure(figsize=(10,6))
+    plt.plot(temp, cool_season, label='Serin Mevsim Buğdaygilleri (15-25°C)', color='blue')
+    plt.plot(temp, warm_season, label='Sıcak Mevsim Buğdaygilleri (30-40°C)', color='red')
+    plt.xlabel('Sıcaklık (°C)')
+    plt.ylabel('Büyüme Oranı (%)')
+    plt.title('Sıcaklığa Göre Büyüme Performansı')
+    plt.axvspan(15, 25, alpha=0.2, color='blue', label='Serin mevsim optimum')
+    plt.axvspan(30, 40, alpha=0.2, color='red', label='Sıcak mevsim optimum')
+    plt.legend()
+    plt.grid(True)
+    plt.tight_layout()
+    plt.show()
+# ----------------------------
+# 3. Hasat Optimizasyonu: Verim ve Kalite (Protein) vs Gün
+# ----------------------------
+def harvest_optimization():
+    days = np.arange(0, 60, 1)
+    yield_dm = 8 / (1 + np.exp(-0.15*(days-30))) + 0.5
+    protein = 18 - 0.15 * days
+    protein = np.clip(protein, 6, 18)
+    quality_index = yield_dm * (protein / 10)
+    optimal_day = days[np.argmax(quality_index)]    
+    fig, ax1 = plt.subplots(figsize=(10,6))
+    ax1.set_xlabel('Gün (Başaklanma başlangıcından itibaren)')
+    ax1.set_ylabel('Kuru Ot Verimi (t/ha)', color='green')
+    ax1.plot(days, yield_dm, color='green', label='Verim')
+    ax1.tick_params(axis='y', labelcolor='green')    
+    ax2 = ax1.twinx()
+    ax2.set_ylabel('Protein (%)', color='orange')
+    ax2.plot(days, protein, color='orange', label='Protein')
+    ax2.tick_params(axis='y', labelcolor='orange')    
+    ax1.axvline(x=optimal_day, linestyle='--', color='red', label=f'Optimum Hasat: {optimal_day:.0f} gün')
+    ax1.legend(loc='upper left')
+    ax2.legend(loc='upper right')
+    plt.title('Hasat Zamanına Göre Verim ve Kalite Değişimi')
+    plt.tight_layout()
+    plt.show()
+    print(f" Hasat Optimizasyonu: Maksimum kalite indeksine göre optimum hasat zamanı başaklanmadan {optimal_day:.0f} gün sonradır.")
+# ----------------------------
+# 4. Toprak Nemi Simülasyonu (Penman-Monteith benzeri ET, GDD tabanlı)
+# ----------------------------
+def soil_moisture_irrigation():
+    """
+    Toprak nemi simülasyonu:
+    - Penman-Monteith benzeri ET hesabı (sıcaklık + rüzgâr)
+    - Bitki büyümesi birikmiş sıcaklık derecesi (GDD) ile
+    - Rastgele yağış ve sulama kararı
+    """
+    # Parametreler
+    days = 180
+    T_avg = 15.0
+    T_amp = 12.0
+    T_phase = -90    
+    # Toprak parametreleri (mm)
+    FC = 100.0
+    irrigation_threshold = 55.0
+    irrigation_amount = FC    
+    # Rüzgâr (m/s)
+    wind_speed = 3.0    
+    # Yağış: üstel dağılım
+    rain_lambda = 0.2
+    rain_mean_intensity = 8.0    
+    # GDD ve bitki katsayısı
+    base_temp = 10.0
+    GDD_thresholds = [0, 200, 400, 600]
+    Kc_values = [0.5, 0.8, 1.0, 0.7]    
+    # Zaman serileri
+    time = np.arange(days)
+    T_daily = T_avg + T_amp * np.sin(2 * np.pi * (time + T_phase) / 365.0)
+    T_daily = np.maximum(T_daily, 0.0)    
+    wind_daily = np.random.normal(wind_speed, 1.0, days)
+    wind_daily = np.maximum(wind_daily, 1.0)    
+    # Yağış simülasyonu
+    rain_events = np.random.exponential(1/rain_lambda, days)
+    rain_intensity = np.random.exponential(rain_mean_intensity, days)
+    rainfall = np.where(rain_events < 1.0, rain_intensity, 0.0)    
+    # Başlangıç nemi
+    soil_moisture = np.zeros(days)
+    soil_moisture[0] = FC * 0.8
+    irrigation = np.zeros(days)    
+    GDD = np.zeros(days)
+    Kc = np.zeros(days)    
+    # ET hesabı (mm/gün)
+    def compute_ET(T, u, Kc_val, moisture_prev):
+        if T <= 0:
+            ET0 = 0.0
+        else:
+            ET0 = (0.2 * T + 0.5) * (1 + 0.1 * u)
+            ET0 = max(ET0, 0.0)
+        stress_factor = min(1.0, moisture_prev / FC)
+        ET_actual = Kc_val * ET0 * stress_factor
+        return min(ET_actual, moisture_prev + 1.0)    
+    # Ana döngü
+    for i in range(1, days):
+        # GDD güncellemesi
+        gdd_increment = max(0, T_daily[i-1] - base_temp)
+        GDD[i] = GDD[i-1] + gdd_increment        
+        # GDD'ye göre Kc belirleme
+        if GDD[i] < GDD_thresholds[1]:
+            Kc[i] = Kc_values[0] + (Kc_values[1] - Kc_values[0]) * (GDD[i] / GDD_thresholds[1])
+        elif GDD[i] < GDD_thresholds[2]:
+            Kc[i] = Kc_values[1] + (Kc_values[2] - Kc_values[1]) * ((GDD[i] - GDD_thresholds[1]) / (GDD_thresholds[2] - GDD_thresholds[1]))
+        elif GDD[i] < GDD_thresholds[3]:
+            Kc[i] = Kc_values[2]
+        else:
+            if GDD[i] < GDD_thresholds[3] + 300:
+                Kc[i] = Kc_values[2] + (Kc_values[3] - Kc_values[2]) * ((GDD[i] - GDD_thresholds[3]) / 300)
+            else:
+                Kc[i] = Kc_values[3]
+        Kc[i] = np.clip(Kc[i], 0.4, 1.0)        
+        # Sulama kararı
+        if soil_moisture[i-1] < irrigation_threshold:
+            irrigation[i] = irrigation_amount - soil_moisture[i-1]
+            soil_moisture[i] = irrigation_amount
+        else:
+            irrigation[i] = 0.0
+            soil_moisture[i] = soil_moisture[i-1]        
+        # Yağış ekle
+        soil_moisture[i] += rainfall[i-1]        
+        # ET hesapla ve çıkar
+        ET_actual = compute_ET(T_daily[i-1], wind_daily[i-1], Kc[i], soil_moisture[i-1])
+        soil_moisture[i] -= ET_actual        
+        # Drenaj
+        if soil_moisture[i] > FC:
+            soil_moisture[i] = FC
+        soil_moisture[i] = max(soil_moisture[i], 0.0)    
+    # Grafikler
+    fig, axes = plt.subplots(3, 1, figsize=(12, 12), sharex=True)    
+    # 1. Toprak nemi, yağış, sulama
+    ax1 = axes[0]
+    ax1.plot(time, soil_moisture, 'b-', label='Toprak Nemi (mm)')
+    ax1.axhline(y=FC, color='g', linestyle='--', label='Tarla Kapasitesi')
+    ax1.axhline(y=irrigation_threshold, color='r', linestyle='--', label='Sulama Eşiği')
+    ax1.fill_between(time, 0, rainfall, color='cyan', alpha=0.5, label='Yağış (mm)')
+    irr_days = time[irrigation > 0]
+    ax1.scatter(irr_days, np.full_like(irr_days, FC+5), marker='v', color='orange', label='Sulama')
+    ax1.set_ylabel('Su Miktarı (mm)')
+    ax1.set_title('Toprak Su Dengesi (Penman-Monteith + GDD)')
+    ax1.legend()    
+    # 2. ET, GDD, Kc
+    ax2 = axes[1]
+    ax2.plot(time, GDD, 'r-', label='Birikmiş GDD (°C-gün)')
+    ax2.set_ylabel('GDD (°C-gün)', color='r')
+    ax2.tick_params(axis='y', labelcolor='r')
+    ax3 = ax2.twinx()
+    ax3.plot(time, Kc, 'g--', label='Bitki Katsayısı (Kc)')
+    ax3.set_ylabel('Kc', color='g')
+    ax3.tick_params(axis='y', labelcolor='g')
+    ax2.set_title('Büyüme Derece Günleri ve Bitki Katsayısı')
+    lines1, labels1 = ax2.get_legend_handles_labels()
+    lines2, labels2 = ax3.get_legend_handles_labels()
+    ax2.legend(lines1+lines2, labels1+labels2, loc='upper left')    
+    # 3. Sıcaklık ve rüzgâr
+    ax4 = axes[2]
+    ax4.plot(time, T_daily, 'b-', label='Sıcaklık (°C)')
+    ax4.set_ylabel('Sıcaklık (°C)', color='b')
+    ax4.tick_params(axis='y', labelcolor='b')
+    ax5 = ax4.twinx()
+    ax5.plot(time, wind_daily, 'orange', label='Rüzgâr Hızı (m/s)')
+    ax5.set_ylabel('Rüzgâr (m/s)', color='orange')
+    ax5.tick_params(axis='y', labelcolor='orange')
+    ax4.set_xlabel('Gün')
+    ax4.set_title('Meteorolojik Değişkenler')
+    lines1, labels1 = ax4.get_legend_handles_labels()
+    lines2, labels2 = ax5.get_legend_handles_labels()
+    ax4.legend(lines1+lines2, labels1+labels2, loc='upper left')    
+    plt.tight_layout()
+    plt.show()    
+    # Özet bilgiler
+    total_irrigation = irrigation.sum()
+    total_rain = rainfall.sum()
+    total_ET = (soil_moisture[1:] - soil_moisture[:-1] + rainfall[1:] + irrigation[1:]).clip(min=0).sum()
+    print("\n Toprak Nemi Simülasyonu Özeti")
+    print(f"Toplam yağış: {total_rain:.1f} mm")
+    print(f"Toplam sulama: {total_irrigation:.1f} mm")
+    print(f"Toplam evapotranspirasyon: {total_ET:.1f} mm")
+    print(f"Günlük ortalama ET: {total_ET/days:.1f} mm/gün")
+    print(f"Toplam birikmiş GDD: {GDD[-1]:.0f} °C-gün")
+    print(f"Sulama yapılan gün sayısı: {(irrigation>0).sum()}")
+# ----------------------------
+# 5. Azot Gübrelemesine Verim Tepkisi
+# ----------------------------
+def nitrogen_response():
+    n_rate = np.linspace(0, 30, 50)
+    yield_resp = 6 + 0.3 * n_rate - 0.005 * n_rate**2
+    yield_resp = np.clip(yield_resp, 6, 12)    
+    plt.figure(figsize=(10,6))
+    plt.plot(n_rate, yield_resp, marker='o', linestyle='-', color='purple')
+    plt.xlabel('Azot Miktarı (kg/da)')
+    plt.ylabel('Kuru Ot Verimi (t/ha)')
+    plt.title('Azot Gübrelemesine Verim Tepkisi')
+    plt.grid(True)
+    plt.tight_layout()
+    plt.show()    
+    max_yield_idx = np.argmax(yield_resp)
+    print(f"Gübre Optimizasyonu: Maksimum verim {yield_resp[max_yield_idx]:.1f} t/ha, {n_rate[max_yield_idx]:.1f} kg/da azot ile sağlanır.")
+# ----------------------------
+# 6. Makine Öğrenmesi ile Verim Tahmini
+# ----------------------------
+def ml_yield_prediction():
+    np.random.seed(42)
+    n_samples = 200
+    temp = np.random.uniform(10, 40, n_samples)
+    rainfall = np.random.uniform(200, 800, n_samples)
+    nitrogen = np.random.uniform(0, 25, n_samples)
+    species = np.random.choice([0,1], n_samples)    
+    yield_true = (0.2*temp - 0.003*temp**2) + (0.01*rainfall) + (0.15*nitrogen) + (1.5*species) + np.random.normal(0, 0.5, n_samples)
+    yield_true = np.clip(yield_true, 3, 14)    
+    df = pd.DataFrame({
+        'Temperature': temp,
+        'Rainfall': rainfall,
+        'Nitrogen': nitrogen,
+        'Species': species,
+        'Yield': yield_true
+    })    
+    X = df[['Temperature', 'Rainfall', 'Nitrogen', 'Species']]
+    y = df['Yield']    
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+    model = RandomForestRegressor(n_estimators=100, random_state=42)
+    model.fit(X_train, y_train)
+    y_pred = model.predict(X_test)
+    r2 = r2_score(y_test, y_pred)    
+    importances = model.feature_importances_
+    features = X.columns    
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12,5))
+    ax1.scatter(y_test, y_pred, alpha=0.6)
+    ax1.plot([y_test.min(), y_test.max()], [y_test.min(), y_test.max()], 'r--')
+    ax1.set_xlabel('Gerçek Verim (t/ha)')
+    ax1.set_ylabel('Tahmin Edilen Verim (t/ha)')
+    ax1.set_title(f'Yapay Zekâ ile Verim Tahmini (R² = {r2:.2f})')    
+    ax2.barh(features, importances, color='teal')
+    ax2.set_xlabel('Önem Skoru')
+    ax2.set_title('Özellik Önem Dereceleri')    
+    plt.tight_layout()
+    plt.show()    
+    new_data = pd.DataFrame({
+        'Temperature': [22, 35],
+        'Rainfall': [550, 400],
+        'Nitrogen': [12, 8],
+        'Species': [0, 1]
+    })
+    pred_yield = model.predict(new_data)
+    print("Yapay Zekâ Tahmini:")
+    print(f"  Serin mevsim (22°C, 550mm yağış, 12kg N) -> Verim: {pred_yield[0]:.1f} t/ha")
+    print(f"  Sıcak mevsim (35°C, 400mm yağış, 8kg N) -> Verim: {pred_yield[1]:.1f} t/ha")
+# ----------------------------
+# 7. Yapay Zekâ Tabanlı Ekim Zamanı Önerisi
+# ----------------------------
+def planting_date_recommendation():
+    days = np.arange(1, 366)
+    temp_profile = 10 + 15 * np.sin(2*np.pi*(days-100)/365) + np.random.normal(0, 2, 365)
+    temp_profile = np.clip(temp_profile, -5, 40)    
+    cool_season_suit = np.zeros(365, dtype=bool)
+    cool_season_suit[280:320] = (temp_profile[280:320] > 5) & (temp_profile[280:320] < 20)
+    cool_season_suit[80:120] = (temp_profile[80:120] > 5) & (temp_profile[80:120] < 20)    
+    plt.figure(figsize=(12,5))
+    plt.plot(days, temp_profile, label='Günlük Sıcaklık')
+    plt.fill_between(days, -5, 40, where=cool_season_suit, color='lightgreen', alpha=0.5, label='Uygun Ekim Dönemi (Serin Mevsim)')
+    plt.xlabel('Gün (Yılın)')
+    plt.ylabel('Sıcaklık (°C)')
+    plt.title('Yapay Zekâ Tabanlı Ekim Zamanı Önerisi')
+    plt.legend()
+    plt.tight_layout()
+    plt.show()
+    print("Ekim Zamanı Önerisi: Serin mevsim buğdaygilleri için optimum ekim dönemi gün 80-120 (ilkbahar) veya 280-320 (sonbahar).")
+# ----------------------------
+# 8. IoT + Mikrodenetleyici Kontrol Simülasyonu
+# ----------------------------
+def iot_microcontroller_simulation():
+    time = np.arange(0, 48, 1)
+    soil_moisture_sensor = 45 - 0.8*time + 2*np.random.randn(len(time))
+    soil_moisture_sensor = np.clip(soil_moisture_sensor, 25, 55)    
+    threshold = 35
+    irrigation_actuator = [1 if m < threshold else 0 for m in soil_moisture_sensor]    
+    fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(10,8), sharex=True)
+    ax1.plot(time, soil_moisture_sensor, 'b-', label='Toprak Nemi Sensörü')
+    ax1.axhline(y=threshold, color='r', linestyle='--', label='Sulama Eşiği')
+    ax1.set_ylabel('Nem (%)')
+    ax1.set_title('Mikrodenetleyici (Arduino/ESP32) ile Sensör Okuma')
+    ax1.legend()    
+    ax2.step(time, irrigation_actuator, 'g-', where='post', label='Sulama Vana (1=Açık)')
+    ax2.set_xlabel('Zaman (saat)')
+    ax2.set_ylabel('Aktüatör Durumu')
+    ax2.set_title('Otomatik Sulama Kontrolü')
+    ax2.legend()
+    plt.tight_layout()
+    plt.show()
+    print("IoT Simülasyonu: Mikrodenetleyici, toprak nemi eşiğin altına düştüğünde sulama vanasını açmıştır.")
+# ----------------------------
+# Ana Fonksiyon - Tüm Analizleri Çalıştır
+# ----------------------------
+def main():
+    print("===== Buğdaygil Yem Bitkileri Yetiştiriciliği Prototip Analizi =====\n")
+    compare_grass_legume()
+    temperature_growth()
+    harvest_optimization()
+    soil_moisture_irrigation()   # gelişmiş versiyon
+    nitrogen_response()
+    ml_yield_prediction()
+    planting_date_recommendation()
+    iot_microcontroller_simulation()
+    print("\nPrototip tamamlandı. Gerçek dünya verileriyle entegre edilebilir.")
+if __name__ == "__main__":
+    main()
+15. Tartışma
+Bu derleme, buğdaygil yem bitkisi yetiştiriciliğinde geleneksel agronomik bilginin akıllı tarım teknolojileriyle entegrasyonunun üretim sistemlerine çok boyutlu katkılar sunabileceğini ortaya koymaktadır. Su kullanım verimliliği, gübre optimizasyonu, zamanında ve doğru hasat ile kayıpsız depolama; veri analitiği, yapay zekâ, IoT ve biyoteknolojinin sinerjik kullanımıyla önemli ölçüde iyileştirilebilir (Liakos ve ark., 2018; Bwambale ve ark., 2022).
+Bununla birlikte bazı sınırlılıkların göz önünde bulundurulması gerekmektedir. Başta küçük ölçekli çiftçiler olmak üzere akıllı tarım teknolojilerinin yüksek başlangıç yatırım maliyeti, teknik altyapı eksikliği ve dijital okuryazarlık düzeyi, bu teknolojilerin sahaya aktarılmasını kısıtlayan başlıca faktörler arasında yer almaktadır. Bunların yanı sıra biyogüvenlik ve etik kaygılar, GM bitki çeşitlerinin yaygın kabulünü engelleyen önemli bir faktör olmaya devam etmektedir (Sacks ve ark., 2013).
+16. Sonuç
+Buğdaygil yem bitkileri, geniş adaptasyon kapasiteleri ve otlatmaya dayanıklılıkları sayesinde küresel kaba yem üretiminin vazgeçilmez bir unsuru olmaya devam etmektedir. Ancak düşük protein içeriği ve yüksek selüloz-lignin oranı gibi kalite kısıtlarının giderilmesi, yetiştiricilikte bilimsel ve teknolojik ilerlemeyi zorunlu kılmaktadır. Veri analitiği, makine öğrenmesi, derin öğrenme, IoT, mikrodenetleyici sistemleri ve biyoteknolojinin entegre biçimde kullanılması; optimum ekim zamanlaması, hassas sulama ve gübreleme, erken uyarıya dayalı hastalık yönetimi ve kayıpsız depolama gibi kritik süreçlerde üretim verimliliğini ve sürdürülebilirliğini önemli ölçüde artırma potansiyeli taşımaktadır. Gelecek çalışmaların, bu teknolojilerin gerçek tarla koşullarında bütünleşik biçimde değerlendirildiği, ekonomik fizibilite analizlerini de kapsayan kapsamlı alan denemelerini içermesi gerekmektedir.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Kaynakça
+Aiken, G. E. ve Springer, T. L. (2002). Seed size distribution, germination, and emergence of six bermudagrass cultivars. Journal of Range Management, 48(5), 548–552. https://doi.org/10.2307/4002662
+Bolarín, M. C., Fernández, F. G., Cruz, V. ve Cuartero, J. (1996). Salinity tolerance in four wild tomato species using vegetative yield‐salinity response curves. Journal of the American Society for Horticultural Science, 121(3), 543–547.
+Bwambale, E., Abagale, F. K. ve Anornu, G. K. (2022). Smart irrigation monitoring and control strategies for improving water use efficiency in precision irrigation: A review. Agricultural Water Management, 260, 107324. https://doi.org/10.1016/j.agwat.2021.107324
+Casler, M. D. ve Undersander, D. J. (2006). Selection for establishment capacity in reed canarygrass. Crop Science, 46(5), 1277–1285. https://doi.org/10.2135/cropsci2005.10-0393
+Elçi, Ş. (2005). Buğdaygil ve Baklagil Yem Bitkileri. T.C. Tarım ve Köyişleri Bakanlığı Yayınları, Ankara.
+Jarvis, S. C., Scholefield, D. ve Pain, B. (1996). Nitrogen cycling in grazing systems. İçinde S. Jarvis ve B. Pain (Ed.), Gaseous Nitrogen Emissions from Grasslands (ss. 1–18). CAB International.
+Kamienski, C., Soininen, J. P., Taumberger, M., Dantas, R., Toscano, A., Cinotti, T. S., … ve Maia, R. F. (2019). Smart water management platform: IoT-based precision irrigation for agriculture. Sensors, 19(2), 276. https://doi.org/10.3390/s19020276
+LeCun, Y., Bengio, Y. ve Hinton, G. (2015). Deep learning. Nature, 521(7553), 436–444. https://doi.org/10.1038/nature14539
+Liakos, K. G., Busato, P., Moshou, D., Pearson, S. ve Bochtis, D. (2018). Machine learning in agriculture: A review. Sensors, 18(8), 2674. https://doi.org/10.3390/s18082674
+McDonald, P., Edwards, R. A., Greenhalgh, J. F. D., Morgan, C. A., Sinclair, L. A. ve Wilkinson, R. G. (2011). Animal Nutrition (7. baskı). Pearson Education.
+Mohanty, S. P., Hughes, D. P. ve Salathé, M. (2016). Using deep learning for image-based plant disease detection. Frontiers in Plant Science, 7, 1419. https://doi.org/10.3389/fpls.2016.01419
+Öktem, A. (2005). Harran Ovası koşullarında farklı sıra arası mesafelerin ve azot dozlarının mısırın verim ve verim öğelerine etkisi. Harran Üniversitesi Ziraat Fakültesi Dergisi, 9(3), 1–8.
+Preskill, J. (2018). Quantum computing in the NISQ era and beyond. Quantum, 2, 79. https://doi.org/10.22331/q-2018-08-06-79
+Sacks, E. J., Dohleman, F. G., Tolonen, A. B. ve Long, S. P. (2013). Miscanthus: A promising biomass crop. Advances in Botanical Research, 56, 75–137. https://doi.org/10.1016/B978-0-12-378629-2.00003-0
+Sanderson, M. A., Hussey, M. A., Ocumpaugh, W. R., Tischler, C. R., Reed, R. L. ve Holt, E. C. (1997). Forage potential of kleingrass in the southern United States. Agronomy Journal, 89(2), 148–153.
+Schauberger, B., Archontoulis, S., Arneth, A., Balkovic, J., Ciais, P., Deryng, D., … ve Frieler, K. (2017). Consistent negative response of US crops to high temperatures in observations and crop models. Nature Communications, 8, 13931. https://doi.org/10.1038/ncomms13931
+Serin, Y. ve Tan, M. (1998). Yem Bitkileri Tarımının Temel Esasları. Atatürk Üniversitesi Ziraat Fakültesi Ders Notu, Erzurum.
+Undersander, D., Albert, B., Cosgrove, D., Johnson, D. ve Peterson, P. (2002). Pastures for Profit: A Guide to Rotational Grazing. University of Wisconsin Extension Publication.
+Van Soest, P. J. (1994). Nutritional Ecology of the Ruminant (2. baskı). Cornell University Press.
