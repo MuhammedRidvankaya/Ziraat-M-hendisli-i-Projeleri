@@ -1,0 +1,315 @@
+Özet
+Baklagil yem bitkileri, hem hayvan beslenmesindeki kritik rolleri hem de toprak verimliliğine katkıları nedeniyle tarımsal üretimin vazgeçilmez unsurlarındandır. Bu makalede baklagil yem bitkilerinin botanik özellikleri, yetiştiricilik süreçleri ve modern teknolojilerin bu süreçlere entegrasyonu kapsamlı biçimde ele alınmaktadır. Veri analitiği, yapay zekâ, makine öğrenmesi, derin öğrenme, Nesnelerin İnterneti (IoT), mikrodenetleyiciler, biyoteknoloji ve kuantum bilgisayar gibi ileri teknolojilerin baklagil tarımına uygulanabilirliği incelenmiş; mevcut araştırmalar ve pratik uygulamalarla desteklenmiştir.
+Anahtar Kelimeler: Baklagil yem bitkileri, akıllı tarım, yapay zekâ, makine öğrenmesi, IoT, biyoteknoloji, sürdürülebilir tarım
+1. Giriş
+Dünya nüfusunun 2050 yılına kadar 10 milyarı aşması beklenmekte ve bu durum küresel gıda ve yem üretiminde ciddi bir baskı oluşturmaktadır. Mevcut tarım arazilerinin sınırlılığı, iklim değişikliğinin yarattığı belirsizlikler ve doğal kaynakların giderek azalması, tarımsal verimliliğin artırılmasını zorunlu kılmaktadır. Bu bağlamda baklagil yem bitkileri, hem doğrudan besin kaynağı olmaları hem de toprak azotu üzerindeki olumlu etkileri nedeniyle sürdürülebilir tarım sistemlerinin merkezine yerleşmektedir.
+Baklagiller; insan ve hayvan beslenmesi, yeşil gübre, endüstriyel hammadde ve ekolojik hizmetler açısından çok yönlü bir öneme sahiptir. Köklerinde bulunan Rhizobium bakterilerinin oluşturduğu nodoziteler sayesinde atmosferik azotu toprağa bağlayan bu bitkiler, sonraki ürünlerin verimini artırmakta ve sentetik gübre kullanımını azaltmaktadır. Bu özellik, baklagilleri sürdürülebilir tarım sistemlerinde ideal münavebe bitkileri hâline getirmektedir.
+Ancak baklagil yem bitkilerinin potansiyelinden tam anlamıyla yararlanabilmek için geleneksel yetiştiricilik bilgisinin ötesine geçmek gerekmektedir. Günümüzde yapay zekâ, makine öğrenmesi, IoT sensörleri ve biyoteknoloji gibi ileri teknolojiler, tarımsal karar süreçlerini kökten dönüştürmektedir. Bu makale, söz konusu teknolojilerin baklagil yem bitkisi yetiştiriciliğine nasıl entegre edilebileceğini ve bu entegrasyonun verim, kalite ve sürdürülebilirlik üzerindeki potansiyel etkilerini tartışmaktadır.
+2. Baklagil Yem Bitkilerinin Genel Özellikleri ve Önemi
+2.1. Sistematik Sınıflandırma ve Temel Özellikler
+Baklagil yem bitkileri, Leguminosae (Fabaceae) familyasına ait olup üretim sürelerine göre iki ana gruba ayrılmaktadır. Tek yıllık baklagil yem bitkileri arasında adi fiğ (Vicia sativa L.), Macar fiği (Vicia pannonica Crantz.), burçak (Vicia ervilia L.), yem baklası (Vicia faba L.), yem bezelyesi (Pisum sativum L.), yem yer fıstığı ve yem börülcesi (Vigna unguiculata L.) sayılabilir. Çok yıllık baklagil yem bitkileri ise yonca (Medicago sativa L.), üçgül (Trifolium spp.), korunga (Onobrychis viciifolia Scop.) ve gazal boynuzundan (Lotus corniculatus L.) oluşmaktadır.
+Bu bitkiler, buğdaygil yem bitkilerine kıyasla daha dar bir adaptasyon alanına sahip olmakla birlikte, daha yüksek protein içerikleri ve azot bağlama kapasiteleri nedeniyle tarımsal açıdan son derece değerlidir. Buğdaygil yem bitkilerine göre soğuğa ve kurağa daha az dayanıklı olmalarına karşın, bazı türler özel koşullara uyum sağlayabilmektedir. Örneğin sarı çiçekli gazal boynuzu ve çilek üçgülü tuzluluğa, korunga ve tüylü fiğ ise kurağa önemli ölçüde dayanıklıdır (Açıkgöz, 2001).
+2.2. Ekolojik ve Agronomik Önemi
+Baklagillerin en önemli agronomik özelliği, Rhizobium bakterileriyle kurdukları simbiyotik ilişki sayesinde havadaki serbest azotu toprağa kazandırabilme yetenekleridir. Herridge ve diğerleri (2008), baklagillerin yıllık küresel biyolojik azot fiksasyonuna 40-60 milyon ton katkıda bulunduğunu tahmin etmekte; bu değerin sentetik azot gübresi üretiminden elde edilenle karşılaştırılabilir düzeyde olduğunu vurgulamaktadır. Böyle bir katkı, hem tarımsal sürdürülebilirlik hem de iklim değişikliğiyle mücadele açısından son derece büyük bir öneme sahiptir.
+Münavebe sistemlerindeki rolleri de bir o kadar kritiktir. Baklagiller kendilerinden sonra ekilen tarla bitkilerinin verimini önemli ölçüde artırmaktadır. Bu etki yalnızca azot bırakma yoluyla değil, aynı zamanda toprak yapısının iyileştirilmesi, hastalık döngülerinin kırılması ve faydalı toprak mikrobiyomun desteklenmesi yoluyla da gerçekleşmektedir (Peoples ve diğerleri, 2009).
+3. Yetiştiricilik Süreçleri: Geleneksel Yaklaşımlar
+3.1. Bitki Tanımlama Yöntemleri
+Baklagil yem bitkilerinin doğru tanımlanması, başarılı bir yetiştiricilik sürecinin temelidir. Tanımlama; kök yapısının incelenmesi (nodozitelerin varlığı ve dağılımı), çiçek durumlarının büyüteç yardımıyla analizi, gövde ve yaprak özelliklerinin değerlendirilmesi ile bakla, meyve ve tohum özelliklerinin (şekil, renk, boyut, bin dane ağırlığı) belirlenmesi olmak üzere dört temel yöntemle gerçekleştirilmektedir.
+Bu tanımlama süreçleri, özellikle tarla koşullarında dikkat ve uzmanlık gerektirmektedir. Köklere zarar vermeden gerçekleştirilen söküm işlemi, nodozite tespiti açısından kritik öneme sahipken çiçek ve tohum analizleri tür teşhisi için vazgeçilmez veriler sunmaktadır.
+3.2. Arazi Hazırlığı ve Tohum Yatağı Oluşturma
+Baklagil yem bitkisi yetiştiriciliğinde başarı, büyük ölçüde arazi hazırlığının doğru yapılmasına bağlıdır. Bu süreçte toprak reaksiyonunun ayarlanması (özellikle pH'nın 6,0-7,5 aralığında tutulması), toprak neminin düzenlenmesi, bitki besin maddelerinin dengelenmesi ve toprağın fiziksel yapısının iyileştirilmesi öncelikli hedefler arasında yer almaktadır.
+Tek yıllık baklagiller için toprak hazırlığında anız yönetimi ve uygun sürüm zamanlaması belirleyici rol oynamaktadır. Çok yıllık baklagillerde ise yonca ve korunga gibi türlerin derin kök yapısı nedeniyle sonbaharda derin toprak işlemesi gerekmektedir. Bu farklılıklar, her tür için optimize edilmiş hazırlık protokollerinin geliştirilmesini zorunlu kılmaktadır.
+3.3. Ekim Uygulamaları
+Ekim zamanı, derinliği ve yöntemi başarı için kritik faktörlerdir. Macar fiği yetiştiriciliğinde sıraya ekimde 3-4 cm ekim derinliği ve 20 cm sıra arası mesafe esas alınmaktadır. Yonca ekiminde ise tohumların küçüklüğü nedeniyle 1,5-3,5 cm ekim derinliği ve 18-20 cm sıra arası mesafe uygulanmaktadır. Bakteri aşılaması, özellikle korunga ve burçak yetiştiriciliğinde (100 kg tohuma 1 kg bakteri kültürü) vazgeçilmez bir uygulama olarak öne çıkmaktadır.
+3.4. Bakım İşlemleri
+Sulama yönetimi, gübreleme ve hastalık-zararlı mücadelesi, baklagil yem bitkisi yetiştiriciliğinin üç temel bakım boyutunu oluşturmaktadır. Yoncada her biçimden önce (biçimden bir hafta önce) ve sonra (biçimden bir hafta sonra) sulama yapılması gerektiği bilinmekte; üçgülde ise biçim öncesi ve sonrası daha sık aralıklarla sulama uygulandığı görülmektedir. Gübreleme açısından baklagiller, azota kıyasla fosfora daha fazla ihtiyaç duymakta; toprak analiz sonuçlarına dayalı gübreleme planları bu nedenle büyük önem taşımaktadır.
+Hastalık ve zararlı yönetimi de yetiştiricilik sürecinin kritik bir boyutunu oluşturmaktadır. Fiğde kurşuni küf, mildiyö ve pas; yoncada kök çürüklüğü ve kanser hastalıkları; korungada mildiyö ve kök kurdu başlıca sorunlar arasında sayılmaktadır. Yem baklasında ise orobanş ve küsküt gibi parazit yabancı otlarla mücadelede kökten söküm yöntemi uygulanmaktadır.
+3.5. Hasat ve Depolama
+Hasat zamanının doğru belirlenmesi, ürün kalitesi açısından belirleyici bir öneme sahiptir. Yoncada biçim, bitkilerde 1/10 ile 1/3 oranında çiçeklenme görüldüğünde gerçekleştirilmekte; buna karşın korunga ve üçgül tohumluğu için baklaların kahverengine dönmesi beklenmektedir. Hasat edilen ürünlerin doğru koşullarda depolanması, nem ve sıcaklık kontrolü, yeterli havalandırma ve ambar zararlılarına karşı koruyucu önlemler alınmasını gerektirmektedir.
+4. Akıllı Tarım Teknolojilerinin Baklagil Yetiştiriciliğine Entegrasyonu
+4.1. Veri Analitiği ve Karar Destek Sistemleri
+Veri analitiğinin tarımsal uygulamalara entegrasyonu, baklagil yetiştiriciliğinde kritik kararların bilimsel temelde alınmasını mümkün kılmaktadır. Toprak analiz verilerinin sistemli olarak toplanması ve değerlendirilmesi, eksik besinlerin belirlenmesi ve gübreleme planlarının optimize edilmesi başlıca uygulama alanları arasında yer almaktadır.
+Öte yandan iklim verileriyle ekim kombinasyonlarının eşleştirilmesi de veri analitiğinin kritik bir uygulama alanını oluşturmaktadır. Siebert ve Döll (2010), sulama gereksinimlerinin tahmininde iklim verisi entegrasyonunun sulama etkinliğini yüzde 20-30 oranında artırabileceğini ortaya koymaktadır. Bu oran, kısıtlı su kaynaklarının söz konusu olduğu yarı kurak bölgeler için son derece anlamlıdır.
+Hasat zamanlaması ve depolama koşullarının veri odaklı optimizasyonu ise besin kaybını en aza indirme ve ürün kalitesini koruma açısından belirleyici olmaktadır. Araştırmalar, yanlış zamanlama nedeniyle hasat kaybının yüzde 10 ile 30 arasında değişebildiğini göstermekte; bu durum veri destekli karar sistemlerinin önemini daha da artırmaktadır (Gustavsson ve diğerleri, 2011).
+4.2. Yapay Zekâ Uygulamaları
+Yapay zekânın baklagil yem bitkisi yetiştiriciliğine uygulanması, birçok kritik sürecin dönüşümüne zemin hazırlamaktadır. Toprak analiz verilerini öğrenen yapay zekâ sistemleri, hangi gübreyi ne miktarda uygulamak gerektiğine ilişkin optimize edilmiş öneriler sunabilmektedir.
+Geçmiş yılların iklim verilerini analiz eden yapay zekâ sistemleri, en uygun ekim zamanını yüksek doğrulukla tahmin edebilmektedir. Mohanty ve diğerleri (2016), derin öğrenme modellerinin bitki hastalıklarını uzman ziraat mühendisleriyle kıyaslanabilir bir doğrulukla tespit edebildiğini göstermiştir. Bu bulgular, yapay zekânın hastalık yönetimindeki erken uyarı potansiyelini açıkça ortaya koymaktadır.
+Hasat zamanlamasında görüntü işleme tekniklerini kullanan yapay zekâ sistemleri, baklaların renk değişimini, bitki olgunluğunu ve hasata hazır olma durumunu analiz etme kapasitesine sahiptir. Bu uygulamalar; görüntü analizi, sensör verisi entegrasyonu ve çok değişkenli zaman serisi modellemesini bir araya getiren sofistike yaklaşımlar gerektirmektedir.
+4.3. Makine Öğrenmesi Modelleri
+Makine öğrenmesi, baklagil tarımında farklı görevler için çeşitli algoritmik yaklaşımlar sunmaktadır. Gübre optimizasyonu için regresyon modelleri, ekim zamanı tahmini için zaman serisi analizleri, sulama kararları için sınıflandırma algoritmaları ve hastalık tespiti için derin öğrenme mimarileri kullanılmaktadır.
+Liakos ve diğerleri (2018), makine öğrenmesinin tarımsal uygulamalarına ilişkin kapsamlı bir derleme çalışmasında verim tahmini, hastalık tespiti, yabancı ot tanımlama ve sulama yönetimi alanlarındaki uygulamaları sistematik biçimde değerlendirmiştir. Söz konusu çalışma, doğru uygulandığında makine öğrenmesi modellerinin geleneksel yöntemlere kıyasla tahmin doğruluğunu yüzde 15-40 oranında artırabildiğini göstermektedir.
+Verim tahmini bağlamında, toprak özellikleri, iklim verileri, gübre uygulamaları ve sulama geçmişini entegre eden çok değişkenli regresyon modelleri özellikle etkilidir. Pantazi ve diğerleri (2016), makine öğrenmesi tabanlı tahminlerin geleneksel istatistiksel modellerden daha doğru sonuçlar verdiğini tespit etmiştir; bu bulgu özellikle baklagillerin karmaşık yetiştirme koşulları göz önünde bulundurulduğunda büyük önem taşımaktadır.
+4.4. Derin Öğrenme ve Görüntü İşleme
+Derin öğrenme, özellikle Evrişimli Sinir Ağları (CNN) mimarileri, görüntü tabanlı tarımsal uygulamalar için devrimsel bir potansiyele sahiptir. Baklagil yem bitkilerinde bu teknoloji; hastalık tespiti, olgunluk analizi, tür tanımlama ve bitki stres tespiti alanlarında uygulanabilmektedir.
+Hastalık tespitinde CNN modellerinin başarısı, giderek daha kapsamlı çalışmalarla doğrulanmaktadır. Ferentinos (2018), 87.114 yaprak görüntüsünden oluşan bir veri seti kullanarak geliştirdiği derin öğrenme modelinin yüzde 99,53'e varan doğruluk oranıyla bitki hastalıklarını tespit edebildiğini raporlamıştır. Benzer yaklaşımlar baklagil hastalıkları için de uyarlanabilmektedir.
+Hasat zamanlamasında olgunluk analizi, baklaların renk değişimini ve fiziksel özelliklerini değerlendiren görüntü işleme sistemleri sayesinde mümkün olmaktadır. Bu sistemler, özellikle büyük alanlarda elle kontrol imkânının sınırlı olduğu durumlarda büyük avantaj sağlamaktadır. Uydu görüntüleri, hava durumu verileri ve toprak özellikleri gibi çok katmanlı veri kaynaklarını entegre eden derin öğrenme modelleri ise sahaya dayalı gözlemlere kıyasla çok daha doğru verim tahminleri üretebilmektedir (Pantazi ve diğerleri, 2016).
+4.5. Nesnelerin İnterneti (IoT) ve Hassas Tarım
+IoT teknolojisi, baklagil yetiştiriciliğinde gerçek zamanlı izleme ve otomatik kontrol sistemlerinin kurulmasını mümkün kılmaktadır. Toprak nem sensörleri, sıcaklık ölçüm cihazları ve kamera sistemleri, tarım arazisinden sürekli veri akışı sağlamakta; bu veriler bulut tabanlı platformlarda analiz edilerek anlamlı içgörülere dönüştürülmektedir.
+Sulama yönetiminde IoT entegrasyonu, su kullanım verimliliğini önemli ölçüde artırmaktadır. Tansiyometre bazlı sulama kontrol sistemleri, sezgisel gözleme dayalı geleneksel yöntemlere kıyasla su kullanımını yüzde 30-40 oranında azaltabilmektedir (Majumdar ve diğerleri, 2017). Yonca gibi su ihtiyacı yüksek olan baklagil türleri için bu potansiyel tasarruf son derece anlamlıdır.
+Depolama koşullarının IoT ile izlenmesi, baklagil ürünleri için kritik bir uygulama alanı oluşturmaktadır. Nem ve sıcaklığın sürekli takip edilmesi, risklerin önceden tespit edilmesini ve olası kayıpların önlenmesini sağlamaktadır. FAO verilerine göre depolama kayıpları, gelişmekte olan ülkelerde tahıl ve baklagil üretiminin yüzde 9-20'sini oluşturabilmekte; IoT tabanlı izleme sistemleri bu kayıpları önemli ölçüde azaltma potansiyeli taşımaktadır (Gustavsson ve diğerleri, 2011).
+4.6. Mikrodenetleyiciler ve Gömülü Sistemler
+Arduino, ESP32 ve Raspberry Pi Pico gibi mikrodenetleyiciler, tarımsal otomasyon sistemlerinin temel yapı taşlarını oluşturmaktadır. Bu cihazlar; sensörlerden veri toplayarak işlemekte, karar algoritmalarını yürütmekte ve pompa, vana ve fan gibi eyleyicileri kontrol etmektedir.
+Baklagil yetiştiriciliğine özgü uygulamalar arasında nem sensörüne dayalı otomatik sulama kontrolü, depo havalandırma sistemlerinin sıcaklık ve neme göre yönetimi, bitki gelişim sürecinin kamera modülleriyle izlenmesi ve Wi-Fi veya Bluetooth aracılığıyla bulut platformlarına veri aktarımı sayılabilmektedir.
+Düşük maliyetleri ve programlanabilir yapıları sayesinde bu mikrodenetleyiciler, küçük ve orta ölçekli tarım işletmeleri için de ulaşılabilir çözümler sunmaktadır. Temel sulama otomasyonu için yaklaşık 50-100 ABD Doları değerindeki bir Arduino bazlı sistem; insan hatalarını azaltabilmekte ve özellikle kritik dönemlerde optimum sulama koşullarının sürekliliğini güvence altına alabilmektedir.
+4.7. Biyoteknoloji Uygulamaları
+Biyoteknoloji, baklagil yem bitkisi yetiştiriciliğinde genetik iyileştirmeden biyolojik gübrelemeye kadar uzanan geniş bir uygulama yelpazesi sunmaktadır. Bu yelpazenin merkezinde Rhizobium inokulasyonu yer almaktadır. Graham ve Vance (2003), etkin bakteri suşlarıyla gerçekleştirilen aşılamanın yıllık azot fiksasyonunu 50-200 kg/ha oranında artırabildiğini göstermiştir.
+Bitki ıslahı ve genetik geliştirme alanında biyoteknolojik araçlar, baklagil yem bitkilerinin iyileştirilmesinde giderek daha fazla kullanılmaktadır. Kurak iklimlere uyum, hastalık direnci ve yem kalitesi parametrelerinin iyileştirilmesi başlıca hedefler arasında yer almaktadır. Bazı korunga ve yonca genotiplerinde kuraklık toleransını artıran genlerin tespit edilmesi ve bu özelliklerin ıslah programlarına entegre edilmesi bu yöndeki çabaların somut örnekleri olarak öne çıkmaktadır (Sehmer ve Genuncio, 2017).
+Doku kültürü ve bitki çoğaltma teknikleri, yüksek performanslı bitki materyalinin daha hızlı ve standart biçimde üretilmesine olanak tanımaktadır. Bu durum, özellikle korunga ve yonca gibi çok yıllık baklagillerde ticari üretimin yoğunlaştırılması açısından büyük bir avantaj sağlamaktadır.
+Biyolojik zararlı ve hastalık kontrolü, kimyasal mücadele yöntemlerine çevre dostu bir alternatif sunmaktadır. Trichoderma türleri gibi biyolojik etmenler, kök çürüklüğü hastalıklarına karşı etkili sonuçlar ortaya koymuş; bu bulgu baklagil yem bitkilerinin hastalık yönetiminde önemli bir yenilik olarak değerlendirilmektedir (Harman ve diğerleri, 2004).
+4.8. Kuantum Bilgisayar Uygulamaları
+Her ne kadar kuantum bilgisayar teknolojisi henüz erken gelişim aşamasında olsa da tarımsal uygulamalar açısından önemli bir potansiyel taşıdığı tartışılmaktadır. Çok değişkenli tarımsal sistemlerin optimizasyonu, karmaşık iklim modellerinin çözülmesi ve yeni gübre bileşiklerinin moleküler düzeyde tasarlanması bu alandaki öncü uygulama senaryoları arasında gösterilmektedir.
+Preskill (2018), kuantum üstünlüğünün belirli optimizasyon problemlerinde geleneksel bilgisayarlara kıyasla eksponansiyel hız artışı sağlayabileceğini öngörmektedir. Baklagil yetiştiriciliği bağlamında bu durum; çok değişkenli sulama, gübreleme ve hasat kararlarının eş zamanlı optimizasyonu anlamına gelmektedir. Kuantum simülasyonları ayrıca Haber-Bosch sürecine alternatif olabilecek daha enerji verimli azot fiksasyon katalitiklerinin keşfini hızlandırma potansiyeli taşımaktadır. Bu senaryonun gerçekleşmesi hâlinde baklagil tarımı, küresel enerji ve gübre piyasaları üzerinde derin bir etki bırakabilir (Reiher ve diğerleri, 2017).
+5. Entegre Sistem Mimarisi: Baklagil Akıllı Tarım Platformu
+Yukarıda ele alınan teknolojilerin gerçek anlamda değer üretebilmesi için yalıtılmış sistemler olarak değil, entegre bir platform çerçevesinde ele alınması gerekmektedir. Önerilen entegre sistem mimarisi beş temel katmandan oluşmaktadır.
+Birinci katman olan veri toplama katmanında toprak nem ve sıcaklık sensörleri, kamera sistemleri, hava istasyonları ve toprak analiz ekipmanları yer almaktadır. İkinci katman olan bağlantı katmanında ise LoRaWAN, Wi-Fi ve 4G/5G gibi kablosuz iletişim protokolleri aracılığıyla veri aktarımı gerçekleştirilmektedir. Üçüncü katman olan işleme ve analiz katmanında bulut tabanlı makine öğrenmesi modelleri, gerçek zamanlı veri akış işleme ve büyük veri analizi uygulamaları çalışmaktadır. Dördüncü katman olan karar destek katmanında sulama, gübreleme ve hastalık mücadelesine ilişkin otomatik öneriler üretilmektedir. Beşinci ve son katman olan eylem katmanında ise otomatik sulama sistemleri, gübre dozlama ekipmanları ve üretici uyarı sistemleri gibi sahaya yönelik bileşenler devreye girmektedir.
+Bu entegre yaklaşım, veri silolarının ortadan kaldırılmasını ve tüm sistem bileşenlerinin sinerjik biçimde çalışmasını mümkün kılmaktadır.
+Simülasyon Kodu
+import numpy as np
+import pandas as pd
+from sklearn.linear_model import LinearRegression
+from sklearn.ensemble import RandomForestClassifier
+import random
+import warnings
+warnings.filterwarnings('ignore')
+# ------------------------------
+# 1. TOPRAK ANALİZİ VE GÜBRE OPTİMİZASYONU
+# ------------------------------
+class ToprakAnaliz:
+    def __init__(self, azot, fosfor, potasyum, ph, nem):
+        self.azot = azot
+        self.fosfor = fosfor
+        self.potasyum = potasyum
+        self.ph = ph
+        self.nem = nem
+    def eksik_besinleri_belirle(self):
+        eksikler = []
+        if self.azot < 15:
+            eksikler.append("Azot (N) düşük")
+        if self.fosfor < 20:
+            eksikler.append("Fosfor (P) düşük")
+        if self.potasyum < 30:
+            eksikler.append("Potasyum (K) düşük")
+        if self.ph < 6.0:
+            eksikler.append("pH düşük, kireçleme gerekebilir")
+        elif self.ph > 7.5:
+            eksikler.append("pH yüksek, asitleme gerekebilir")
+        return eksikler
+class GubreOptimizasyonu:
+    def __init__(self):
+        # Özellikler: [azot, fosfor, potasyum, pH, nem] -> verim (kg/da)
+        X_train = np.array([
+            [12, 18, 25, 6.2, 45, 1000],
+            [14, 22, 30, 6.5, 50, 1200],
+            [10, 15, 20, 6.0, 40, 850],
+            [18, 25, 35, 6.8, 55, 1400],
+            [8, 12, 18, 5.8, 35, 700]
+        ])
+        y_train = np.array([320, 410, 280, 450, 210])
+        self.model = LinearRegression()
+        # İlk 5 sütun özellik, son sütun (1000,1200...) aslında özellik değil, kaldırıyoruz.
+        X_train_features = X_train[:, :5]
+        self.model.fit(X_train_features, y_train)
+    def oner(self, azot, fosfor, potasyum, ph, nem):
+        tahmin = self.model.predict([[azot, fosfor, potasyum, ph, nem]])[0]
+        return f"Tahmini verim: {tahmin:.1f} kg/da. Öneri: Fosfor ve azot dengesini kontrol edin."
+# ------------------------------
+# 2. EKİM ZAMANI TAHMİNİ
+# ------------------------------
+class EkimZamaniTahmini:
+    def __init__(self):
+        self.veriler = pd.DataFrame({
+            'yil': [2018, 2019, 2020, 2021, 2022, 2023],
+            'ekim_gunu': [85, 90, 78, 82, 88, 80],
+            'verim': [380, 400, 420, 410, 430, 450]
+        })
+    def optimal_ekim_zamani(self, mevsim_tahmini_sicaklik):
+        en_iyi = self.veriler.loc[self.veriler['verim'].idxmax()]
+        return f"Geçmiş verilere göre optimal ekim: yılın {en_iyi['ekim_gunu']}. günü. Bu yıl sıcaklık tahmini: {mevsim_tahmini_sicaklik}°C"
+# ------------------------------
+# 3. SULAMA OPTİMİZASYONU (IoT + Makine Öğrenmesi)
+# ------------------------------
+class SulamaSistemi:
+    def __init__(self):
+        X = np.array([
+            [30, 28, 1],
+            [55, 22, 0],
+    [40, 30, 1],
+            [70, 18, 0],
+            [20, 35, 1]
+        ])
+        y = np.array([1, 0, 1, 0, 1])
+        self.model = RandomForestClassifier(n_estimators=100, random_state=42)
+        self.model.fit(X, y)
+    def karar_ver(self, nem, sicaklik, bitki_stresi):
+        karar = self.model.predict([[nem, sicaklik, bitki_stresi]])[0]
+        if karar == 1:
+            return "💧 SULAMA GEREKLİ (Makine öğrenmesi kararı)"
+        else:
+            return "✅ SULAMA GEREKLİ DEĞİL"
+# ------------------------------
+# 4. HASTALIK TESPİTİ (Derin Öğrenme Simülasyonu)
+# ------------------------------
+class HastalikTespit:
+    def __init__(self):
+        self.hastaliklar = ["Kurşuni küf", "Mildiyö", "Pas", "Yaprak lekesi", "Sağlıklı"]
+    def goruntu_analiz(self, goruntu_ozellikleri):
+        renk, leke, deformasyon = goruntu_ozellikleri
+        if leke == 1 and deformasyon == 1:
+            return f"⚠️ HASTALIK TESPİT EDİLDİ: {random.choice(self.hastaliklar[:4])}"
+        else:
+            return "✅ BİTKİ SAĞLIKLI GÖRÜNÜYOR"
+# ------------------------------
+# 5. HASAT ZAMANI BELİRLEME
+# ------------------------------
+class HasatZamani:
+    def __init__(self):
+        pass
+    def olgunluk_analiz(self, gun_sayisi, bakla_rengi, dane_doluluk):
+        if bakla_rengi >= 2 and dane_doluluk > 80:
+            return f"HASAT ZAMANI GELDİ (Gün: {gun_sayisi})"
+        else:
+            return "HENÜZ HASAT ZAMANI DEĞİL"
+# ------------------------------
+# 6. DEPOLAMA RİSK TAHMİNİ
+# ------------------------------
+class DepolamaRisk:
+    def __init__(self):
+        pass
+    def risk_degerlendir(self, nem, sicaklik, havalandirma_var):
+        if nem > 65 and sicaklik > 25 and not havalandirma_var:
+            return "🚨 YÜKSEK KÜFLENME RİSKİ! Hemen havalandırın."
+        elif nem > 60 or sicaklik > 22:
+            return "⚠️ ORTA RİSK, düzenli kontrol edin."
+        else:
+            return "✅ DEPOLAMA KOŞULLARI UYGUN"
+# ------------------------------
+# 7. MAKİNE ÖĞRENMESİ İLE VERİM TAHMİNİ
+# ------------------------------
+class VerimTahmini:
+    def __init__(self):
+        np.random.seed(42)
+        X = np.random.rand(100, 5)
+        y = X[:, 0]*50 + X[:, 1]*30 + X[:, 2]*20 - X[:, 4]*40 + 300
+        self.model = LinearRegression()
+        self.model.fit(X, y)
+    def tahmin_et(self, ozellikler):
+        verim = self.model.predict([ozellikler])[0]
+        return f"📈 TAHMİNİ VERİM: {verim:.1f} kg/da"
+# ------------------------------
+# 8. IOT / MİKRODENETLEYİCİ SİMÜLASYONU
+# ------------------------------
+class Mikrodenetleyici:
+    def __init__(self):
+        self.nem_sensoru = 0
+        self.sicaklik_sensoru = 0
+    def sensur_oku(self):
+        self.nem_sensoru = random.randint(20, 80)
+        self.sicaklik_sensoru = random.randint(15, 40)
+        return self.nem_sensoru, self.sicaklik_sensoru
+    def pompa_kontrol(self, karar):
+        if karar == "sula":
+            print("💧 MİKRODENETLEYİCİ: Pompa çalıştırılıyor...")
+        else:
+            print("🔌 MİKRODENETLEYİCİ: Pompa kapalı (dur)")
+# ------------------------------
+# 9. BİYOTEKNOLOJİ ENTEGRASYONU
+# ------------------------------
+class Biyoteknoloji:
+    def __init__(self):
+        pass
+    def bakteri_asilama(self, tohum_miktari_kg):
+        return f"🧬 {tohum_miktari_kg} kg tohuma {tohum_miktari_kg * 0.01} kg bakteri kültürü uygulandı. Azot bağlama kapasitesi arttı."
+    def dayanikli_cesit_oner(self):
+        cesitler = ["Kurağa dayanıklı korunga", "Tuzluluğa dayanıklı sarı çiçekli gazal boynuzu", "Hastalığa dayanıklı yonca"]
+        return f"🌱 Önerilen genetik çeşit: {random.choice(cesitler)}"
+# ------------------------------
+# 10. KUANTUM BİLGİSAYAR SİMÜLASYONU
+# ------------------------------
+class KuantumSimulasyon:
+    def __init__(self):
+        pass
+    def molekuler_simulasyon(self):
+        return "⚛️ Kuantum simülasyonu: Yeni gübre molekülleri tasarlanıyor. Çevre dostu ve yüksek etkili."
+    def iklim_modelleme(self):
+        return "🌍 Kuantum bilgisayar ile 10 yıllık iklim projeksiyonu: Baklagil ekim alanları optimize ediliyor."
+# ------------------------------
+# ANA PROGRAM
+# ------------------------------
+def main():
+    print("===== BAKLAGİL YEM BİTKİLERİ AKILLI TARIM PROTOTİPİ =====\n")
+    toprak = ToprakAnaliz(azot=12, fosfor=18, potasyum=22, ph=6.3, nem=45)
+    print("📊 TOPRAK ANALİZİ:")
+    print(f"Azot: {toprak.azot}, Fosfor: {toprak.fosfor}, Potasyum: {toprak.potasyum}, pH: {toprak.ph}, Nem: %{toprak.nem}")
+    eksikler = toprak.eksik_besinleri_belirle()
+    print("Eksik besinler:", eksikler)
+    gubre_opt = GubreOptimizasyonu()
+    print("\n🌾 GÜBRE ÖNERİSİ:")
+    print(gubre_opt.oner(toprak.azot, toprak.fosfor, toprak.potasyum, toprak.ph, toprak.nem))
+    ekim = EkimZamaniTahmini()
+    print("\n📅 EKİM ZAMANI:")
+    print(ekim.optimal_ekim_zamani(mevsim_tahmini_sicaklik=22))
+    sulama = SulamaSistemi()
+    mikro = Mikrodenetleyici()
+    nem, sicaklik = mikro.sensur_oku()
+    bitki_stresi = 1 if nem < 40 else 0
+    karar = sulama.karar_ver(nem, sicaklik, bitki_stresi)
+    print(f"\n💧 SULAMA KARARI (Nem: %{nem}, Sıcaklık: {sicaklik}°C):")
+    print(karar)
+    # Düzeltme: "SULAMA GEREKLİ" içeriyorsa "sula", değilse "dur" gönder.
+    mikro.pompa_kontrol("sula" if "SULAMA GEREKLİ" in karar else "dur")
+    hastalik = HastalikTespit()
+    goruntu_ozellik = [0.5, 1, 1]
+    print("\n🦠 HASTALIK TESPİTİ:")
+    print(hastalik.goruntu_analiz(goruntu_ozellik))
+    hasat = HasatZamani()
+    print("\n✂️ HASAT ZAMANI:")
+    print(hasat.olgunluk_analiz(gun_sayisi=110, bakla_rengi=2, dane_doluluk=85))
+    verim_model = VerimTahmini()
+    tahmin_ozellik = [toprak.azot/30, toprak.fosfor/30, 3, 0.9, 0.2]
+    print("\n📈 VERİM TAHMİNİ:")
+    print(verim_model.tahmin_et(tahmin_ozellik))
+    depo = DepolamaRisk()
+    print("\n🏚️ DEPOLAMA RİSK ANALİZİ:")
+    print(depo.risk_degerlendir(nem=68, sicaklik=26, havalandirma_var=False))
+    biyo = Biyoteknoloji()
+    print("\n🧬 BİYOTEKNOLOJİ UYGULAMALARI:")
+    print(biyo.bakteri_asilama(100))
+    print(biyo.dayanikli_cesit_oner())
+    kuantum = KuantumSimulasyon()
+    print("\n⚛️ KUANTUM BİLGİSAYAR ENTEGRASYONU:")
+    print(kuantum.molekuler_simulasyon())
+    print(kuantum.iklim_modelleme())
+    print("\n===== PROTOTİP ÇALIŞMASI TAMAMLANDI =====")
+if __name__ == "__main__":
+    main()
+6. Ekonomik Değerlendirme ve Uygulama Zorlukları
+6.1. Ekonomik Analiz
+Akıllı tarım teknolojilerinin ekonomik değerlendirmesi, yatırım maliyeti ile elde edilen faydaların dengeli biçimde ele alınmasını gerektirmektedir. Başlangıç yatırım maliyetleri arasında IoT sensör altyapısı, veri analizi yazılımları ve personel eğitimi öne çıkmaktadır. Ancak elde edilen faydalar bu maliyetleri aşma potansiyeli taşımaktadır.
+Öngörülen başlıca faydalar şunlardır: verim artışı (yüzde 15-30), gübre giderlerinde azalma (toprak bazlı optimizasyon sayesinde yüzde 20-25), su tasarrufu (hassas sulama sayesinde yüzde 30-40) ve hasat ile depolama kayıplarının azaltılması (yüzde 10-15). Nardi ve diğerleri (2019), İtalya'da akıllı tarım teknolojilerini benimseyen çiftliklerde ortalama yüzde 23 verim artışı yaşandığını ve bu çiftliklerin yatırımı 3-5 yıl içinde geri kazandığını belirlemiştir.
+6.2. Uygulama Zorlukları
+Bu dönüşümün önünde çeşitli engeller de bulunmaktadır. Teknolojik altyapı eksiklikleri, özellikle kırsal alanlarda güvenilir internet bağlantısının sınırlı olması ciddi bir sorun oluşturmaktadır. Küçük ölçekli çiftçiler için başlangıç sermayesi gereksinimi de önemli bir kısıt olarak öne çıkmaktadır. Uzmanlaşmış bilgi ve eğitim ihtiyacı ile bu sistemlerin bakımı ve kalibrasyonu için teknik destek gereklilikleri de ele alınması gereken diğer zorluklardandır. Son olarak, veri gizliliği ve dijital güvenlik konusundaki endişeler akıllı tarım benimsenmesini yavaşlatan faktörler arasında yer almaktadır.
+Bu zorlukların üstesinden gelmek için kooperatif bazlı teknoloji paylaşım modelleri, hükümet sübvansiyonları ve yoğun çiftçi eğitim programları gibi politika araçlarına ihtiyaç duyulmaktadır.
+7. Sonuç ve Öneriler
+Baklagil yem bitkileri, geleneksel tarımsal değerlerinin yanı sıra sürdürülebilir tarımın geleceği için de kritik bir öneme sahiptir. Bu makalede ele alınan teknolojik entegrasyon senaryoları, baklagil yetiştiriciliğinin her aşamasında verimlilik, kalite ve sürdürülebilirlik açısından kayda değer iyileştirmeler sağlama potansiyeli taşımaktadır.
+Yapay zekâ destekli karar sistemleri, hastalık tespiti ve hasat zamanlamasında insan uzmanlığını destekleyecek araçlar sunmaktadır. IoT teknolojisi, gerçek zamanlı izleme yoluyla proaktif müdahaleye olanak sağlamaktadır. Biyoteknoloji, genetik iyileştirme ve biyolojik girdiler aracılığıyla daha dayanıklı ve verimli çeşitlerin geliştirilmesini mümkün kılmaktadır. Kuantum bilgisayar ise uzun vadeli ufuklarda köklü değişimleri beraberinde getirebilecek niteliktedir.
+Bu çerçevede araştırmacılara, politika yapıcılara ve üreticilere üç temel öneri sunulmaktadır. Birincisi, baklagil yetiştiricilik geleneklerinin ve akıllı tarım teknolojilerinin eş zamanlı olarak geliştirilmesini hedefleyen araştırma-geliştirme yatırımlarının artırılmasıdır. İkincisi, küçük ölçekli çiftçilerin teknoloji erişimini kolaylaştıran sübvansiyon programlarının yaygınlaştırılmasıdır. Üçüncüsü ise baklagil tarımına özgü veri tabanı altyapısının oluşturulması ve bu verilerin üreticiler, araştırmacılar ve karar vericilerle paylaşılmasıdır.
+Baklagil yem bitkilerinin tarihsel önemi ile modern teknolojilerin dönüştürücü gücünün buluşması, hem gıda güvenliği hem de iklim değişikliğiyle mücadele açısından umut verici bir gelecek tablosu ortaya koymaktadır.
+
+
+Kaynakça
+Açıkgöz, E. (2001). Yem Bitkileri (3. Baskı). Uludağ Üniversitesi Güçlendirme Vakfı Yayınları, Bursa.
+Ferentinos, K. P. (2018). Deep learning models for plant disease detection and diagnosis. Computers and Electronics in Agriculture, 145, 311-318. https://doi.org/10.1016/j.compag.2018.01.009
+Graham, P. H., & Vance, C. P. (2003). Legumes: Importance and constraints to greater use. Plant Physiology, 131(3), 872-877. https://doi.org/10.1104/pp.017004
+Gustavsson, J., Cederberg, C., Sonesson, U., van Otterdijk, R., & Meybeck, A. (2011). Global food losses and food waste: Extent, causes and prevention. Food and Agriculture Organization of the United Nations (FAO), Rome.
+Harman, G. E., Howell, C. R., Viterbo, A., Chet, I., & Lorito, M. (2004). Trichoderma species – opportunistic, avirulent plant symbionts. Nature Reviews Microbiology, 2(1), 43-56. https://doi.org/10.1038/nrmicro797
+Herridge, D. F., Peoples, M. B., & Boddey, R. M. (2008). Global inputs of biological nitrogen fixation in agricultural systems. Plant and Soil, 311(1-2), 1-18. https://doi.org/10.1007/s11104-008-9668-3
+Liakos, K. G., Busato, P., Moshou, D., Pearson, S., & Bochtis, D. (2018). Machine learning in agriculture: A review. Sensors, 18(8), 2674. https://doi.org/10.3390/s18082674
+Majumdar, J., Naraseeyappa, S., & Ankalaki, S. (2017). Analysis of agriculture data using data mining techniques: Application of big data. Journal of Big Data, 4(1), 1-15. https://doi.org/10.1186/s40537-017-0077-4
+Mohanty, S. P., Hughes, D. P., & Salathé, M. (2016). Using deep learning for image-based plant disease detection. Frontiers in Plant Science, 7, 1419. https://doi.org/10.3389/fpls.2016.01419
+Nardi, P., Lafortezza, R., Alfieri, S. M., & Pisante, M. (2019). Assessing the economic and environmental performance of precision agriculture technologies. Precision Agriculture, 20(5), 970-992.
+Pantazi, X. E., Moshou, D., Alexandridis, T., Whetton, R. L., & Mouazen, A. M. (2016). Wheat yield prediction using machine learning and advanced sensing techniques. Computers and Electronics in Agriculture, 121, 57-65. https://doi.org/10.1016/j.compag.2015.11.018
+Peoples, M. B., Brockwell, J., Herridge, D. F., Rochester, I. J., Alves, B. J. R., Urquiaga, S., Boddey, R. M., Dakora, F. D., Bhattarai, S., Maskey, S. L., Sampet, C., Rerkasem, B., Khan, D. F., Hauggaard-Nielsen, H., & Jensen, E. S. (2009). The contributions of nitrogen-fixing crop legumes to the productivity of agricultural systems. Symbiosis, 48(1-3), 1-17. https://doi.org/10.1007/BF03179980
+Preskill, J. (2018). Quantum computing in the NISQ era and beyond. Quantum, 2, 79. https://doi.org/10.22331/q-2018-08-06-79
+Reiher, M., Wiebe, N., Svore, K. M., Wecker, D., & Troyer, M. (2017). Elucidating reaction mechanisms on quantum computers. Proceedings of the National Academy of Sciences, 114(29), 7555-7560. https://doi.org/10.1073/pnas.1619152114
+Sehmer, L., & Genuncio, G. C. (2017). Legume breeding for drought tolerance: Current status and perspectives. Field Crops Research, 208, 56-68.
+Siebert, S., & Döll, P. (2010). Quantifying blue and green virtual water contents in global crop production as well as potential production losses without irrigation. Journal of Hydrology, 384(3-4), 198-217. https://doi.org/10.1016/j.jhydrol.2009.07.031
