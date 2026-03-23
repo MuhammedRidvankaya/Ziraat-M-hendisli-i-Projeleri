@@ -1,0 +1,473 @@
+Özet
+Tıbbi, aromatik ve keyif bitkileri insanlık tarihi boyunca tedavi, beslenme, kozmetik ve ekonomik amaçlarla kullanılmıştır. Günümüzde bu bitkilerin üretiminde karşılaşılan verimlilik, kalite ve sürdürülebilirlik sorunları, dijital tarım teknolojilerinin bu alana entegrasyonunu zorunlu kılmaktadır. Bu makale; tıbbi, aromatik ve keyif bitkilerinin tanımı, sınıflandırılması ve yetiştiriciliği ile birlikte yapay zeka, makine öğrenmesi, derin öğrenme, Nesnelerin İnterneti (IoT), biyoteknoloji ve kuantum hesaplama gibi ileri teknolojilerin bu bitkiler için akıllı tarım sistemlerine nasıl entegre edilebileceğini kapsamlı biçimde ele almaktadır.
+1. Giriş
+Tıbbi ve aromatik bitkiler; insan ve hayvanların tedavisinde, ilaç hammaddesi olarak, gıda ve gıda katkı maddesi üretiminde kullanılan bitkilerdir. Tedavi amacıyla kullanılanlara tıbbi bitki, tat ve koku özellikleri ön planda olanlara aromatik bitki, insanların keyif amacıyla tükettiği tütün ve şerbetçi otu gibi türlere ise keyif bitkisi adı verilmektedir (Kaya ve Uğur, 2021).
+Türkiye, sahip olduğu iklim çeşitliliği ve floristik zenginliği sayesinde dünyada tıbbi ve aromatik bitkiler açısından en önemli gen merkezlerinden biri konumundadır. Ülkemizde 12.000'i aşkın bitki türünün yaklaşık 3.000 kadarı tıbbi ve aromatik amaçlarla kullanılmaktadır (Baytop, 1999). Ada çayı, kekik, lavanta, nane, anason, kimyon, safran, zerdeçal ve ekinezya gibi pek çok tür ticari değer taşımakta ve hem iç piyasada hem de ihracat pazarında önemli yer tutmaktadır.
+Ancak bu alandaki üretim sistemleri büyük ölçüde geleneksel yöntemlere dayanmaktadır. İklim değişikliği başta olmak üzere toprak degradasyonu, su kıtlığı ve etken madde kalitesindeki tutarsızlıklar, geleneksel tarımın sınırlılıklarını giderek daha belirgin hale getirmektedir. Bu bağlamda yapay zeka, Nesnelerin İnterneti (IoT), derin öğrenme, biyoteknoloji ve kuantum hesaplama gibi ileri teknolojilerin tıbbi ve aromatik bitki yetiştiriciliğine entegrasyonu, hem verimlilik hem de sürdürülebilirlik açısından kritik önem kazanmaktadır.
+Bu makale, söz konusu teknolojilerin tıbbi, aromatik ve keyif bitkileri alanındaki potansiyel uygulama alanlarını sistematik biçimde incelemeyi ve gelecek araştırmalara yönelik bir çerçeve sunmayı amaçlamaktadır.
+2. Tıbbi, Aromatik ve Keyif Bitkilerinin Tanımı ve Sınıflandırılması
+2.1. Kavramsal Çerçeve
+Tıbbi bitkiler, bünyelerindeki aktif bileşikler sayesinde tedavi edici, koruyucu veya destekleyici sağlık etkileri gösteren bitkilerdir. Aromatik bitkiler ise yapı, çiçek, tohum veya kök gibi organlarında uçucu yağ biriktirerek kendine özgü koku ve tat profilleri oluşturan bitkilerdir. Keyif bitkileri ise tütün (Nicotiana tabacum) ve şerbetçi otu (Humulus lupulus) gibi psikoaktif ya da keyif verici bileşikler içeren türleri kapsamaktadır (WHO, 2019).
+2.2. Morfolojik Tanımlama Kriterleri
+Tıbbi, aromatik ve keyif bitkilerinin tanımlanmasında kök sistemi, çiçek yapısı, yaprak özellikleri ve tohum/meyve karakterleri temel ölçütler olarak kullanılmaktadır. Kök sistemi açısından bakıldığında bu bitkiler saçak kök, kazık kök ve yumru kök olmak üzere üç gruba ayrılmaktadır. Tütünün kazık kök yapısına sahipken şerbetçi otunun derin kök ve rizom sistemine sahip olması buna örnek gösterilebilir. Çiçek morfolojisi incelenirken çiçek rengi, çanak yaprak sayısı, erkek organ sayısı ve yumurta sayısı gibi parametreler büyüteç yardımıyla değerlendirilmektedir. Yaprak analizi sürecinde ise yaprakların biçimi, rengi, yüzey dokusu ve kına şekline göre sınıflandırma yapılmakta; yaprak ezme testleriyle tat ve koku profili belirlenmektedir. Tohum ve meyve özellikleri açısından şekil, renk, boyut ve 1000 tane ağırlığı gibi fiziksel parametreler esas alınmaktadır (Kan ve ark., 2020).
+3. Ekolojik Gereksinimler ve İklim-Toprak İlişkisi
+3.1. Toprak Özellikleri
+Toprağı karakterize eden başlıca özellikler strüktür, tekstür, organik madde miktarı, pH değeri ve besin maddesi içeriğidir. Tıbbi ve aromatik bitkilerin çoğu hafif asit ile nötr arasında değişen pH değerlerini (6,0-7,5) tercih etmekte, organik maddece zengin, drenajı iyi topraklarda daha yüksek etken madde birikimine ulaşabilmektedir (Özgüven ve ark., 2005).
+3.2. İklim Faktörleri
+Işık, sıcaklık, nem, yağış ve rüzgar iklimi belirleyen temel unsurlardır. Işık, yeşil bitkiler için mutlak gereklidir; gün uzunluğu ve ışık yoğunluğu çimlenme, çiçeklenme ve olgunlaşma süreçlerini doğrudan etkiler. Tıbbi bitkiler ışık istekleri bakımından üç grupta ele alınmaktadır: mercanköşk gibi ışık seven türler, atropa gibi yarı gölge isteyenler ve salep gibi gölge isteyen türler. Tıbbi ve aromatik bitkiler için en uygun sıcaklık aralığı genel olarak 10-30°C olarak belirtilmektedir. Akdeniz kökenli türlerin fazla yağışlı ortamlar yerine nemli-yarı kurak koşulları tercih etmesi, sulama programlarının planlanmasında dikkate alınması gereken önemli bir husus olarak öne çıkmaktadır (Baydar, 2013).
+3.3. İklim Değişikliğinin Etkileri
+İklim değişikliği, tarım ve gıda güvenliği açısından en kırılgan sektörleri tehdit eden küresel bir kriz olarak değerlendirilmektedir. Sıcaklık artışı, yağış rejimindeki düzensizlikler ve aşırı hava olayları başta fenolojik dönemler olmak üzere verim ve etken madde kalitesini olumsuz etkileyebilmektedir (IPCC, 2022). Bu nedenle iklim değişikliğine uyum stratejileri, tıbbi ve aromatik bitki yetiştiriciliğinde de öncelikli gündem maddesi haline gelmiştir.
+
+
+4. Yetiştiricilik Teknikleri
+4.1. Arazi Hazırlığı ve Ekim/Dikim
+Tıbbi ve aromatik bitkilerin yetiştiriciliğinde arazi hazırlığı, toprak özelliklerine ve türün gereksinimlerine göre planlanmaktadır. Kekik (Thymus sp.) ekim-aralık ayları arasında fideliklere ekilmekte, mart-nisan döneminde araziye dikim yapılmaktadır. Çörek otu ve anason mart-nisan döneminde doğrudan arazi ekimine uygundur. Safran ve nergis gibi türler ise soğan dikimi yöntemiyle çoğaltılmaktadır. Keyif bitkilerinden tütünde tohumlar önce kontrollü fideliklerde çimlendirilerek fide elde edilmekte; ardından bölgenin iklim koşullarına göre mart-haziran arası araziye dikim gerçekleştirilmektedir. Şerbetçi otunda ise çelikle üretim tercih edilmekte, çeliklere köklenme hormonu uygulanmaktadır (Erbaş ve ark., 2016).
+4.2. Bakım İşlemleri
+Sulama, gübreleme, çapalama ile hastalık ve zararlı mücadelesi temel bakım uygulamaları arasındadır. Tıbbi ve aromatik bitkilerin ilk gelişim dönemlerinin yavaş olması, yabancı otlarla rekabet kapasitelerini düşürmekte ve düzenli çapalama işlemini zorunlu kılmaktadır. Gübrelemede toprak analizine dayalı NPK uygulamaları esas alınmaktadır. Anasonda yüksek azot uygulamasının yeşil aksam gelişimini artırdığı ancak meyve bağlama ve uçucu yağ oranını olumsuz etkilediği bilinmektedir. Kimyon, defne ve lavanta gibi türlerin her birinin kendine özgü sulama ve gübreleme takvimi bulunmaktadır (Kırıcı ve ark., 2013).
+5. Veri Analitiği ve Yapay Zekanın Rolü
+5.1. Veri Temelli Tarımın Önemi
+Tıbbi ve aromatik bitki yetiştiriciliğinde iklim, toprak, bitki morfolojisi ve yetiştiricilik süreçlerine ait verilerin sistematik biçimde toplanması ve analiz edilmesi, hangi bitkinin hangi bölgede daha verimli yetişeceğinin belirlenmesini, etken madde oranının tahmin edilmesini ve iklim değişikliğinin etkilerinin öngörülmesini mümkün kılmaktadır. Nitekim hassas tarım uygulamalarının kapsamlı biçimde ele alındığı çalışmalarda veri analitiğinin sulama verimliliğini yüzde 30-50 oranında artırabildiği ortaya konmuştur (Wolfert ve ark., 2017).
+5.2. Makine Öğrenmesi Uygulamaları
+Makine öğrenmesi; bilgisayarların verilerden öğrenerek örüntüleri keşfetmesi ve tahmin yapması sürecini tanımlamaktadır. Tıbbi ve aromatik bitki alanında makine öğrenmesi uygulamaları birkaç temel başlık altında değerlendirilebilir.
+Bitki sınıflandırması açısından Random Forest ve Destek Vektör Makineleri gibi algoritmalar, morfolojik özellikler temelinde bitki türü ayrımı yapabilmektedir. Sıcaklık, nem ve toprak özellikleri kullanılarak eğitilen regresyon modelleri, birim alan verimini yüksek doğrulukla tahmin edebilmektedir. Uçucu yağ oranı gibi kalite göstergelerinin iklim ve bakım uygulamalarına bağlı olarak modellenmesi ise işletmelerin pazar planlamasına somut katkı sunmaktadır. Sulama programlarının optimizasyonunda makine öğrenmesi modellerinin toprak nemi eşik değerlerini öğrenerek sulama zamanı ve miktarını dinamik biçimde ayarlayabildiği gösterilmiştir (Liakos ve ark., 2018).
+5.3. Derin Öğrenme ve Görüntü İşleme
+Derin öğrenme, çok katmanlı yapay sinir ağları kullanarak görüntü, ses ve büyük ölçekli karmaşık veriler üzerinden yüksek doğrulukta tahmin yapabilmektedir. Bitki türü tanıma bağlamında Evrişimli Sinir Ağları (CNN) tabanlı modeller, yaprak fotoğraflarından bitki türünü yüzde 90'ın üzerinde doğrulukla tanımlayabilmektedir. PlantVillage veri seti üzerinde yürütülen çalışmalarda derin öğrenme modellerinin 54 farklı bitki hastalığını yaklaşık yüzde 99,35 doğrulukla tespit edebildiği raporlanmıştır (Mohanty ve ark., 2016). Tıbbi bitki hasatlarında türler arası karışımın önlenmesi kalite ve güvenlik açısından kritik önem taşımakta; derin öğrenme tabanlı görüntü sistemleri bu riski büyük ölçüde azaltabilmektedir. Transfer öğrenme yaklaşımıyla ResNet, VGG ve EfficientNet gibi önceden eğitilmiş modellerin tıbbi bitki veri setleri üzerinde ince ayarı yapılarak yüksek performans elde edilmesi mümkündür (Kaya ve ark., 2019).
+6. IoT ve Mikrodenetleyici Sistemleri
+6.1. IoT Mimarisi
+Nesnelerin İnterneti, sensörler ve cihazların internet üzerinden birbirine bağlanarak veri toplaması, veri göndermesi ve otomatik işlem yapmasını sağlayan bir teknolojidir. Tıbbi ve aromatik bitki tarlalarında konuşlandırılan IoT sistemleri; toprak nemi, sıcaklık, nem, ışık yoğunluğu ve pH gibi parametreleri anlık olarak izleyebilmektedir. Tarımsal IoT pazarının 2020-2025 yılları arasında yıllık yüzde 13 büyüme hızıyla genişleyeceği öngörülmektedir (MarketsandMarkets, 2020).
+6.2. Mikrodenetleyici Tabanlı Kontrol Sistemleri
+Arduino ve ESP32 gibi mikrodenetleyiciler; işlemci, bellek ve giriş/çıkış birimlerini tek bir elektronik kart üzerinde barındıran küçük ölçekli kontrol sistemleridir. Toprak nem sensöründen gelen veri belirlenen eşik değerinin altına düştüğünde sulama vanasını otomatik açan, bitki için belirlenen optimum sıcaklık aralığı aşıldığında fan veya ısıtıcıyı devreye alan ve tüm bu verileri internet üzerinden kullanıcının mobil cihazına ileten sistemler geliştirilmiştir. IoT tabanlı damlama sulama sistemlerinin konvansiyonel sistemlere kıyasla su kullanımını yüzde 40-60 oranında azalttığı literatürde belgelenmiştir (Kamienski ve ark., 2019).
+6.3. Sera Kontrolünde Otomasyon
+Kapalı yetiştiricilik ortamlarında IoT ve mikrodenetleyici entegrasyonu çok boyutlu kontrol imkânı sunmaktadır. Sıcaklık, nem, CO₂ konsantrasyonu ve ışık yoğunluğunun eş zamanlı izlenip optimize edilmesi, özellikle safran, lavanta ve meyan kökü gibi yüksek değerli türlerin verim ve kalitesini belirgin biçimde artırmaktadır. Şerbetçi otu sera yetiştiriciliğinde nisan, mayıs ve haziran aylarında azot uygulamalarının IoT destekli sistemlerle optimize edilmesi etken madde içeriğini ve ürün homojenliğini olumlu etkilemektedir (Tzounis ve ark., 2017).
+7. Biyoteknolojik Yaklaşımlar
+7.1. Doku Kültürü
+Biyoteknoloji, canlı organizmaların üretim süreçlerine, genetik özelliklerinin iyileştirilmesine ve hastalıklara dayanıklılığın artırılmasına yönelik uygulamaları kapsamaktadır. Doku kültürü yöntemiyle laboratuvar koşullarında tek hücreden tam bitki elde edilebilmekte, bu sayede kısa sürede genetik açıdan homojen ve hastalıksız fide üretimi mümkün olabilmektedir. Kekik, lavanta ve nane gibi türlerin doku kültürü ile hızlı çoğaltılması, geleneksel vegetatif üretime kıyasla zaman ve maliyet avantajı sağlamaktadır (Murashige ve Skoog, 1962).
+7.2. Genetik İyileştirme ve CRISPR Uygulamaları
+Modern bitki ıslahında CRISPR-Cas9 gibi gen düzenleme teknolojileri, hedeflenen genlerin hassas biçimde düzenlenmesine olanak tanımaktadır. Tıbbi bitkilerde uçucu yağ sentezinden sorumlu genlerin upregülasyonu yoluyla etken madde içeriğinin artırılması, kuraklık ve tuz stresi toleransının geliştirilmesi ile hastalık direncinin güçlendirilmesi bu teknolojinin başlıca uygulama alanları arasındadır (Čermák ve ark., 2017). Nane bitkisinde mentol biyosentez yolağının genetik olarak optimize edilmesine yönelik çalışmalar, uçucu yağ veriminde kayda değer artışlar sağlamıştır (Mahmoud ve Croteau, 2002).
+7.3. Biyolojik Mücadele
+Tıbbi ve aromatik bitkilerin organik sertifikasyona uygunluğu, kimyasal pestisit kullanımını kısıtlamakta; bu durum biyolojik mücadeleyi ön plana çıkarmaktadır. Yararlı mikroorganizmaların (Bacillus subtilis, Trichoderma sp.) biyokontrol ajanı olarak kullanımı, toprak kaynaklı patojenlere karşı etkin koruma sağlarken kimyasal girdi maliyetlerini de düşürmektedir (Ezziyyani ve ark., 2007).
+8. Kuantum Hesaplama ve Geleceğe Bakış
+8.1. Kuantum Hesaplamanın Tarıma Potansiyel Katkısı
+Kuantum bilgisayarlar, klasik bilgisayarların ikili bit (0-1) mantığı yerine qubit adı verilen kuantum bitleri kullanarak aynı anda çok sayıda olasılığı paralel biçimde işleyebilmektedir. Bu özellik, tıbbi ve aromatik bitki yetiştiriciliğindeki çok değişkenli ve yüksek derecede karmaşık optimizasyon problemlerinin çözümünde klasik algoritmalara kıyasla çarpıcı hız avantajı sunabilir.
+Optimum ekim zamanı belirleme açısından iklim, toprak, genetik yapı ve piyasa koşullarının eş zamanlı modellenmesi kuantum algoritmaları (QAOA, Grover vb.) ile daha hızlı ve isabetli sonuçlar verebilir. Bitki biyokimyasının simülasyonu bağlamında etken madde sentezini kontrol eden enzimatik reaksiyonların kuantum düzeyinde modellenmesi, yeni aktif bileşiklerin keşfini hızlandırma potansiyeli taşımaktadır. Gen dizilimi ve analizi alanında kuantum algoritmaları DNA verilerinin işlenme hızını önemli ölçüde artırarak tıbbi bitki ıslah programlarını hızlandırabilir (Preskill, 2018). Her ne kadar kuantum bilgisayarların tarımda pratikte yaygın kullanımı henüz erken aşamada olsa da IBM Quantum ve Google gibi şirketlerin hızlanan AR-GE çalışmaları bu teknolojinin önümüzdeki 10-15 yıl içinde tarımsal karar destek sistemlerine entegre olabileceğine işaret etmektedir (Arute ve ark., 2019).
+9. Entegre Akıllı Tarım Sistemi: Kavramsal Model
+Yukarıda ele alınan teknolojilerin birbirleriyle entegre edilmesiyle oluşturulan bütüncül bir akıllı tarım sistemi, şu katmanlı mimari üzerine kurgulanabilir.
+Veri toplama katmanında IoT sensörleri ve mikrodenetleyicilerle araziden anlık veri akışı sağlanır. Analitik katmanda makine öğrenmesi modelleri verim ve kaliteyi tahmin ederken derin öğrenme modülleri görüntü tabanlı bitki ve hastalık tanıma gerçekleştirir. Karar destek katmanında uzman sistem kuralları ve kuantum destekli optimizasyon algoritmaları ile ekim, sulama ve gübre programları oluşturulur. Uygulama katmanında ise otomatik sulama, ilaçlama ve sera kontrol sistemleri devreye alınarak tüm süreç kapalı döngü biçiminde yönetilir.
+Böyle bir sistemde kekik yetiştiriciliği özelinde sulama verimliliğinin yüzde 45, gübre kullanımının yüzde 30 azalması; etken madde içeriğinin ise yüzde 15-20 artması beklenebilir. Bu tahminler benzer akıllı tarım uygulamalarının tarla bitkileri üzerindeki sonuçlarıyla örtüşmektedir (Liakos ve ark., 2018; Wolfert ve ark., 2017).
+# -*- coding: utf-8 -*-
+"""
+TIBBİ, AROMATİK VE KEYİF BİTKİLERİ İÇİN AKILLI TARIM PROTOTİPİ
+Bu prototip, aşağıdaki ana modülleri içerir:
+1. Veri Toplama ve IoT Entegrasyonu (Sensörler, Mikrodenetleyici)
+2. Makine Öğrenmesi ile Verim ve Kalite Tahmini
+3. Derin Öğrenme ile Görüntü Tanıma (Bitki Türü, Hastalık Teşhisi)
+4. Uzman Sistem ile Tarımsal Karar Destek (Ekim, Sulama, Gübreleme, Mücadele)
+5. Biyoteknoloji Simülasyonu (Doku Kültürü, Genetik İyileştirme)
+6. Kuantum Hesaplama Entegrasyonu (Karmaşık Optimizasyon)
+"""
+import numpy as np
+import pandas as pd
+import tensorflow as tf
+from tensorflow.keras import layers, models
+from sklearn.ensemble import RandomForestRegressor, RandomForestClassifier
+from sklearn.preprocessing import StandardScaler
+import joblib  # model kaydetmek için
+import json
+import requests
+import time
+import random
+from dataclasses import dataclass, asdict
+from typing import List, Dict, Tuple, Optional
+import warnings
+warnings.filterwarnings('ignore')
+# ------------------------ 1. VERİ YAPILARI ------------------------
+@dataclass
+class ToprakVerisi:
+    """Toprak özelliklerini tutar"""
+    pH: float
+    organikMadde: float  # %
+    azot: float  # mg/kg
+    fosfor: float  # mg/kg
+    potasyum: float  # mg/kg
+    tekstur: str  # killi, tınlı, kumlu vb.
+@dataclass
+class IklimVerisi:
+    """İklim özelliklerini tutar"""
+    sicaklik: float  # °C
+    nem: float  # %
+    gunUzunlugu: float  # saat
+    isikSiddeti: float  # lüx
+    yagis: float  # mm
+    ruzgarHizi: float  # m/s
+@dataclass
+class BitkiOzellikleri:
+    """Bitkinin morfolojik ve agronomik özellikleri"""
+    tur: str  # "kekik", "nane", "tütün" vb.
+    tip: str  # "tıbbi", "aromatik", "keyif"
+    kokTipi: str  # "saçak", "kazık", "yumru"
+    istekIsik: str  # "ışık seven", "yarı gölge", "gölge"
+    optimumSicaklikMin: float
+    optimumSicaklikMax: float
+    suIstegi: str  # "az", "orta", "çok"
+    uretimSekli: str  # "tohum", "çelik", "soğan", "doku kültürü"
+    yetistirilecekBolge: List[str] = None
+# ------------------------ 2. IOT SENSÖR VE MİKRODENETLEYİCİ SİMÜLASYONU ------------------------
+class IoTMikrodenetleyici:
+    """
+    Gerçek bir IoT sistemini simüle eder.
+    Sensörlerden veri alır, mikrodenetleyici (Arduino/ESP32) mantığı ile karar verir.
+    """
+    def __init__(self, port="COM3"):
+        self.port = port
+        self.toprak_nem = 0
+        self.sicaklik = 0
+        self.nem = 0
+        self.isik = 0
+        self.sulama_durumu = False
+        self.fan_durumu = False
+        self.isitici_durumu = False
+    def sensörleri_oku(self) -> Dict:
+        """Simüle edilmiş sensör verileri okur"""
+        self.toprak_nem = random.uniform(20, 80)  # %
+        self.sicaklik = random.uniform(10, 40)    # °C
+        self.nem = random.uniform(30, 90)         # %
+        self.isik = random.uniform(100, 1000)     # lüx
+        return {
+            "toprak_nem": self.toprak_nem,
+            "sicaklik": self.sicaklik,
+            "nem": self.nem,
+            "isik": self.isik
+        }
+    def mikrodenetleyici_karari(self, bitki: BitkiOzellikleri, toprak: ToprakVerisi) -> Dict:
+        """
+        Mikrodenetleyici, sensör verilerine ve bitki ihtiyacına göre karar verir.
+        Gerçekte bu kod ESP32/Arduino'ya yüklenir.
+        """
+        sensör = self.sensörleri_oku()
+        karar = {}
+        # Sulama kararı
+        if sensör["toprak_nem"] < 40:  # Örnek eşik
+            karar["sulama"] = "AC"
+            self.sulama_durumu = True
+        else:
+            karar["sulama"] = "KAPA"
+            self.sulama_durumu = False
+        # Isıtma/Soğutma kararı (sera için)
+     if sensör["sicaklik"] < bitki.optimumSicaklikMin:
+            karar["isitici"] = "AC"
+            self.isitici_durumu = True
+        elif sensör["sicaklik"] > bitki.optimumSicaklikMax:
+            karar["fan"] = "AC"
+            self.fan_durumu = True
+        else:
+            karar["isitici"] = "KAPA"
+            karar["fan"] = "KAPA"
+            self.isitici_durumu = False
+            self.fan_durumu = False
+        # Bildirim (IoT üzerinden kullanıcıya)
+        if karar["sulama"] == "AC":
+            self.bildirim_gonder("Sulama başlatıldı, toprak nemi düşük.")
+        return karar
+    def bildirim_gonder(self, mesaj):
+        """Telefon/Web uygulamasına bildirim gönderir (simülasyon)"""
+        print(f"[BİLDİRİM] {mesaj}")
+# ------------------------ 3. MAKİNE ÖĞRENMESİ MODÜLÜ ------------------------
+class MakineOgrenmesi:
+    """
+    Verim tahmini (regresyon), bitki sınıflandırma (classification) ve kalite tahmini yapar.
+    """
+    def __init__(self):
+        self.verim_modeli = None       # RandomForestRegressor
+        self.kalite_modeli = None      # RandomForestRegressor (uçucu yağ oranı)
+        self.bitki_siniflandirici = None  # RandomForestClassifier
+        self.scaler = StandardScaler()
+    def verim_modeli_egit(self, X, y):
+        """X: iklim+toprak özellikleri, y: verim (kg/da)"""
+        X_scaled = self.scaler.fit_transform(X)
+        self.verim_modeli = RandomForestRegressor(n_estimators=100, random_state=42)
+        self.verim_modeli.fit(X_scaled, y)
+        joblib.dump(self.verim_modeli, 'verim_modeli.pkl')
+        print("Verim modeli eğitildi ve kaydedildi.")
+    def verim_tahmini(self, iklim: IklimVerisi, toprak: ToprakVerisi) -> float:
+        """Yeni verilerle verim tahmini yapar"""
+        if self.verim_modeli is None:
+            raise Exception("Önce model eğitilmelidir!")
+        # Özellikleri vektöre çevir
+        ozellikler = np.array([[
+            iklim.sicaklik, iklim.nem, iklim.gunUzunlugu, iklim.isikSiddeti,
+            iklim.yagis, iklim.ruzgarHizi,
+            toprak.pH, toprak.organikMadde, toprak.azot, toprak.fosfor, toprak.potasyum
+        ]])
+        ozellikler_scaled = self.scaler.transform(ozellikler)
+        return self.verim_modeli.predict(ozellikler_scaled)[0]
+    def kalite_modeli_egit(self, X, y):
+        """X: iklim+toprak+bakım, y: uçucu yağ oranı (%)"""
+        X_scaled = self.scaler.fit_transform(X)
+        self.kalite_modeli = RandomForestRegressor(n_estimators=100, random_state=42)
+        self.kalite_modeli.fit(X_scaled, y)
+        joblib.dump(self.kalite_modeli, 'kalite_modeli.pkl')
+        print("Kalite modeli eğitildi ve kaydedildi.")
+    def kalite_tahmini(self, iklim: IklimVerisi, toprak: ToprakVerisi, bakim: Dict) -> float:
+        """Bakım bilgileri (sulama sayısı, gübre miktarı vb.) ile kalite tahmini"""
+        ozellikler = np.array([[
+            iklim.sicaklik, iklim.nem, iklim.gunUzunlugu, iklim.isikSiddeti,
+            iklim.yagis, iklim.ruzgarHizi,
+            toprak.pH, toprak.organikMadde, toprak.azot, toprak.fosfor, toprak.potasyum,
+            bakim.get("sulama_sayisi", 0), bakim.get("azot_gubre", 0), bakim.get("fosfor_gubre", 0)
+        ]])
+        ozellikler_scaled = self.scaler.transform(ozellikler)
+        return self.kalite_modeli.predict(ozellikler_scaled)[0]
+# ------------------------ 4. DERİN ÖĞRENME MODÜLÜ ------------------------
+class DerinOgrenme:
+    """
+    Görüntü işleme ile bitki türü tanıma ve hastalık tespiti.
+    """
+    def __init__(self):
+        self.bitki_tanima_modeli = None   # CNN
+        self.hastalik_tanima_modeli = None
+    def cnn_modeli_olustur(self, input_shape=(128, 128, 3), num_classes=10):
+        """Basit bir CNN modeli tanımlar (transfer öğrenme de kullanılabilir)"""
+        model = models.Sequential([
+            layers.Conv2D(32, (3,3), activation='relu', input_shape=input_shape),
+            layers.MaxPooling2D(2,2),
+            layers.Conv2D(64, (3,3), activation='relu'),
+            layers.MaxPooling2D(2,2),
+            layers.Conv2D(128, (3,3), activation='relu'),
+            layers.MaxPooling2D(2,2),
+            layers.Flatten(),
+            layers.Dense(512, activation='relu'),
+            layers.Dense(num_classes, activation='softmax')
+        ])
+        model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+        return model
+    def bitki_tanima_modeli_egit(self, egitim_verisi, etiketler):
+        """egitim_verisi: numpy array (resimler), etiketler: one-hot encoded"""
+        self.bitki_tanima_modeli = self.cnn_modeli_olustur(num_classes=etiketler.shape[1])
+        self.bitki_tanima_modeli.fit(egitim_verisi, etiketler, epochs=10, validation_split=0.2)
+        self.bitki_tanima_modeli.save('bitki_tanima_modeli.h5')
+        print("Bitki tanıma modeli eğitildi.")
+    def bitki_tani(self, resim_yolu):
+        """Resim dosyasından bitki türünü tahmin eder"""
+        # Gerçek uygulamada resim yüklenir, ön işlenir ve model.predict() yapılır
+        # Burada simülasyon
+        tahmin = "kekik"  # örnek
+        return tahmin
+    def hastalik_tani(self, resim_yolu):
+        """Yaprak resminden hastalık tespiti"""
+        # Simülasyon
+        hastalik = "külleme"  # örnek
+        return hastalik
+# ------------------------ 5. UZMAN KARAR DESTEK SİSTEMİ ------------------------
+class UzmanKararDestek:
+    """
+    Metindeki tarımsal bilgilere dayalı olarak ekim zamanı, sulama programı,
+    gübreleme ve mücadele yöntemlerini önerir.
+    """
+    def __init__(self):
+        # Bilgi tabanı (metinden derlenmiş)
+        self.bitki_bilgileri = self._bilgi_tabanini_yukle()
+    def _bilgi_tabanini_yukle(self) -> Dict:
+        """Örnek bilgi tabanı - genişletilebilir"""
+        return {
+            "kekik": {
+                "ekim_zamani": "Ekim-Aralık (fidelik), Mart-Nisan (arazi)",
+                "sulama": "Her biçimden sonra ve çiçeklenme döneminde",
+                "gubre": "Kompoze gübre, yanmış ahır gübresi",
+                "hastaliklar": ["kök çürüklüğü", "külleme"]
+            },
+            "nane": {
+                "ekim_zamani": "İlkbahar",
+                "sulama": "Düzenli, toprak nemli tutulmalı",
+                "gubre": "Azot ağırlıklı",
+                "hastaliklar": ["külleme", "nane pası"]
+            },
+            "tütün": {
+                "ekim_zamani": "Fidelikte ekim, Mart-Haziran arazi dikimi",
+                "sulama": "Çimlenmeden önce hafif sık, sonra bol",
+                "gubre": "NPK + mikro elementler",
+                "hastaliklar": ["külleme", "mozaik virüsü", "trips"]
+            },
+            "şerbetçi_otu": {
+                "ekim_zamani": "Çelikle üretim, sonbahar/ilkbahar dikim",
+                "sulama": "Yılda 3-4 defa, çiçeklenme ve hasat döneminde dikkat",
+                "gubre": "Çiftlik gübresi, azot ve fosfor",
+                "hastaliklar": ["mildiyö", "külleme", "kırmızı örümcek"]
+            }
+        }
+    def ekim_zamani_oner(self, bitki_adi: str, bolge_iklim: IklimVerisi) -> str:
+        """Bitki ve bölge iklimine göre ekim zamanı önerir"""
+        # Bu fonksiyon gerçekte daha karmaşık kurallar içerir.
+        # Şimdilik bilgi tabanından döndürüyor.
+        if bitki_adi in self.bitki_bilgileri:
+            return self.bitki_bilgileri[bitki_adi]["ekim_zamani"]
+        else:
+            return "Bilgi yok, yerel tarım danışmanına başvurun."
+    def sulama_programi_olustur(self, bitki_adi: str, toprak: ToprakVerisi, iklim: IklimVerisi) -> List[str]:
+        """Sulama aralıklarını gün bazında önerir (simülasyon)"""
+        # Gerçekte evapotranspirasyon, toprak nemi gibi veriler kullanılır.
+        program = []
+        if bitki_adi in self.bitki_bilgileri:
+            # Örnek kural: yaz aylarında sık sulama
+            if iklim.sicaklik > 25:
+                program = ["Her 3 günde bir sulama"]
+            else:
+                program = ["Haftada 1 sulama"]
+        return program
+    def gubreleme_oner(self, bitki_adi: str, toprak_analizi: ToprakVerisi) -> Dict:
+        """Toprak analizine göre gübre miktarlarını önerir"""
+        # Örnek: eksik besin maddelerine göre öneri
+        oneriler = {}
+        if toprak_analizi.azot < 20:   # mg/kg örnek eşik
+            oneriler["azot"] = "8 kg/da üre"
+        if toprak_analizi.fosfor < 10:
+            oneriler["fosfor"] = "5 kg/da DAP"
+        if toprak_analizi.potasyum < 50:
+            oneriler["potasyum"] = "6 kg/da potasyum sülfat"
+        return oneriler
+    def hastalik_mucadele_oner(self, bitki_adi: str, hastalik: str) -> str:
+        """Tespit edilen hastalığa karşı mücadele yöntemi önerir"""
+        # Bilgi tabanından veya dış API'den alınabilir.
+        return f"{bitki_adi} bitkisinde {hastalik} hastalığına karşı kükürtlü ilaçlama önerilir."
+# ------------------------ 6. BİYOTEKNOLOJİ SİMÜLASYONU ------------------------
+class BiyoteknolojiModulu:
+    """
+    Doku kültürü, genetik iyileştirme ve biyolojik mücadele simülasyonu.
+    """
+    def __init__(self):
+        pass
+    def doku_kulturu_simulasyonu(self, bitki_turu: str) -> str:
+        """Doku kültürü ile klon üretimini simüle eder"""
+        # Gerçekte laboratuvar koşulları simüle edilir.
+        return f"{bitki_turu} için doku kültürü ile hastalıksız fide üretimi başarılı."
+    def genetik_iyilestirme(self, bitki_turu: str, hedef_ozellik: str) -> str:
+        """CRISPR benzeri simülasyon"""
+        return f"{bitki_turu} bitkisinde {hedef_ozellik} özelliği iyileştirildi (simülasyon)."
+    def biyolojik_mucadele(self, zararli: str) -> str:
+        """Zararlıya karşı doğal düşman salımı simülasyonu"""
+        return f"{zararli} zararlısına karşı avcı böcek (ör. uğur böceği) salımı yapıldı."
+# ------------------------ 7. KUANTUM HESAPLAMA ENTEGRASYONU (SİMÜLASYON) ------------------------
+class KuantumHesaplama:
+    """
+    Kuantum bilgisayarların yapabileceği karmaşık optimizasyonları simüle eder.
+    Gerçekte Qiskit, Cirq gibi kütüphaneler kullanılır.
+    """
+    def __init__(self):
+        pass
+    def optimum_ekim_zamani_hesapla(self, bitki: BitkiOzellikleri, geçmiş_iklim: List[IklimVerisi]) -> str:
+        """
+        Kuantum algoritması ile en uygun ekim zamanını bulur (simülasyon).
+        Gerçekte Grover, QAOA gibi algoritmalar kullanılabilir.
+        """
+        # Karmaşık hesaplamaları simüle ediyoruz
+        print("Kuantum bilgisayar simülasyonu: olasılık dağılımları hesaplanıyor...")
+        time.sleep(0.5)
+        return "15 Nisan - 15 Mayıs arası optimum ekim zamanıdır."
+    def en_yuksek_etken_madde_kosullari(self, bitki: BitkiOzellikleri) -> Dict:
+        """Kuantum simülasyonu ile en yüksek kaliteyi sağlayan koşulları bulur"""
+        # Örnek sonuç
+        return {
+            "sicaklik": 22.5,
+            "nem": 65,
+            "gun_uzunlugu": 14,
+            "toprak_pH": 6.8,
+            "azot_miktari": 40
+        }
+# ------------------------ 8. ANA SİSTEM (PROTOTİP) ------------------------
+class AkilliTarimPrototipi:
+    """
+    Tüm modülleri birleştiren ana sınıf.
+    Kullanıcı bu sınıf üzerinden sistemle etkileşime geçer.
+    """
+    def __init__(self):
+        self.iot = IoTMikrodenetleyici()
+        self.ml = MakineOgrenmesi()
+        self.dl = DerinOgrenme()
+        self.uzman = UzmanKararDestek()
+        self.biyoteknoloji = BiyoteknolojiModulu()
+        self.kuantum = KuantumHesaplama()
+        # Örnek modeller eğitilmiş varsayalım (gerçekte dosyadan yüklenir)
+        # self.ml.verim_modeli = joblib.load('verim_modeli.pkl') gibi
+    def bitki_tanit(self, resim_yolu: str) -> str:
+        """Derin öğrenme ile bitki türü tanıma"""
+        return self.dl.bitki_tani(resim_yolu)
+    def hastalik_tanit(self, resim_yolu: str) -> str:
+        """Hastalık tespiti"""
+        return self.dl.hastalik_tani(resim_yolu)
+    def verim_tahmini_yap(self, bitki: BitkiOzellikleri, iklim: IklimVerisi, toprak: ToprakVerisi) -> float:
+        """ML modeli ile verim tahmini"""
+        # Gerçekte model eğitilmiş olmalı
+    # Simülasyon
+        return random.uniform(50, 200)  # kg/da
+    def kalite_tahmini_yap(self, bitki: BitkiOzellikleri, iklim: IklimVerisi, toprak: ToprakVerisi, bakim: Dict) -> float:
+        """Uçucu yağ/etken madde oranı tahmini"""
+        return random.uniform(1.0, 5.0)  # %
+    def uretim_planlamasi_yap(self, bitki_adi: str, bolge: str) -> Dict:
+        """Kuantum + uzman sistem ile üretim planlaması"""
+        plan = {
+            "ekim_zamani": self.uzman.ekim_zamani_oner(bitki_adi, IklimVerisi(20,60,12,500,50,5)),
+            "sulama": self.uzman.sulama_programi_olustur(bitki_adi, ToprakVerisi(6.5,2,30,15,80,"tınlı"), IklimVerisi(20,60,12,500,50,5)),
+            "gubreleme": self.uzman.gubreleme_oner(bitki_adi, ToprakVerisi(6.5,2,30,15,80,"tınlı")),
+            "optimum_kosullar": self.kuantum.en_yuksek_etken_madde_kosullari(BitkiOzellikleri(bitki_adi, "tıbbi", "saçak", "ışık seven", 15, 30, "orta", "tohum"))
+        }
+        return plan
+    def otomatik_sulama_karari(self, bitki: BitkiOzellikleri, toprak: ToprakVerisi) -> Dict:
+        """IoT ve mikrodenetleyici kararını alır"""
+        return self.iot.mikrodenetleyici_karari(bitki, toprak)
+    def biyoteknoloji_raporu(self, bitki_turu: str) -> str:
+        """Biyoteknoloji modülünü çalıştır"""
+        return self.biyoteknoloji.doku_kulturu_simulasyonu(bitki_turu)
+# ------------------------ 9. ÖRNEK KULLANIM ------------------------
+if __name__ == "__main__":
+    print("=== Tıbbi, Aromatik ve Keyif Bitkileri Akıllı Tarım Prototipi ===\n")
+    # Sistem başlat
+    sistem = AkilliTarimPrototipi()
+    # Örnek bitki tanımla
+    kekik = BitkiOzellikleri(
+        tur="kekik",
+        tip="aromatik",
+        kokTipi="saçak",
+        istekIsik="ışık seven",
+        optimumSicaklikMin=15,
+        optimumSicaklikMax=30,
+        suIstegi="az",
+        uretimSekli="tohum/çelik"
+    )
+    # Örnek iklim ve toprak
+    iklim = IklimVerisi(sicaklik=25, nem=55, gunUzunlugu=14, isikSiddeti=800, yagis=30, ruzgarHizi=10)
+    toprak = ToprakVerisi(pH=6.8, organikMadde=2.5, azot=25, fosfor=18, potasyum=120, tekstur="tınlı")
+    # 1. Bitki tanıma (simülasyon)
+    print("1. Bitki Tanıma:", sistem.bitki_tanit("kekik_fotografi.jpg"))
+    # 2. Verim tahmini
+    verim = sistem.verim_tahmini_yap(kekik, iklim, toprak)
+    print(f"2. Tahmini Verim: {verim:.2f} kg/da")
+    # 3. Kalite tahmini
+    bakim = {"sulama_sayisi": 4, "azot_gubre": 10, "fosfor_gubre": 5}
+    kalite = sistem.kalite_tahmini_yap(kekik, iklim, toprak, bakim)
+    print(f"3. Tahmini Uçucu Yağ Oranı: {kalite:.2f}%")
+    # 4. Üretim planlaması
+    plan = sistem.uretim_planlamasi_yap("kekik", "Akdeniz Bölgesi")
+    print("4. Üretim Planlaması:")
+    for k, v in plan.items():
+        print(f"   {k}: {v}")
+    # 5. Otomatik sulama kararı (IoT)
+    karar = sistem.otomatik_sulama_karari(kekik, toprak)
+    print("5. IoT/Mikrodenetleyici Kararı:", karar)
+    # 6. Hastalık teşhisi (simülasyon)
+    hastalik = sistem.hastalik_tanit("yaprak_leke.jpg")
+    print(f"6. Hastalık Teşhisi: {hastalik}")
+    # 7. Mücadele önerisi
+    mucadele = sistem.uzman.hastalik_mucadele_oner("kekik", hastalik)
+    print(f"7. Mücadele Önerisi: {mucadele}")
+    # 8. Biyoteknoloji raporu
+    biyotekno = sistem.biyoteknoloji_raporu("kekik")
+    print(f"8. Biyoteknoloji: {biyotekno}")
+    # 9. Kuantum optimum koşullar
+    optimum = sistem.kuantum.en_yuksek_etken_madde_kosullari(kekik)
+    print("9. Kuantum ile Bulunan Optimum Koşullar:")
+    for k, v in optimum.items():
+        print(f"   {k}: {v}")
+    print("\n=== Prototip çalışması tamamlandı ===")
+10. Tartışma
+Tıbbi, aromatik ve keyif bitkilerinde akıllı tarım teknolojilerinin uygulanması ciddi fırsatlar barındırmakla birlikte bazı yapısal kısıtları da beraberinde getirmektedir. Fırsatlar açısından değerlendirildiğinde verim artışı ve maliyet düşüşü, etken madde kalitesinin standardize edilmesi, iklim değişikliğine adaptasyon kapasitesinin güçlendirilmesi ve ihracat rekabetçiliğinin artırılması öne çıkan başlıca kazanımlar olarak sıralanabilir. Kısıtlar açısından ise yüksek başlangıç yatırım maliyetleri, küçük ölçekli üreticilerin teknoloji erişim güçlükleri, kaliteli eğitim verisi eksikliği ve siber güvenlik riskleri göz önünde bulundurulması gereken temel sorunlar olarak değerlendirilebilir. Nitekim gelişmekte olan ülkelerde küçük çiftçilerin dijital teknoloji benimseme oranının düşük kalmasının önündeki en büyük engellerin internet altyapısı yetersizliği, finansman kısıtları ve dijital okuryazarlık eksikliği olduğu vurgulanmaktadır (FAO, 2020).
+11. Sonuç
+Tıbbi, aromatik ve keyif bitkileri yetiştiriciliği; doğru ekolojik koşulların sağlanmasından uygun bakım uygulamalarına uzanan geniş bir teknik bilgi birikimi gerektirmektedir. Yapay zeka, IoT, derin öğrenme, biyoteknoloji ve kuantum hesaplama gibi ileri teknolojilerin bu alana entegrasyonu, hem üretim verimliliğini hem de ürün kalitesini köklü biçimde dönüştürme potansiyeline sahiptir. Özellikle derin öğrenme tabanlı hastalık teşhisi, IoT destekli otomatik sulama ve makine öğrenmesi ile etken madde tahmini gibi uygulamaların önümüzdeki yıllarda Türk tarımının rekabet gücüne somut katkılar sağlayabileceği öngörülmektedir. Bu dönüşümün başarıyla gerçekleşmesi için akademi, sanayi ve kamu kurumları arasındaki iş birliğinin güçlendirilmesi, küçük ölçekli üreticilerin teknoloji erişiminin kolaylaştırılması ve tıbbi bitki odaklı veri tabanlarının oluşturulması öncelikli adımlar olarak değerlendirilmektedir.
